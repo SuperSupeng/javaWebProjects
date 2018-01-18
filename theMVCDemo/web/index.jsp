@@ -8,9 +8,9 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title>$Title$</title>
+    <title>我的index</title>
   </head>
-  <body>
-  $END$
-  </body>
+    <body>
+      这是一个body
+    </body>
 </html>
