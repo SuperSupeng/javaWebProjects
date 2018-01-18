@@ -7,25 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c73fa2b-be05-4d2e-89cf-0acb66bd20ad" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/commons_beanutils_1_8_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/junit_4_11.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/junit_4_7.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/superDemo/dao/UserDao.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/superDemo/dao/impl/UserDaoXmlImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/superDemo/domain/User.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/superDemo/execption/UserExistExecption.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/superDemo/service/BusinessService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/superDemo/service/impl/BusinessServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/superDemo/test/BusinessServiceImplTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/superDemo/util/Dom4JUtil.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/users.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/lib/commons-beanutils-1.8.3.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/lib/commons-logging-1.1.1.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/lib/dom4j-1.6.1.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/lib/jaxen-1.1-beta-6.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/lib/junit-4.7.jar" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/junit_4_11.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/production/theMVCDemo/users.xml" afterPath="$PROJECT_DIR$/out/production/theMVCDemo/users.xml" />
+      <change beforePath="$PROJECT_DIR$/out/test/theMVCDemo/BusinessServiceImplTest.class" afterPath="$PROJECT_DIR$/out/test/theMVCDemo/BusinessServiceImplTest.class" />
+      <change beforePath="$PROJECT_DIR$/src/com/superDemo/test/BusinessServiceImplTest.java" afterPath="$PROJECT_DIR$/src/com/superDemo/test/BusinessServiceImplTest.java" />
       <change beforePath="$PROJECT_DIR$/theMVCDemo.iml" afterPath="$PROJECT_DIR$/theMVCDemo.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -41,11 +27,9 @@
       <file leaf-file-name="BusinessServiceImplTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/superDemo/test/BusinessServiceImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" column="4" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="162">
+              <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -211,7 +195,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -241,7 +225,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BusinessServiceImplTest">
+  <component name="RunManager" selected="JUnit.BusinessServiceImplTest.testlogin">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -272,6 +256,66 @@
       <option name="MAIN_CLASS_NAME" value="BusinessServiceImplTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="BusinessServiceImplTest.testRegister" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="theMVCDemo" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BusinessServiceImplTest" />
+      <option name="METHOD_NAME" value="testRegister" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="BusinessServiceImplTest.testRegister1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="theMVCDemo" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BusinessServiceImplTest" />
+      <option name="METHOD_NAME" value="testRegister1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="BusinessServiceImplTest.testlogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="theMVCDemo" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BusinessServiceImplTest" />
+      <option name="METHOD_NAME" value="testlogin" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -476,13 +520,19 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="2">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.theMVCDemo" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.BusinessServiceImplTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.BusinessServiceImplTest.testRegister1" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.BusinessServiceImplTest.testRegister" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.BusinessServiceImplTest.testlogin" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.BusinessServiceImplTest" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.BusinessServiceImplTest.testlogin" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.BusinessServiceImplTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.BusinessServiceImplTest.testRegister" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.BusinessServiceImplTest.testRegister1" />
       </list>
     </recent_temporary>
   </component>
@@ -499,7 +549,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1516275548386</updated>
-      <workItem from="1516275550842" duration="3828000" />
+      <workItem from="1516275550842" duration="4263000" />
     </task>
     <servers />
   </component>
@@ -513,18 +563,30 @@
     <history-entry file="BusinessServiceImplTest - 2018.01.18 at 20h 59m 18s.xml">
       <configuration name="BusinessServiceImplTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BusinessServiceImplTest_testRegister - 2018.01.18 at 20h 49m 19s.xml">
+    <history-entry file="BusinessServiceImplTest - 2018.01.18 at 21h 04m 48s.xml">
+      <configuration name="BusinessServiceImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BusinessServiceImplTest - 2018.01.18 at 21h 04m 56s.xml">
+      <configuration name="BusinessServiceImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BusinessServiceImplTest - 2018.01.18 at 21h 05m 09s.xml">
+      <configuration name="BusinessServiceImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BusinessServiceImplTest_testRegister - 2018.01.18 at 21h 01m 24s.xml">
       <configuration name="BusinessServiceImplTest.testRegister" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BusinessServiceImplTest_testRegister - 2018.01.18 at 20h 54m 05s.xml">
+    <history-entry file="BusinessServiceImplTest_testRegister - 2018.01.18 at 21h 02m 54s.xml">
       <configuration name="BusinessServiceImplTest.testRegister" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BusinessServiceImplTest_testRegister_(1) - 2018.01.18 at 20h 54m 19s.xml">
-      <configuration name="BusinessServiceImplTest.testRegister (1)" configurationId="JUnit" />
+    <history-entry file="BusinessServiceImplTest_testRegister1 - 2018.01.18 at 21h 01m 10s.xml">
+      <configuration name="BusinessServiceImplTest.testRegister1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BusinessServiceImplTest_testlogin - 2018.01.18 at 21h 06m 29s.xml">
+      <configuration name="BusinessServiceImplTest.testlogin" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3828000" />
+    <option name="totallyTimeSpent" value="4263000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1087" extended-state="0" />
@@ -538,7 +600,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299389" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33299074" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33299074" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -640,14 +702,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/users.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/superDemo/domain/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -672,13 +726,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/users.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/superDemo/test/BusinessServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="4" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="162">
+          <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -741,7 +801,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
