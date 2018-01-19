@@ -1,17 +1,18 @@
-package com.itheima.web.controller;
+package com.superDemo.web.controller;
 
-import java.io.IOException;
-import java.io.PrintWriter;
+import com.superDemo.domain.User;
+import com.superDemo.service.BusinessService;
+import com.superDemo.service.impl.BusinessServiceImpl;
 
 import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
+import java.io.PrintWriter;
 
-import com.itheima.domain.User;
-import com.itheima.service.BusinessService;
-import com.itheima.service.impl.BusinessServiceImpl;
-
+@WebServlet(name = "LoginServlet", urlPatterns = "/LoginServlet")
 public class LoginServlet extends HttpServlet {
 	private BusinessService s = new BusinessServiceImpl();
 	public void doGet(HttpServletRequest request, HttpServletResponse response)
@@ -23,7 +24,7 @@ public class LoginServlet extends HttpServlet {
 		String password = request.getParameter("password");
 		User user = s.login(username, password);
 		if(user==null){
-			out.write("´íÎóµÄÓÃ»§Ãû»òÃÜÂë.2Ãëºó×ªÏòµÇÂ¼Ò³Ãæ");
+			out.write("é”™è¯¯çš„ç”¨æˆ·åæˆ–å¯†ç .2ç§’åè½¬å‘ç™»å½•é¡µé¢");
 			response.setHeader("Refresh", "2;URL="+request.getContextPath()+"/login.jsp");
 			return;
 		}

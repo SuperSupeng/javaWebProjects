@@ -16,7 +16,7 @@
   
   <body>
   	
-    <form action="${pageContext.request.contextPath}/servlet/LoginServlet" method="post">
+    <form action="${pageContext.request.contextPath}/LoginServlet" method="post">
     	<table border="1" width="538">
     		<tr>
     			<td>用户名：</td>

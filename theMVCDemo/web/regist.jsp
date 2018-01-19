@@ -23,7 +23,7 @@
   		生日：不能为空，且要符合yyyy-MM-dd的格式<br/>
   	</div>
   
-    <form action="${pageContext.request.contextPath}/servlet/RegistServlet" method="post">
+    <form action="${pageContext.request.contextPath}/RegistServlet" method="post">
     	<table border="1" width="538">
     		<tr>
     			<td>用户名：</td>

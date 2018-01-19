@@ -7,30 +7,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c73fa2b-be05-4d2e-89cf-0acb66bd20ad" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/jstl_1_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/standard.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/superDemo/util/BeanUtil.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/superDemo/web/bean/UserFormBean.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/superDemo/web/controller/LoginServlet.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/superDemo/web/controller/LogoutServlet.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/superDemo/web/controller/RegisterServlet.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jstl-1.2.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/standard.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/login.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/regist.jsp" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/commons_beanutils_1_8_3.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/junit_4_7.xml" afterPath="" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_0_8_bin.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/superDemo/dao/impl/UserDaoMySQLImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/superDemo/util/DaoFactory.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/superDemo/util/JdbcUtil.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/dao.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/dbcfg.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.0.8-bin.jar" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/WEB-INF/web.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/theMVCDemo_war_exploded/index.jsp" afterPath="$PROJECT_DIR$/out/artifacts/theMVCDemo_war_exploded/index.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/com/superDemo/util/BeanUtil.java" afterPath="$PROJECT_DIR$/src/com/superDemo/util/BeanUtil.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/superDemo/web/bean/UserFormBean.java" afterPath="$PROJECT_DIR$/src/com/superDemo/web/bean/UserFormBean.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/superDemo/web/controller/LoginServlet.java" afterPath="$PROJECT_DIR$/src/com/superDemo/web/controller/LoginServlet.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/superDemo/web/controller/LogoutServlet.java" afterPath="$PROJECT_DIR$/src/com/superDemo/web/controller/LogoutServlet.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/superDemo/web/controller/RegisterServlet.java" afterPath="$PROJECT_DIR$/src/com/superDemo/web/controller/RegisterServlet.java" />
       <change beforePath="$PROJECT_DIR$/theMVCDemo.iml" afterPath="$PROJECT_DIR$/theMVCDemo.iml" />
       <change beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
-      <change beforePath="$PROJECT_DIR$/web/lib/commons-beanutils-1.8.3.jar" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-beanutils-1.8.3.jar" />
-      <change beforePath="$PROJECT_DIR$/web/lib/commons-logging-1.1.1.jar" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-logging-1.1.1.jar" />
-      <change beforePath="$PROJECT_DIR$/web/lib/dom4j-1.6.1.jar" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/dom4j-1.6.1.jar" />
-      <change beforePath="$PROJECT_DIR$/web/lib/jaxen-1.1-beta-6.jar" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jaxen-1.1-beta-6.jar" />
-      <change beforePath="$PROJECT_DIR$/web/lib/junit-4.7.jar" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/junit-4.7.jar" />
+      <change beforePath="$PROJECT_DIR$/web/login.jsp" afterPath="$PROJECT_DIR$/web/login.jsp" />
+      <change beforePath="$PROJECT_DIR$/web/regist.jsp" afterPath="$PROJECT_DIR$/web/regist.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,34 +34,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="RegisterServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/superDemo/web/controller/RegisterServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="809">
-              <caret line="47" column="9" lean-forward="false" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/index.jsp">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="BusinessServiceImplTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/superDemo/test/BusinessServiceImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
-              <caret line="8" column="56" lean-forward="false" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LogoutServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/superDemo/web/controller/LogoutServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="16" column="49" lean-forward="false" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+              <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -114,6 +85,8 @@
         <option value="$PROJECT_DIR$/src/com/superDemo/web/controller/LoginServlet.java" />
         <option value="$PROJECT_DIR$/src/com/superDemo/web/controller/LogoutServlet.java" />
         <option value="$PROJECT_DIR$/src/com/superDemo/web/controller/RegisterServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/superDemo/util/DaoFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/superDemo/dao/impl/UserDaoMySQLImpl.java" />
       </list>
     </option>
   </component>
@@ -130,7 +103,7 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1087" />
@@ -154,7 +127,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -171,20 +144,12 @@
               <item name="theMVCDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="theMVCDemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="theMVCDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="theMVCDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="superDemo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="theMVCDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="theMVCDemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="superDemo" type="462c0819:PsiDirectoryNode" />
               <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -192,7 +157,6 @@
               <item name="theMVCDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="theMVCDemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="superDemo" type="462c0819:PsiDirectoryNode" />
               <item name="dao" type="462c0819:PsiDirectoryNode" />
               <item name="impl" type="462c0819:PsiDirectoryNode" />
@@ -201,15 +165,13 @@
               <item name="theMVCDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="theMVCDemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="superDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="theMVCDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="theMVCDemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="superDemo" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -217,35 +179,8 @@
               <item name="theMVCDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="theMVCDemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="superDemo" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="theMVCDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="theMVCDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="superDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="theMVCDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="theMVCDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="superDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="theMVCDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="theMVCDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="superDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="theMVCDemo" type="b2602c69:ProjectViewProjectNode" />
@@ -273,7 +208,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -287,9 +222,6 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/lib/standard.jar!/" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\github_project\javaWebProjects\theMVCDemo\web\WEB-INF" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.superDemo.dao.impl" />
       <recent name="com.superDemo.dao" />
@@ -297,10 +229,13 @@
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\github_project\javaWebProjects\theMVCDemo\web\WEB-INF\lib" />
+      <recent name="D:\github_project\javaWebProjects\theMVCDemo\src\com\superDemo\util" />
+      <recent name="D:\github_project\javaWebProjects\theMVCDemo\src\com\superDemo\dao\impl" />
+      <recent name="D:\github_project\javaWebProjects\theMVCDemo\src" />
       <recent name="D:\github_project\javaWebProjects\theMVCDemo\src\com\superDemo\web\controller" />
-      <recent name="D:\github_project\javaWebProjects\theMVCDemo\src\com\superDemo\web\bean" />
-      <recent name="D:\github_project\javaWebProjects\theMVCDemo\web" />
-      <recent name="D:\github_project\javaWebProjects\theMVCDemo\web\lib" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\github_project\javaWebProjects\theMVCDemo\web\WEB-INF" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -641,6 +576,7 @@
       <updated>1516275548386</updated>
       <workItem from="1516275550842" duration="6821000" />
       <workItem from="1516285843900" duration="1088000" />
+      <workItem from="1516330489710" duration="304000" />
     </task>
     <servers />
   </component>
@@ -677,15 +613,14 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7909000" />
+    <option name="totallyTimeSpent" value="8213000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892057" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -695,8 +630,8 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37270877" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1578125" sideWeight="0.64285713" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1578125" sideWeight="0.35714287" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1578125" sideWeight="0.63747454" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1578125" sideWeight="0.36252546" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -707,6 +642,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892057" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -722,14 +658,33 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/superDemo/service/impl.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/superDemo/service/BusinessService.java">
+    <entry file="file://$PROJECT_DIR$/src/com/superDemo/web/controller/RegisterServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        <state relative-caret-position="810">
+          <caret line="47" column="9" lean-forward="false" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/superDemo/web/controller/LogoutServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="16" column="49" lean-forward="false" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="56" lean-forward="false" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/superDemo/service/impl.java" />
     <entry file="file://$PROJECT_DIR$/src/com/superDemo/execption/UserExistExecption.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
@@ -784,14 +739,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/superDemo/test/BusinessServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/superDemo/web/controller/RegistServlet.java" />
     <entry file="file://$PROJECT_DIR$/src/com/superDemo/util/BeanUtil.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -807,32 +754,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1944">
           <caret line="0" column="31" lean-forward="true" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#482#498#0" expanded="false" />
-            <element signature="e#532#533#0" expanded="false" />
-            <element signature="e#554#555#0" expanded="false" />
-            <element signature="e#598#599#0" expanded="false" />
-            <element signature="e#629#630#0" expanded="false" />
-            <element signature="e#660#661#0" expanded="false" />
-            <element signature="e#682#683#0" expanded="false" />
-            <element signature="e#726#727#0" expanded="false" />
-            <element signature="e#757#758#0" expanded="false" />
-            <element signature="e#790#791#0" expanded="false" />
-            <element signature="e#814#815#0" expanded="false" />
-            <element signature="e#862#863#0" expanded="false" />
-            <element signature="e#897#898#0" expanded="false" />
-            <element signature="e#925#926#0" expanded="false" />
-            <element signature="e#944#945#0" expanded="false" />
-            <element signature="e#982#983#0" expanded="false" />
-            <element signature="e#1007#1008#0" expanded="false" />
-            <element signature="e#1038#1039#0" expanded="false" />
-            <element signature="e#1060#1061#0" expanded="false" />
-            <element signature="e#1104#1105#0" expanded="false" />
-            <element signature="e#1135#1136#0" expanded="false" />
-            <element signature="e#1177#1178#0" expanded="false" />
-            <element signature="e#1197#1198#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -863,34 +784,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/WEB-INF/web.xml" />
     <entry file="file://$PROJECT_DIR$/src/com/superDemo/web/controller/LoginServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
           <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/superDemo/web/controller/RegisterServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="809">
-          <caret line="47" column="9" lean-forward="false" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -903,10 +806,76 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/superDemo/service/BusinessService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="8" column="56" lean-forward="false" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dbcfg.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/superDemo/web/controller/RegisterServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="581">
+          <caret line="47" column="9" lean-forward="false" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/superDemo/util/DaoFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/superDemo/dao/impl/UserDaoMySQLImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="729">
+          <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <marker date="1516330737417" expanded="true" signature="512:591" ph="select usern... user" />
+            <marker date="1516330737417" expanded="true" signature="1182:1315" ph="insert into user... " />
+            <marker date="1516330737417" expanded="true" signature="1182:1356" ph="insert into user... " />
+            <marker date="1516330737417" expanded="true" signature="1701:1808" ph="select usern... user" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/superDemo/test/BusinessServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
           <folding />
         </state>
       </provider>

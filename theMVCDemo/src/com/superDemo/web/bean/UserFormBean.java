@@ -1,4 +1,4 @@
-package com.itheima.web.bean;
+package com.superDemo.web.bean;
 
 import java.text.DateFormat;
 import java.text.ParseException;
@@ -6,19 +6,19 @@ import java.text.SimpleDateFormat;
 import java.util.HashMap;
 import java.util.Map;
 
-//×Ö¶Î¶¼ÊÇË½ÓĞµÄ£¬ÇÒ¶¼ÊÇStringÀàĞÍ¡£  ±ÜÃâÀàĞÍ×ª»»
-//Ìá¹©ÑéÖ¤µÄ·½·¨£¬ÑéÖ¤²»Í¬µÄ»¹ÓĞÌáÊ¾ĞÅÏ¢
+//å­—æ®µéƒ½æ˜¯ç§æœ‰çš„ï¼Œä¸”éƒ½æ˜¯Stringç±»å‹ã€‚  é¿å…ç±»å‹è½¬æ¢
+//æä¾›éªŒè¯çš„æ–¹æ³•ï¼ŒéªŒè¯ä¸åŒçš„è¿˜æœ‰æç¤ºä¿¡æ¯
 
-//×Ö¶ÎºÍ±íµ¥µÄ×Ö¶ÎÍêÈ«Ò»ÖÂ
+//å­—æ®µå’Œè¡¨å•çš„å­—æ®µå®Œå…¨ä¸€è‡´
 public class UserFormBean {
 	private String username;
 	private String password;
 	private String repassword;
 	private String email;
 	private String birthday;
-	//·â×°´íÎóĞÅÏ¢£ºkey£¬×Ö¶Î£»value£º´íÎóĞÅÏ¢
+	//å°è£…é”™è¯¯ä¿¡æ¯ï¼škeyï¼Œå­—æ®µï¼›valueï¼šé”™è¯¯ä¿¡æ¯
 	private Map<String, String> errors = new HashMap<String, String>();
-	
+
 	public String getUsername() {
 		return username;
 	}
@@ -52,46 +52,46 @@ public class UserFormBean {
 	public Map<String, String> getErrors() {
 		return errors;
 	}
-	//·şÎñÆ÷¶ËÑéÖ¤£º¿ª·¢--jsºÍ·şÎñÆ÷¶Ë¶¼Ğ´¡£
+	//æœåŠ¡å™¨ç«¯éªŒè¯ï¼šå¼€å‘--jså’ŒæœåŠ¡å™¨ç«¯éƒ½å†™ã€‚
 	public boolean validate(){
-		//ÑéÖ¤µÄÊı¾İ²»·ûºÏÒªÇó£ºÏòerrorsÖĞÌí¼Ó×Ö¶ÎºÍ´íÎóÌáÊ¾
-//		ÓÃ»§Ãû£º3~8¸ö×ÖÄ¸×é³É£¬²»ÄÜÎª¿Õ<br/>
+		//éªŒè¯çš„æ•°æ®ä¸ç¬¦åˆè¦æ±‚ï¼šå‘errorsä¸­æ·»åŠ å­—æ®µå’Œé”™è¯¯æç¤º
+//		ç”¨æˆ·åï¼š3~8ä¸ªå­—æ¯ç»„æˆï¼Œä¸èƒ½ä¸ºç©º<br/>
 		if(username.trim().equals("")){
-			errors.put("username", "ÇëÊäÈëÓÃ»§Ãû");
+			errors.put("username", "è¯·è¾“å…¥ç”¨æˆ·å");
 		}else{
 			if(!username.matches("[a-zA-Z]{3,8}")){
-				errors.put("username", "ÓÃ»§Ãû±ØĞëÓÉ3~8Î»×ÖÄ¸×é³É");
+				errors.put("username", "ç”¨æˆ·åå¿…é¡»ç”±3~8ä½å­—æ¯ç»„æˆ");
 			}
 		}
-//  	ÃÜÂë£º3~8Î»Êı×Ö×é³É£¬²»ÄÜÎª¿Õ<br/>
+//  	å¯†ç ï¼š3~8ä½æ•°å­—ç»„æˆï¼Œä¸èƒ½ä¸ºç©º<br/>
 		if(password.trim().equals("")){
-			errors.put("password", "ÇëÊäÈëÃÜÂë");
+			errors.put("password", "è¯·è¾“å…¥å¯†ç ");
 		}else{
 			if(!password.matches("\\d{3,8}")){
-				errors.put("password", "ÃÜÂë±ØĞëÓÉ3~8Î»Êı×Ö×é³É");
+				errors.put("password", "å¯†ç å¿…é¡»ç”±3~8ä½æ•°å­—ç»„æˆ");
 			}
 		}
-//  	ÖØ¸´ÃÜÂë£º±ØĞëºÍÃÜÂëÒ»ÖÂ<br/>
+//  	é‡å¤å¯†ç ï¼šå¿…é¡»å’Œå¯†ç ä¸€è‡´<br/>
 		if(!password.equals(repassword)){
-			errors.put("repassword", "Á½´ÎÃÜÂë±ØĞëÒ»ÖÂ");
+			errors.put("repassword", "ä¸¤æ¬¡å¯†ç å¿…é¡»ä¸€è‡´");
 		}
-//  	ÓÊÏä£º²»ÄÜÎª¿Õ£¬ÇÒÒª·ûºÏÓÊÏäµÄ¸ñÊ½<br/>
+//  	é‚®ç®±ï¼šä¸èƒ½ä¸ºç©ºï¼Œä¸”è¦ç¬¦åˆé‚®ç®±çš„æ ¼å¼<br/>
 		if(email.trim().equals("")){
-			errors.put("email", "ÇëÊäÈëÓÊÏä");
+			errors.put("email", "è¯·è¾“å…¥é‚®ç®±");
 		}else{
 			if(!email.matches("\\b^['_a-z0-9-\\+]+(\\.['_a-z0-9-\\+]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*\\.([a-z]{2}|aero|arpa|asia|biz|com|coop|edu|gov|info|int|jobs|mil|mobi|museum|name|nato|net|org|pro|tel|travel|xxx)$\\b")){
-				errors.put("email", "ÓÊÏä¸ñÊ½²»ÕıÈ·");
+				errors.put("email", "é‚®ç®±æ ¼å¼ä¸æ­£ç¡®");
 			}
 		}
-//  	ÉúÈÕ£º²»ÄÜÎª¿Õ£¬ÇÒÒª·ûºÏyyyy-MM-ddµÄ¸ñÊ½<br/>
+//  	ç”Ÿæ—¥ï¼šä¸èƒ½ä¸ºç©ºï¼Œä¸”è¦ç¬¦åˆyyyy-MM-ddçš„æ ¼å¼<br/>
 		if(birthday.trim().equals("")){
-			errors.put("birthday", "ÇëÊäÈë³öÉúÈÕÆÚ");
+			errors.put("birthday", "è¯·è¾“å…¥å‡ºç”Ÿæ—¥æœŸ");
 		}else{
 			DateFormat df = new SimpleDateFormat("yyyy-MM-dd");
 			try {
 				df.parse(birthday);
 			} catch (ParseException e) {
-				errors.put("birthday", "ÈÕÆÚ¸ñÊ½²»ºÏ·¨");
+				errors.put("birthday", "æ—¥æœŸæ ¼å¼ä¸åˆæ³•");
 			}
 		}
 		return errors.isEmpty();
