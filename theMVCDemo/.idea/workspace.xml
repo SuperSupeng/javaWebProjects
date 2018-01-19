@@ -7,23 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c73fa2b-be05-4d2e-89cf-0acb66bd20ad" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_0_8_bin.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/superDemo/dao/impl/UserDaoMySQLImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/superDemo/util/DaoFactory.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/superDemo/util/JdbcUtil.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/dao.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/dbcfg.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.0.8-bin.jar" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/com/superDemo/util/BeanUtil.java" afterPath="$PROJECT_DIR$/src/com/superDemo/util/BeanUtil.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/superDemo/web/bean/UserFormBean.java" afterPath="$PROJECT_DIR$/src/com/superDemo/web/bean/UserFormBean.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/superDemo/web/controller/LoginServlet.java" afterPath="$PROJECT_DIR$/src/com/superDemo/web/controller/LoginServlet.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/superDemo/web/controller/LogoutServlet.java" afterPath="$PROJECT_DIR$/src/com/superDemo/web/controller/LogoutServlet.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/superDemo/web/controller/RegisterServlet.java" afterPath="$PROJECT_DIR$/src/com/superDemo/web/controller/RegisterServlet.java" />
-      <change beforePath="$PROJECT_DIR$/theMVCDemo.iml" afterPath="$PROJECT_DIR$/theMVCDemo.iml" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
-      <change beforePath="$PROJECT_DIR$/web/login.jsp" afterPath="$PROJECT_DIR$/web/login.jsp" />
-      <change beforePath="$PROJECT_DIR$/web/regist.jsp" afterPath="$PROJECT_DIR$/web/regist.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/superDemo/dao/impl/UserDaoImpl.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,12 +19,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BusinessServiceImplTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BusinessServiceImplTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/superDemo/test/BusinessServiceImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
               <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserDaoImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/superDemo/dao/impl/UserDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1516332318893" expanded="true" signature="495:561" ph="select usern... user" />
+                <marker date="1516332318893" expanded="true" signature="1230:1298" ph="insert into user... " />
+                <marker date="1516332318893" expanded="true" signature="1853:1934" ph="select usern... user" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -87,6 +86,7 @@
         <option value="$PROJECT_DIR$/src/com/superDemo/web/controller/RegisterServlet.java" />
         <option value="$PROJECT_DIR$/src/com/superDemo/util/DaoFactory.java" />
         <option value="$PROJECT_DIR$/src/com/superDemo/dao/impl/UserDaoMySQLImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/superDemo/dao/impl/UserDaoImpl.java" />
       </list>
     </option>
   </component>
@@ -103,7 +103,7 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1087" />
@@ -228,9 +228,9 @@
       <recent name="com.superDemo.execption" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\github_project\javaWebProjects\theMVCDemo\src\com\superDemo\dao\impl" />
       <recent name="D:\github_project\javaWebProjects\theMVCDemo\web\WEB-INF\lib" />
       <recent name="D:\github_project\javaWebProjects\theMVCDemo\src\com\superDemo\util" />
-      <recent name="D:\github_project\javaWebProjects\theMVCDemo\src\com\superDemo\dao\impl" />
       <recent name="D:\github_project\javaWebProjects\theMVCDemo\src" />
       <recent name="D:\github_project\javaWebProjects\theMVCDemo\src\com\superDemo\web\controller" />
     </key>
@@ -576,7 +576,7 @@
       <updated>1516275548386</updated>
       <workItem from="1516275550842" duration="6821000" />
       <workItem from="1516285843900" duration="1088000" />
-      <workItem from="1516330489710" duration="304000" />
+      <workItem from="1516330489710" duration="983000" />
     </task>
     <servers />
   </component>
@@ -613,10 +613,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8213000" />
+    <option name="totallyTimeSpent" value="8892000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -877,6 +877,19 @@
         <state relative-caret-position="216">
           <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/superDemo/dao/impl/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1516332318893" expanded="true" signature="495:561" ph="select usern... user" />
+            <marker date="1516332318893" expanded="true" signature="1230:1298" ph="insert into user... " />
+            <marker date="1516332318893" expanded="true" signature="1853:1934" ph="select usern... user" />
+          </folding>
         </state>
       </provider>
     </entry>
