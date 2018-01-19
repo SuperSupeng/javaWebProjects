@@ -18,8 +18,7 @@ public class UserDaoImpl implements UserDao {
 		try{
 			conn = JdbcUtil.getConnection();
 			stmt = conn.prepareStatement("select username,password,email,birthday from user where username=?");
-			//���ò���
-			stmt.setString(1, username);//��һ���ʺŵ�������1
+			stmt.setString(1, username);
 
 			rs = stmt.executeQuery();
 
