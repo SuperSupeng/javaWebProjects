@@ -7,6 +7,7 @@ import com.superDemo.util.JdbcUtil;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -59,9 +60,11 @@ public class CustomerDaoImpl implements CustomerDao {
             stmt.setString(9, c.getDescription());
 
             stmt.executeUpdate();
-        }catch(Exception e){
-            throw new RuntimeException(e);
-        }finally{
+        } catch (SQLException e) {
+            e.printStackTrace();
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally{
             JdbcUtil.release(rs, stmt, conn);
         }
     }

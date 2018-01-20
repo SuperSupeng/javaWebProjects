@@ -24,11 +24,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="PROVIDED" name="Tomcat 8.0.38" level="application_server_libraries" />
-    <orderEntry type="library" name="commons-beanutils-1.8.3" level="project" />
-    <orderEntry type="library" name="commons-logging-1.1.1" level="project" />
-    <orderEntry type="library" name="mysql-connector-java-5.0.8-bin" level="project" />
-    <orderEntry type="library" name="jstl-1.2" level="project" />
-    <orderEntry type="library" name="junit-4.7" level="project" />
-    <orderEntry type="library" name="standard" level="project" />
+    <orderEntry type="library" name="lib" level="project" />
   </component>
 </module>
