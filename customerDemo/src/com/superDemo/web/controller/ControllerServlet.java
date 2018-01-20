@@ -36,7 +36,16 @@ public class ControllerServlet extends HttpServlet {
             showAllCustomers(request,response);
         }else if("addCustomer".equals(op)){
             addCustomer(request,response);
+        }else if("delCustomer".equals(op)){
+            delCustomer(request,response);
         }
+    }
+
+    private void delCustomer(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
+        String customerId = request.getParameter("customerId");
+        s.deleteCustomerById(customerId);
+        response.getWriter().write("删除成功。2秒后自动转向主页");
+        response.setHeader("Refresh", "2;URL="+request.getContextPath());
     }
 
     //保存客户信息

@@ -61,7 +61,7 @@
 	  						<td nowrap="nowrap">${c.description}</td>
 	  						<td nowrap="nowrap">
 	  							[<a href="">修改</a>]
-  								[<a href="">删除</a>]
+  								[<a href="${pageContext.request.contextPath}/ControllerServlet?op=delCustomer&customerId=${c.id}">删除</a>]
 	  						</td>
 	  					</tr>
   					</c:forEach>
