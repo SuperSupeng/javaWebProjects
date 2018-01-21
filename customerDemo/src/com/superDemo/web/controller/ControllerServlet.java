@@ -5,6 +5,7 @@ import com.superDemo.service.BusinessService;
 import com.superDemo.service.impl.BusinessServiceImpl;
 import com.superDemo.util.FormBeanUtil;
 import com.superDemo.web.bean.CustomerFormBean;
+import com.superDemo.web.common.Page;
 import org.apache.commons.beanutils.BeanUtils;
 import org.apache.commons.beanutils.ConvertUtils;
 import org.apache.commons.beanutils.locale.converters.DateLocaleConverter;
@@ -87,8 +88,12 @@ public class ControllerServlet extends HttpServlet {
     //查询所有客户信息
     private void showAllCustomers(HttpServletRequest request,
                                   HttpServletResponse response) throws ServletException, IOException{
-        List<Customer> cs = s.findAllCustomers();
-        request.setAttribute("cs", cs);
+//        List<Customer> cs = s.findAllCustomers();
+//        request.setAttribute("cs", cs);
+        String num = request.getParameter("num");
+        Page page = s.findPage(num);
+        page.setUrl("/ControllerServlet?op=showAllCustomers");
+        request.setAttribute("page", page);
         request.getRequestDispatcher("/listCustomers.jsp").forward(request, response);
     }
 }

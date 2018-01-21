@@ -6,6 +6,7 @@ import com.superDemo.domain.Customer;
 import com.superDemo.exception.IdIsNullException;
 import com.superDemo.service.BusinessService;
 import com.superDemo.util.IdGenertor;
+import com.superDemo.web.common.Page;
 
 import java.util.List;
 
@@ -48,5 +49,18 @@ public class BusinessServiceImpl implements BusinessService {
             throw new IllegalArgumentException("id不能为空");
         }
         dao.delete(customerId);
+    }
+
+    @Override
+    public Page findPage(String pageNum){
+        int num = 1;
+        if(pageNum!=null && !pageNum.trim().equals("")){
+            num = Integer.parseInt(pageNum);
+        }
+        int totalRecords = dao.getTotalRecordsNum();
+        Page page = new Page(num, totalRecords);
+        List records = dao.getPageRecords(page.getStartIndex(), page.getPageSize());
+        page.setRecords(records);
+        return page;
     }
 }

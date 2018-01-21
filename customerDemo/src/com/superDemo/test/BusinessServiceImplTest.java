@@ -12,16 +12,18 @@ public class BusinessServiceImplTest {
 
     @Test
     public void testSaveCustomer(){
-        Customer c = new Customer();
-        c.setName("杨洋");
-        c.setBirthday(new Date());
-        c.setGender("female");
-        c.setPhonenum("119");
-        c.setEmail("yy@itheima.com");
-        c.setHobby("吃饭,睡觉,学java");
-        c.setType("VVIP");
-        c.setDescription("美女一个");
-        s.saveCustomer(c);
+        for(int i = 0; i<200; i++){
+            Customer c = new Customer();
+            c.setName("james" + i);
+            c.setBirthday(new Date());
+            c.setGender("female");
+            c.setPhonenum("119");
+            c.setEmail("yy@itheima.com");
+            c.setHobby("吃饭,睡觉,学java");
+            c.setType("VVIP");
+            c.setDescription("美女一个" + i);
+            s.saveCustomer(c);
+        }
     }
 
     @Test

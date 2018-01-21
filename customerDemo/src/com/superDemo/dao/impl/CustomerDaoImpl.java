@@ -142,4 +142,57 @@ public class CustomerDaoImpl implements CustomerDao {
             JdbcUtil.release(rs, stmt, conn);
         }
     }
+
+    @Override
+    public int getTotalRecordsNum() {
+        Connection conn = null;
+        PreparedStatement stmt = null;
+        ResultSet rs = null;
+        try{
+            conn = JdbcUtil.getConnection();
+            stmt = conn.prepareStatement("select count(*) from customers");
+            rs = stmt.executeQuery();
+            if(rs.next()){
+                return rs.getInt(1);
+            }
+            return 0;
+        }catch(Exception e){
+            throw new RuntimeException(e);
+        }finally{
+            JdbcUtil.release(rs, stmt, conn);
+        }
+    }
+
+    @Override
+    public List getPageRecords(int startIndex, int pageSize) {
+        Connection conn = null;
+        PreparedStatement stmt = null;
+        ResultSet rs = null;
+        try{
+            conn = JdbcUtil.getConnection();
+            stmt = conn.prepareStatement("select * from customers limit ?,?");
+            stmt.setInt(1, startIndex);
+            stmt.setInt(2, pageSize);
+            rs = stmt.executeQuery();
+            List<Customer> cs = new ArrayList<Customer>();
+            while(rs.next()){
+                Customer c = new Customer();
+                c.setId(rs.getString("id"));
+                c.setName(rs.getString("name"));
+                c.setGender(rs.getString("gender"));
+                c.setBirthday(rs.getDate("birthday"));
+                c.setPhonenum(rs.getString("phonenum"));
+                c.setEmail(rs.getString("email"));
+                c.setHobby(rs.getString("hobby"));
+                c.setType(rs.getString("type"));
+                c.setDescription(rs.getString("description"));
+                cs.add(c);
+            }
+            return cs;
+        }catch(Exception e){
+            throw new RuntimeException(e);
+        }finally{
+            JdbcUtil.release(rs, stmt, conn);
+        }
+    }
 }
