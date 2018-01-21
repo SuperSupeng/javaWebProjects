@@ -7,8 +7,19 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.Statement;
 
+//批处理：降低与数据库的交互次数，提升执行效率
 public class BatchDemo {
+    /*
+	 create database day16;
+	 use day16;
+	 create table t1(
+	 	id int primary key,
+	 	name varchar(100)
+	 );
+	 */
 
+    //向数据库中插入2条记录，再把第一条删除掉
+    //Statement可以批处理语句不同的。
     @Test
     public void test1()throws Exception{
         Connection conn = JdbcUtil.getConnection();

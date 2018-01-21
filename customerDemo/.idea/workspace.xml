@@ -7,8 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b026dde0-3eee-4a92-86f2-94bc62e880b9" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/superDemo/myjdbc/BatchDemo.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/superDemo/myjdbc/LobDemo.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/com/superDemo/myjdbc/BatchDemo.java" afterPath="$PROJECT_DIR$/src/com/superDemo/myjdbc/BatchDemo.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,18 +21,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="LobDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/superDemo/myjdbc/LobDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1516534594561" expanded="true" signature="451:478" ph="insert into t2... " />
+                <marker date="1516534594561" expanded="true" signature="1054:1081" ph="select * fro... t2" />
+                <marker date="1516534594561" expanded="true" signature="1810:1837" ph="insert into t3... " />
+                <marker date="1516534594561" expanded="true" signature="2239:2266" ph="select * fro... t3" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="BatchDemo.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/superDemo/myjdbc/BatchDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-616">
-              <caret line="12" column="40" lean-forward="true" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+            <state relative-caret-position="231">
+              <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1516534468772" expanded="true" signature="383:414" ph="insert into t1... " />
-                <marker date="1516534468772" expanded="true" signature="440:471" ph="insert into t1... " />
-                <marker date="1516534468772" expanded="true" signature="497:522" ph="delete from t1... " />
-                <marker date="1516534468772" expanded="true" signature="1034:1061" ph="insert into t1... " />
-                <marker date="1516534468772" expanded="true" signature="1508:1535" ph="insert into t1... " />
+                <marker date="1516534631048" expanded="true" signature="580:611" ph="insert into t1... " />
+                <marker date="1516534631048" expanded="true" signature="637:668" ph="insert into t1... " />
+                <marker date="1516534631048" expanded="true" signature="694:719" ph="delete from t1... " />
+                <marker date="1516534631048" expanded="true" signature="1231:1258" ph="insert into t1... " />
+                <marker date="1516534631048" expanded="true" signature="1705:1732" ph="insert into t1... " />
               </folding>
             </state>
           </provider>
@@ -77,6 +94,7 @@
         <option value="$PROJECT_DIR$/src/com/superDemo/service/impl/BusinessServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/com/superDemo/dao/CustomerDao.java" />
         <option value="$PROJECT_DIR$/src/com/superDemo/dao/impl/CustomerDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/superDemo/myjdbc/LobDemo.java" />
         <option value="$PROJECT_DIR$/src/com/superDemo/myjdbc/BatchDemo.java" />
       </list>
     </option>
@@ -158,6 +176,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="superDemo" type="462c0819:PsiDirectoryNode" />
               <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="customerDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="customerDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="superDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="myjdbc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="customerDemo" type="b2602c69:ProjectViewProjectNode" />
@@ -590,7 +615,7 @@
       <updated>1516411837629</updated>
       <workItem from="1516411839848" duration="7223000" />
       <workItem from="1516511006653" duration="966000" />
-      <workItem from="1516513493751" duration="5362000" />
+      <workItem from="1516513493751" duration="5524000" />
     </task>
     <servers />
   </component>
@@ -624,7 +649,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13551000" />
+    <option name="totallyTimeSpent" value="13713000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1087" extended-state="0" />
@@ -642,7 +667,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38335046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29958245" sideWeight="0.61904764" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29958245" sideWeight="0.61904764" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17760417" sideWeight="0.3809524" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -904,17 +929,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/superDemo/myjdbc/BatchDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/superDemo/myjdbc/LobDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-616">
-          <caret line="12" column="40" lean-forward="true" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+        <state relative-caret-position="378">
+          <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1516534468772" expanded="true" signature="383:414" ph="insert into t1... " />
-            <marker date="1516534468772" expanded="true" signature="440:471" ph="insert into t1... " />
-            <marker date="1516534468772" expanded="true" signature="497:522" ph="delete from t1... " />
-            <marker date="1516534468772" expanded="true" signature="1034:1061" ph="insert into t1... " />
-            <marker date="1516534468772" expanded="true" signature="1508:1535" ph="insert into t1... " />
+            <marker date="1516534594561" expanded="true" signature="451:478" ph="insert into t2... " />
+            <marker date="1516534594561" expanded="true" signature="1054:1081" ph="select * fro... t2" />
+            <marker date="1516534594561" expanded="true" signature="1810:1837" ph="insert into t3... " />
+            <marker date="1516534594561" expanded="true" signature="2239:2266" ph="select * fro... t3" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/superDemo/myjdbc/BatchDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1516534631048" expanded="true" signature="580:611" ph="insert into t1... " />
+            <marker date="1516534631048" expanded="true" signature="637:668" ph="insert into t1... " />
+            <marker date="1516534631048" expanded="true" signature="694:719" ph="delete from t1... " />
+            <marker date="1516534631048" expanded="true" signature="1231:1258" ph="insert into t1... " />
+            <marker date="1516534631048" expanded="true" signature="1705:1732" ph="insert into t1... " />
           </folding>
         </state>
       </provider>
