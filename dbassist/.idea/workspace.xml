@@ -2,31 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f92375c3-0a62-410c-9430-00984c51b091" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/c3p0_0_9_1_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/commons_dbcp_1_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/commons_pool_1_5_6.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_0_8_bin.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/dbassist.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/c3p0-0.9.1.2.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/commons-dbcp-1.4.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/commons-pool-1.5.6.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/mysql-connector-java-5.0.8-bin.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/dbassist/dbassist/DBAssist.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/dbassist/dbassist/ResultSetHandler.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/dbassist/domain/Account.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/dbassist/util/DBCPUtil.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/dbassist/BeanHanlder.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/dbassist/BeanListHanlder.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/dbassist/DBAssist.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/dbassist/ResultSetHandler.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/domain/Account.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/util/DBCPUtil.java" />
-      <change beforePath="$PROJECT_DIR$/../jndiDs/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../jndiDs/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../poolDemo/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../poolDemo/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/dbcpconfig.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,16 +14,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BeanListHanlder.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BeanListHanlder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dbassist/BeanListHanlder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+            <state relative-caret-position="172">
+              <caret line="23" column="27" lean-forward="true" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#365#366#0" expanded="true" />
                 <element signature="e#390#391#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dbcpconfig.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/dbcpconfig.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -92,6 +78,7 @@
         <option value="$PROJECT_DIR$/src/domain/Account.java" />
         <option value="$PROJECT_DIR$/src/dbassist/BeanListHanlder.java" />
         <option value="$PROJECT_DIR$/src/dbassist/BeanHanlder.java" />
+        <option value="$PROJECT_DIR$/src/dbcpconfig.properties" />
       </list>
     </option>
   </component>
@@ -101,7 +88,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1087" />
@@ -173,10 +160,10 @@
       <recent name="dbassist" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\github_project\javaWebProjects\dbassist\src" />
       <recent name="D:\github_project\javaWebProjects\dbassist\src\dbassist" />
       <recent name="D:\github_project\javaWebProjects\dbassist\src\domain" />
       <recent name="D:\github_project\javaWebProjects\dbassist" />
-      <recent name="D:\github_project\javaWebProjects\dbassist\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -287,15 +274,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1516617786398</updated>
-      <workItem from="1516617787813" duration="1073000" />
+      <workItem from="1516617787813" duration="1186000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1073000" />
+    <option name="totallyTimeSpent" value="1186000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1087" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -308,7 +295,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947807" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12447917" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -386,13 +373,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dbassist/BeanListHanlder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+        <state relative-caret-position="172">
+          <caret line="23" column="27" lean-forward="true" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#365#366#0" expanded="true" />
             <element signature="e#390#391#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dbcpconfig.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
