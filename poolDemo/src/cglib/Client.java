@@ -6,6 +6,10 @@ import net.sf.cglib.proxy.MethodProxy;
 
 import java.lang.reflect.Method;
 
+/**
+ * 使用cglib库
+ * 实现基于子类的动态代理
+ */
 public class Client {
     public static void main(String[] args){
         final SpringBrother sb = new SpringBrother();
