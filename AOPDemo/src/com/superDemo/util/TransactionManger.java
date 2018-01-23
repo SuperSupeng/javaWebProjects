@@ -28,4 +28,41 @@ public class TransactionManger {
             e.printStackTrace();
         }
     }
+
+    /**
+     * 事务回滚
+     */
+    public static void rollback(){
+        try {
+            Connection conn = getConnection();
+            conn.rollback();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
+    /**
+     * 事务提交
+     */
+    public static void commit(){
+        try {
+            Connection conn = getConnection();
+            conn.commit();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
+    /**
+     * 释放资源
+     */
+    public static void release(){
+        try {
+            Connection conn = getConnection();
+            conn.close();
+            tl.remove();//从当前线程中解绑。  与服务器实现有关：服务器采用线程池。
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
 }
