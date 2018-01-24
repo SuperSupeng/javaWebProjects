@@ -39,7 +39,7 @@ public class LoginServlet extends HttpServlet {
         if(auto != null){
             Cookie cookie = new Cookie("loginInfo", SecurityUtil.base64encoder(username) + "_" + password);
             cookie.setPath(request.getContextPath());
-            cookie.setMaxAge(Integer.MAX_VALUE);
+            cookie.setMaxAge(1000);
             response.addCookie(cookie);
         }
 
