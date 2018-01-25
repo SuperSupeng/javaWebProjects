@@ -5,32 +5,117 @@
     <title>registerForm</title>
     <style>
         div{
-            text-align: center;
+            margin-left: 200px;
+            position: center;
+            text-align: left;
             font-size: larger;
         }
     </style>
+
+    <script>
+        function showTips(id, info) {
+            document.getElementById(id+"span").innerHTML="<font color='gray' style='text-align: right'>"+info+"</font>";
+        }
+
+        function check(id, info) {
+            var ele = document.getElementById(id);
+            var uValue = ele.value;
+            if(uValue == ""){
+                document.getElementById(id+"span").innerHTML="<font color='red' style='text-align: right'>"+info+"</font>";
+            }else{
+                document.getElementById(id+"span").innerHTML="";
+            }
+        }
+    </script>
 </head>
     <body>
         <h1>HTML基础</h1>
         <div id="containter">
-            <form action="" method="post">
-                登录名称<input type="text" name="username" id="username"/><span id="userspan"></span><br>
-                登录密码<input type="password" name="username" id="password"/><span id="passwordspan"></span><br>
-                密码确认<input type="password" name="username" id="repassword"/><span id="repasswordspan"></span><br>
-                密码保护问题
-                <select>
-                    <option value="teachername">你的小学老师叫什么</option>
-                    <option value="fathername">你的父亲叫什么</option>
-                    <option value="phonenumber">你的手机号是多少</option>
-                    <option value="idnumber">你的身份证后六位是多少</option>
-                </select>
-                <br>
-                问题答案<input type="text" name="username" id="answer"/><span id="answerspan"></span><br>
-                性别<input type="radio" name="username"  value="male"/>男
-                <input type="radio" name="username"  value="female"/>女
-                <br>
-                <input type="submit" name="submit" id="submit" value="注册"/>
-                <input type="reset" name="reset" id="reset" value="重置"/>
+            <form action="#" method="post" name="regForm">
+                <table border="1px" width="750px" height="400px" align="center" cellpadding="0px" cellspacing="0px" bgcolor="white">
+                    <tr height="40px">
+                        <td colspan="2">
+                            <font size="4">会员注册</font>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            用户名
+                        </td>
+                        <td>
+                            <input type="text" name="user" id="user" onfocus="showTips('user','用户名必填！')" onblur="check('user','用户名不能为空！')"/><span id="userspan"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            密码
+                        </td>
+                        <td>
+                            <input type="password" name="password" id="password" onfocus="showTips('password','密码必填')" onblur="check('password','密码不能为空!')"/><span id="passwordspan"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            确认密码
+                        </td>
+                        <td>
+                            <input type="password" name="repassword" id="repassword"></input>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            密码确认问题
+                        </td>
+                        <td>
+                            <select style="font-size: medium">
+                                <option name="teacherName">你的小学老师叫什么</option>
+                                <option name="nickName">你的外号叫什么</option>
+                                <option name="NBATeam">你最喜欢的NBA球队是什么</option>
+                                <option name="IDNumber">你的身份证后六位是多少</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            问题答案
+                        </td>
+                        <td>
+                            <input type="text" name="answer"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            性别
+                        </td>
+                        <td>
+                            <input type="radio" name="sex" value="男"/>男
+                            <input type="radio" name="sex" value="女"/>女
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            出生日期
+                        </td>
+                        <td>
+                            <input type="text" name="birthday"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            验证码
+                        </td>
+                        <td>
+                            <input type="text" name="yzm" />
+                            <img src="../img/yanzhengma.png" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <input type="submit" value="注册" style="margin-left: 200px"/>
+                            <input type="reset" value="重置" style="margin-left: 30px"/>
+                        </td>
+                    </tr>
+                </table>
             </form>
         </div>
     </body>
