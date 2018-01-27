@@ -2,10 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6f6785b-1eae-4c17-9427-b0c2ca8c1864" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/superDemo/dao/CategoryDao.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/superDemo/dao/impl/CategoryDaoImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/commons_beanutils_1_8_3.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/commons_dbcp_1_4.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/commons_dbutils_1_4.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/commons_fileupload_1_3_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/commons_io_2_2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/commons_logging_1_1_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/commons_pool_1_5_6.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_0_8_bin.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/superDemo/exception/DaoException.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/superDemo/util/DBCPUtil.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/dbcpconfig.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-beanutils-1.8.3.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-dbcp-1.4.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-dbutils-1.4.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-fileupload-1.3.1.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-io-2.2.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-logging-1.1.1.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-pool-1.5.6.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jstl-1.2.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/junit-4.7.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.0.8-bin.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/standard.jar" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/com/superDemo/service/impl/BusinessServiceImpl.java" afterPath="$PROJECT_DIR$/src/com/superDemo/service/impl/BusinessServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/netstore.iml" afterPath="$PROJECT_DIR$/netstore.iml" />
+      <change beforePath="$PROJECT_DIR$/src/com/superDemo/dao/CategoryDao.java" afterPath="$PROJECT_DIR$/src/com/superDemo/dao/CategoryDao.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/superDemo/dao/impl/CategoryDaoImpl.java" afterPath="$PROJECT_DIR$/src/com/superDemo/dao/impl/CategoryDaoImpl.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/superDemo/domain/Category.java" afterPath="$PROJECT_DIR$/src/com/superDemo/domain/Category.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,11 +62,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/web/template/bootstrapTemplate.html" />
-        <option value="$PROJECT_DIR$/src/com/superDemo/domain/Category.java" />
         <option value="$PROJECT_DIR$/src/com/superDemo/service/BusinessService.java" />
         <option value="$PROJECT_DIR$/src/com/superDemo/service/impl/BusinessServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/dbcpconfig.properties" />
+        <option value="$PROJECT_DIR$/src/com/superDemo/util/DBCPUtil.java" />
         <option value="$PROJECT_DIR$/src/com/superDemo/dao/CategoryDao.java" />
+        <option value="$PROJECT_DIR$/src/com/superDemo/exception/DaoException.java" />
         <option value="$PROJECT_DIR$/src/com/superDemo/dao/impl/CategoryDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/superDemo/domain/Category.java" />
       </list>
     </option>
   </component>
@@ -99,6 +125,28 @@
               <item name="netstore" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="superDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netstore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netstore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="superDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netstore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netstore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="superDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netstore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netstore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="superDemo" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -111,6 +159,19 @@
               <item name="netstore" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="template" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netstore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netstore" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netstore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netstore" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -129,13 +190,17 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.superDemo.exception" />
       <recent name="com.superDemo.dao.impl" />
       <recent name="com.superDemo.dao" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\github_project\javaWebProjects\netstore\web\WEB-INF\lib" />
+      <recent name="D:\github_project\javaWebProjects\netstore\src" />
       <recent name="D:\github_project\javaWebProjects\netstore\web" />
     </key>
   </component>
@@ -320,12 +385,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1517054790491</updated>
-      <workItem from="1517054793272" duration="2199000" />
+      <workItem from="1517054793272" duration="2963000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2199000" />
+    <option name="totallyTimeSpent" value="2963000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1087" extended-state="0" />
@@ -384,32 +449,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/superDemo/domain/Category.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="27" lean-forward="false" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-          <folding>
-            <element signature="e#193#194#0" expanded="true" />
-            <element signature="e#229#230#0" expanded="true" />
-            <element signature="e#257#258#0" expanded="true" />
-            <element signature="e#288#289#0" expanded="true" />
-            <element signature="e#315#316#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
-            <element signature="e#387#388#0" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
-            <element signature="e#459#460#0" expanded="true" />
-            <element signature="e#513#514#0" expanded="true" />
-            <element signature="e#559#560#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/superDemo/service/BusinessService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="438">
           <caret line="23" column="24" lean-forward="false" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -419,21 +464,65 @@
         <state relative-caret-position="540">
           <caret line="26" column="30" lean-forward="false" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#598#599#0" expanded="true" />
-            <element signature="e#642#643#0" expanded="true" />
-            <element signature="e#715#716#0" expanded="true" />
-            <element signature="e#769#770#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#598#599#0" expanded="false" />
+            <element signature="e#642#643#0" expanded="false" />
+            <element signature="e#715#716#0" expanded="false" />
+            <element signature="e#769#770#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/superDemo/util/DBCPUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#755#756#0" expanded="false" />
+            <element signature="e#788#789#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dbcpconfig.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/superDemo/exception/DaoException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="e#193#194#0" expanded="false" />
+            <element signature="e#223#224#0" expanded="false" />
+            <element signature="e#267#268#0" expanded="false" />
+            <element signature="e#295#296#0" expanded="false" />
+            <element signature="e#355#356#0" expanded="false" />
+            <element signature="e#392#393#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/superDemo/dao/CategoryDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="12" />
+        <state relative-caret-position="189">
+          <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/superDemo/domain/Category.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#425#426#0" expanded="false" />
+            <element signature="e#459#460#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -441,14 +530,8 @@
     <entry file="file://$PROJECT_DIR$/src/com/superDemo/dao/impl/CategoryDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
-            <element signature="e#420#421#0" expanded="true" />
-          </folding>
+          <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>

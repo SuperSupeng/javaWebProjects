@@ -3,7 +3,7 @@ package com.superDemo.domain;
 public class Category {
     private String id;//UUID
     private String name;
-    private String descripiton;
+    private String description;
 
     public String getId() {
         return id;
@@ -21,11 +21,11 @@ public class Category {
         this.name = name;
     }
 
-    public String getDescripiton() {
-        return descripiton;
+    public String getDescription() {
+        return description;
     }
 
-    public void setDescripiton(String descripiton) {
-        this.descripiton = descripiton;
+    public void setDescripiton(String description) {
+        this.description = description;
     }
 }

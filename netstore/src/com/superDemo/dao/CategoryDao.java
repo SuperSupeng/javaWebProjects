@@ -9,5 +9,5 @@ public interface CategoryDao {
 
     List<Category> findAll();
 
-    Category finById(String categoryId);
+    Category findById(String categoryId);
 }
