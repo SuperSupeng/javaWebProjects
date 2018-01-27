@@ -24,6 +24,6 @@ public class BusinessServiceImpl implements BusinessService {
 
     @Override
     public Category findCategoryById(String categoryId) {
-        return categoryDao.finById(categoryId);
+        return categoryDao.findById(categoryId);
     }
 }
