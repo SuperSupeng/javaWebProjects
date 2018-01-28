@@ -16,6 +16,7 @@
 </head>
 
 <body>
+<div class="container">
 <br/><br/>
 <h1>后台管理</h1>
 <br/>
