@@ -7,6 +7,10 @@
     <filter>
         <filter-name>SetCharacterEncodingFilter</filter-name>
         <filter-class>com.superDemo.filter.SetCharacterEncodingFilter</filter-class>
+        <init-param>
+            <param-name>encoding</param-name>
+            <param-value>UTF-8</param-value>
+        </init-param>
     </filter>
     <filter-mapping>
         <filter-name>SetCharacterEncodingFilter</filter-name>
