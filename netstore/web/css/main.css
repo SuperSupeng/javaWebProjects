@@ -1,9 +1,9 @@
 body{
-    font-size: 12px;
     text-align: center;
 }
-table{
-    font-size: 12px;
+.addForm{
+    padding-left: 40%;
+    padding-right: 60%;
 }
 .odd{
     background-color: #c3f3c3;

@@ -19,7 +19,7 @@
 <br/><br/>
 <h1>后台管理</h1>
 <br/>
-<a href="${pageContext.request.contextPath}">添加分类</a>
+<a href="${pageContext.request.contextPath}/mange/addCategory.jsp">添加分类</a>
 <a href="${pageContext.request.contextPath}">查询分类</a>
 <a href="${pageContext.request.contextPath}">添加图书</a>
 <a href="${pageContext.request.contextPath}">查询图书</a>
