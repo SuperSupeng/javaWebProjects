@@ -30,7 +30,7 @@ public class ControlServlet extends HttpServlet {
                                    HttpServletResponse response) throws ServletException, IOException{
         List<Category> cs = s.findAllCategories();
         request.setAttribute("cs", cs);
-        request.getRequestDispatcher("/manage/listCategory.jsp").forward(request, response);
+        request.getRequestDispatcher("/mange/listCategory.jsp").forward(request, response);
     }
     //添加一个分类
     private void addCategory(HttpServletRequest request,
@@ -39,7 +39,7 @@ public class ControlServlet extends HttpServlet {
         s.addCategory(category);
 
         request.setAttribute("msg", "保存成功！");
-        request.getRequestDispatcher("/manage/message.jsp").forward(request, response);
+        request.getRequestDispatcher("/mange/message.jsp").forward(request, response);
     }
 
     public void doPost(HttpServletRequest request, HttpServletResponse response)
