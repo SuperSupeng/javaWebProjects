@@ -7,8 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6f6785b-1eae-4c17-9427-b0c2ca8c1864" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/superDemo/commons/MyFunctions.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/myfn.tld" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/netstore.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/commons/page.jsp" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,8 +27,8 @@
       <list>
         <option value="HTML File" />
         <option value="Interface" />
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -69,6 +69,8 @@
         <option value="$PROJECT_DIR$/src/com/superDemo/dao/impl/BookDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/com/superDemo/commons/MyFunctions.java" />
         <option value="$PROJECT_DIR$/web/myfn.tld" />
+        <option value="$PROJECT_DIR$/netstore.sql" />
+        <option value="$PROJECT_DIR$/web/commons/page.jsp" />
       </list>
     </option>
   </component>
@@ -136,7 +138,13 @@
               <item name="netstore" type="b2602c69:ProjectViewProjectNode" />
               <item name="netstore" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="commons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netstore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netstore" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="mange" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -382,7 +390,7 @@
       <workItem from="1517133647587" duration="771000" />
       <workItem from="1517141062971" duration="3848000" />
       <workItem from="1517226774797" duration="1671000" />
-      <workItem from="1517364719435" duration="3350000" />
+      <workItem from="1517364719435" duration="3567000" />
     </task>
     <servers />
   </component>
@@ -407,7 +415,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14393000" />
+    <option name="totallyTimeSpent" value="14610000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1087" extended-state="0" />
@@ -746,6 +754,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netstore.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/commons/page.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="27" lean-forward="false" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
           <folding />
         </state>
       </provider>
