@@ -7,10 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6f6785b-1eae-4c17-9427-b0c2ca8c1864" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/superDemo/dao/BookDao.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/superDemo/dao/impl/BookDaoImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/superDemo/commons/MyFunctions.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/myfn.tld" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/com/superDemo/service/impl/BusinessServiceImpl.java" afterPath="$PROJECT_DIR$/src/com/superDemo/service/impl/BusinessServiceImpl.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -68,6 +67,8 @@
         <option value="$PROJECT_DIR$/src/com/superDemo/dao/BookDao.java" />
         <option value="$PROJECT_DIR$/src/com/superDemo/service/impl/BusinessServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/com/superDemo/dao/impl/BookDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/superDemo/commons/MyFunctions.java" />
+        <option value="$PROJECT_DIR$/web/myfn.tld" />
       </list>
     </option>
   </component>
@@ -125,36 +126,6 @@
               <item name="netstore" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="superDemo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netstore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netstore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="superDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netstore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netstore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="superDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netstore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netstore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="superDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netstore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netstore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="superDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="netstore" type="b2602c69:ProjectViewProjectNode" />
@@ -411,7 +382,7 @@
       <workItem from="1517133647587" duration="771000" />
       <workItem from="1517141062971" duration="3848000" />
       <workItem from="1517226774797" duration="1671000" />
-      <workItem from="1517364719435" duration="2860000" />
+      <workItem from="1517364719435" duration="3350000" />
     </task>
     <servers />
   </component>
@@ -436,7 +407,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13903000" />
+    <option name="totallyTimeSpent" value="14393000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1087" extended-state="0" />
@@ -758,6 +729,24 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/superDemo/commons/MyFunctions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/myfn.tld">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+          <folding />
         </state>
       </provider>
     </entry>
