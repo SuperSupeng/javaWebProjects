@@ -47,7 +47,7 @@ public class BusinessServiceImpl implements BusinessService {
         int totalRecords = bookDao.findAllBooksNumber();
         Page page = new Page(currentPageNum, totalRecords);
         page.setRecords(bookDao.findPageBooks(page.getStartIndex(), page.getPageSize()));
-        return null;
+        return page;
     }
 
     @Override
