@@ -7,9 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6f6785b-1eae-4c17-9427-b0c2ca8c1864" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/netstore.sql" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/commons/page.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/mange/addBook.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/mange/listBooks.jsp" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/web/mange/header.jsp" afterPath="$PROJECT_DIR$/web/mange/header.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,7 +60,6 @@
         <option value="$PROJECT_DIR$/web/mange/listCategory.jsp" />
         <option value="$PROJECT_DIR$/src/com/superDemo/dao/impl/CategoryDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/com/superDemo/web/controller/ControlServlet.java" />
-        <option value="$PROJECT_DIR$/web/mange/header.jsp" />
         <option value="$PROJECT_DIR$/web/template/bootstrapTemplate.html" />
         <option value="$PROJECT_DIR$/src/com/superDemo/domain/Book.java" />
         <option value="$PROJECT_DIR$/src/com/superDemo/service/BusinessService.java" />
@@ -71,6 +71,10 @@
         <option value="$PROJECT_DIR$/web/myfn.tld" />
         <option value="$PROJECT_DIR$/netstore.sql" />
         <option value="$PROJECT_DIR$/web/commons/page.jsp" />
+        <option value="$PROJECT_DIR$/web/mange/header.jsp" />
+        <option value="$PROJECT_DIR$/web/mange/addBook.jsp" />
+        <option value="$PROJECT_DIR$/web/mange/listBook.jsp" />
+        <option value="$PROJECT_DIR$/web/mange/listBooks.jsp" />
       </list>
     </option>
   </component>
@@ -133,12 +137,6 @@
               <item name="netstore" type="b2602c69:ProjectViewProjectNode" />
               <item name="netstore" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netstore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netstore" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="commons" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="netstore" type="b2602c69:ProjectViewProjectNode" />
@@ -390,7 +388,7 @@
       <workItem from="1517133647587" duration="771000" />
       <workItem from="1517141062971" duration="3848000" />
       <workItem from="1517226774797" duration="1671000" />
-      <workItem from="1517364719435" duration="3567000" />
+      <workItem from="1517364719435" duration="4013000" />
     </task>
     <servers />
   </component>
@@ -415,7 +413,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14610000" />
+    <option name="totallyTimeSpent" value="15056000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1087" extended-state="0" />
@@ -582,14 +580,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
           <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/mange/header.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -770,6 +760,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
           <caret line="3" column="27" lean-forward="false" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/mange/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="26" column="29" lean-forward="false" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/mange/addBook.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-975">
+          <caret line="2" column="49" lean-forward="false" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/mange/listBooks.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="35" column="6" lean-forward="false" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
           <folding />
         </state>
       </provider>
