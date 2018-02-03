@@ -5,12 +5,14 @@ import com.superDemo.domain.Book;
 import com.superDemo.domain.Category;
 import com.superDemo.service.BusinessService;
 import com.superDemo.service.impl.BusinessServiceImpl;
+import com.superDemo.web.beans.Cart;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.util.List;
 
@@ -35,7 +37,19 @@ public class ClientServlet extends HttpServlet {
     }
 
     private void buyBook(HttpServletRequest request,
-                         HttpServletResponse response) throws ServletException, IOException{
+                         HttpServletResponse response) throws ServletException, IOException {
+        String bookId = request.getParameter("bookId");
+        Book book = s.findBookById(bookId);
+
+        HttpSession session = request.getSession();
+        Cart cart = (Cart) session.getAttribute("cart");
+        if (cart == null) {
+            cart = new Cart();
+            session.setAttribute("cart", cart);
+        }
+        cart.addBook(book);
+        request.setAttribute("msg", "书籍已经放入您的购物车，<a href='"+request.getContextPath()+"'>继续购物</a>");
+        request.getRequestDispatcher("/message.jsp").forward(request, response);
     }
 
     private void showBookDetails(HttpServletRequest request,
