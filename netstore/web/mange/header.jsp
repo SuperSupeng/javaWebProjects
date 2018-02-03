@@ -12,7 +12,7 @@
     <meta http-equiv="cache-control" content="no-cache">
     <meta http-equiv="expires" content="0">
     <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/main.css">
-    <%@ include file="../template/bootstrapTemplate.html"%>
+    <%@ include file="/bootstrapTemplate.html"%>
 </head>
 
 <body>

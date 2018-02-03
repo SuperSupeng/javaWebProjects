@@ -21,7 +21,7 @@
 </head>
 
 <body>
-<jsp:forward page="/ClientServlet">
+<jsp:forward page="ClientServlet">
   <jsp:param value="showIndex" name="op"/>
 </jsp:forward>
 </body>
