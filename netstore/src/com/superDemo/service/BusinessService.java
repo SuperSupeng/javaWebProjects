@@ -41,6 +41,13 @@ public interface BusinessService {
     Page findAllBookPageRecords(String pagenum);
 
     /**
+     * 根据用户要查看的页码，返回封装了分页信息的Page对象,按照分类进行查询的
+     * @param pagenum 默认为1
+     * @return
+     */
+    Page findAllBookPageRecords(String pagenum,String categoryId);
+
+    /**
      * 根据id查询一本书
      * @param bookId
      * @return
