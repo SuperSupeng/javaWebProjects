@@ -1,6 +1,7 @@
 package com.superDemo.web.controller;
 
 import com.superDemo.commons.Page;
+import com.superDemo.domain.Book;
 import com.superDemo.domain.Category;
 import com.superDemo.service.BusinessService;
 import com.superDemo.service.impl.BusinessServiceImpl;
@@ -26,7 +27,23 @@ public class ClientServlet extends HttpServlet {
             showIndex(request, response);
         }else if("showCategoryBooks".equals(op)){
             showCategoryBooks(request, response);
+        }else if("showBookDetails".equals(op)){
+            showBookDetails(request, response);
+        }else if("buyBook".equals(op)){
+            buyBook(request, response);
         }
+    }
+
+    private void buyBook(HttpServletRequest request,
+                         HttpServletResponse response) throws ServletException, IOException{
+    }
+
+    private void showBookDetails(HttpServletRequest request,
+                                 HttpServletResponse response) throws ServletException, IOException{
+        String bookId = request.getParameter("bookId");
+        Book book = s.findBookById(bookId);
+        request.setAttribute("book", book);
+        request.getRequestDispatcher("/showDetails.jsp").forward(request, response);
     }
 
     private void showCategoryBooks(HttpServletRequest request,
