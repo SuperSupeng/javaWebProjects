@@ -6,6 +6,7 @@ import com.superDemo.domain.Category;
 import com.superDemo.service.BusinessService;
 import com.superDemo.service.impl.BusinessServiceImpl;
 import com.superDemo.web.beans.Cart;
+import com.superDemo.web.beans.CartItem;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -33,8 +34,31 @@ public class ClientServlet extends HttpServlet {
             showBookDetails(request, response);
         }else if("buyBook".equals(op)){
             buyBook(request, response);
+        }else if("changeNum".equals(op)){
+            changeNum(request,response);
+        }else if("delOneItem".equals(op)){
+            delOneItem(request,response);
         }
     }
+
+    private void delOneItem(HttpServletRequest request,
+                            HttpServletResponse response) throws ServletException, IOException {
+        String bookId = request.getParameter("bookId");
+        Cart cart = (Cart) request.getSession().getAttribute("cart");
+        cart.getItems().remove(bookId);
+        response.sendRedirect(request.getContextPath()+"/showCart.jsp");
+    }
+
+    private void changeNum(HttpServletRequest request,
+                           HttpServletResponse response) throws ServletException, IOException {
+        String bookId = request.getParameter("bookId");
+        String newNum = request.getParameter("num");//修改的新的数量
+        Cart cart = (Cart) request.getSession().getAttribute("cart");
+        CartItem item = cart.getItems().get(bookId);
+        item.setQuantity(Integer.parseInt(newNum));
+        response.sendRedirect(request.getContextPath()+"/showCart.jsp");
+    }
+
 
     private void buyBook(HttpServletRequest request,
                          HttpServletResponse response) throws ServletException, IOException {
