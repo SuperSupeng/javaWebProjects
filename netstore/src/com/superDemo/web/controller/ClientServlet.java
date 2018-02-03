@@ -33,11 +33,12 @@ public class ClientServlet extends HttpServlet {
                                    HttpServletResponse response) throws ServletException, IOException{
         String num = request.getParameter("num");
         String categoryId = request.getParameter("categoryId");
+
         //查询所有的分类
         List<Category> cs = s.findAllCategories();
         //查询所有的分页书籍
         Page page = s.findAllBookPageRecords(num, categoryId);
-        page.setUrl("/servlet/ClientServlet?op=showCategoryBooks&categoryId="+categoryId);
+        page.setUrl("/ClientServlet?op=showCategoryBooks&categoryId="+categoryId);
 
         request.setAttribute("cs",cs);
         request.setAttribute("page", page);

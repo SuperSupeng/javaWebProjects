@@ -10,7 +10,7 @@
 <br/>
 <a href="${pageContext.request.contextPath}">所有分类</a>:
 <c:forEach items="${cs}" var="c">
-    <a href="${pageContext.request.contextPath}/ControlServlet?op=showCategoryBooks&categoryId=${c.id}">${c.name}</a>
+    <a href="${pageContext.request.contextPath}/ClientServlet?op=showCategoryBooks&categoryId=${c.id}">${c.name}</a>
 </c:forEach>
 <hr/>
 <table>
