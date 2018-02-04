@@ -3,6 +3,7 @@ package com.superDemo.service;
 import com.superDemo.commons.Page;
 import com.superDemo.domain.Book;
 import com.superDemo.domain.Category;
+import com.superDemo.domain.Customer;
 
 import java.util.List;
 
@@ -53,4 +54,26 @@ public interface BusinessService {
      * @return
      */
     Book findBookById(String bookId);
+
+    /**
+     * 用户注册
+     *
+     * @param c
+     */
+    void regitsCustomer(Customer c);
+
+    /**
+     * 根据激活码注册账号
+     * @param code 激活码
+     */
+    void activeCustomer(String code);
+
+    /**
+     * 用户登录
+     * @param username 用户名
+     * @param password 密码
+     * @return 如果用户名或密码不正确或者没有激活则返回null;
+     */
+    Customer customerLogin(String username, String password);
+
 }
