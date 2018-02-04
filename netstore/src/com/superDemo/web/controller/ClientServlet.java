@@ -46,6 +46,29 @@ public class ClientServlet extends HttpServlet {
             registCustomer(request, response);
         }else if("active".equals(op)){
             active(request, response);
+        }else if("login".equals(op)){
+            login(request, response);
+        }else if("logout".equals(op)){
+            logout(request, response);
+        }
+    }
+
+    //注销
+    private void logout(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
+        request.getSession().removeAttribute("customer");
+        response.sendRedirect(request.getContextPath());
+    }
+    //登录
+    private void login(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
+        String username = request.getParameter("username");
+        String password = request.getParameter("password");
+        Customer c = s.customerLogin(username, password);
+        if(c!=null){
+            request.getSession().setAttribute("customer", c);
+            response.sendRedirect(request.getContextPath());
+        }else{
+            request.setAttribute("msg", "您的用户名、密码不正确，或者没有激活账户");
+            request.getRequestDispatcher("/message.jsp").forward(request, response);
         }
     }
 
