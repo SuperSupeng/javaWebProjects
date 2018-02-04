@@ -27,15 +27,15 @@ public class SendMail extends Thread{
             Session session = Session.getInstance(props);
             MimeMessage message = new MimeMessage(session);
 
-            message.setFrom(new InternetAddress("itheima14@163.com"));
+            message.setFrom(new InternetAddress("superCodingssssss@163.com"));
             message.setRecipients(Message.RecipientType.TO, c.getEmail());
             message.setSubject("来自XX网站的激活邮件");
 
-            message.setContent("亲爱的"+c.getUsername()+"<br/>感谢您注册成为我们的会员，请猛戳下面激活您的账户。<br/><a href='http://localhost:8080/day23_00_netstore/servlet/ClientServlet?op=active&code="+c.getCode()+"'>戳这里</a><br/>本邮件由系统自动发出，请不要直接回复。", "text/html;charset=UTF-8");
+            message.setContent("亲爱的"+c.getUsername()+"<br/>感谢您注册成为我们的会员，请猛戳下面激活您的账户。<br/><a href='http://localhost:8080/day23_00_netstore/ClientServlet?op=active&code="+c.getCode()+"'>戳这里</a><br/>本邮件由系统自动发出，请不要直接回复。", "text/html;charset=UTF-8");
             message.saveChanges();
 
             Transport ts = session.getTransport();
-            ts.connect("itheima14", "iamsorry");
+            ts.connect("superCodingssssss", "842499467");
             ts.sendMessage(message, message.getAllRecipients());
         }catch(Exception e) {
             throw new RuntimeException(e);

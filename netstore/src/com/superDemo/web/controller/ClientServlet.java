@@ -44,12 +44,27 @@ public class ClientServlet extends HttpServlet {
             delOneItem(request,response);
         }else if("registCustomer".equals(op)){
             registCustomer(request, response);
+        }else if("active".equals(op)){
+            active(request, response);
+        }
+    }
+
+    private void active(HttpServletRequest request,
+                        HttpServletResponse response) throws ServletException, IOException {
+        String code = request.getParameter("code");
+        if(code!=null&&!"".equals(code)){
+            s.activeCustomer(code);
+            response.getWriter().write("激活成功！2秒后自动转向主页");
+            response.setHeader("Refresh", "2;URL="+request.getContextPath());
+        }else{
+            request.setAttribute("msg", "激活码有误");
+            request.getRequestDispatcher("/message.jsp").forward(request, response);
         }
     }
 
     //新用户注册，并发送激活邮件
     private void registCustomer(HttpServletRequest request,
-                                HttpServletResponse response)  throws ServletException, IOException {
+                                HttpServletResponse response) throws ServletException, IOException {
         Customer c = FillBeanUtil.fillBean(request, Customer.class);
         String code = UUID.randomUUID().toString();
         c.setCode(code);

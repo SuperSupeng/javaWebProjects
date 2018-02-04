@@ -16,3 +16,14 @@ CREATE TABLE books(
 	categoryId VARCHAR(100),
 	CONSTRAINT category_id_fk FOREIGN KEY(categoryId) REFERENCES categorys(ID)
 );
+
+CREATE TABLE customers(
+	id VARCHAR(100) PRIMARY KEY,
+	username VARCHAR(100) NOT NULL UNIQUE,
+	password VARCHAR(100) NOT NULL,
+	phone VARCHAR(100) NOT NULL,
+	address VARCHAR(100) NOT NULL,
+	email VARCHAR(100) NOT NULL,
+	actived BIT(1),
+	code VARCHAR(100) NOT NULL UNIQUE
+);
