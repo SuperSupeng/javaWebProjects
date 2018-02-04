@@ -31,5 +31,6 @@
     <orderEntry type="library" name="jstl-1.2" level="project" />
     <orderEntry type="library" name="junit-4.7" level="project" />
     <orderEntry type="library" name="standard" level="project" />
+    <orderEntry type="library" name="mail" level="project" />
   </component>
 </module>
