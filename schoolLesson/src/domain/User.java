@@ -9,14 +9,14 @@ public class User implements Serializable{
     private String name;
     private String password;
 
-    List<Friends> frinends = new ArrayList<>();
+    List<Friend> friends = new ArrayList<>();
 
-    public List<Friends> getFrinends() {
-        return frinends;
+    public List<Friend> getFriends() {
+        return friends;
     }
 
-    public void setFrinends(List<Friends> frinends) {
-        this.frinends = frinends;
+    public void setFriends(List<Friend> friends) {
+        this.friends = friends;
     }
 
     public String getId() {

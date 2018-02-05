@@ -2,7 +2,7 @@ package domain;
 
 import java.io.Serializable;
 
-public class Friends implements Serializable{
+public class Friend implements Serializable{
     private String id;
     private String sex;
     private int age;
