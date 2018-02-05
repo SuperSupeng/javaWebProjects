@@ -41,17 +41,17 @@ public interface BusinessService {
      * 添加好友
      * @param friend
      */
-    void addFrined(Friend friend);
+    void addFriend(User user, Friend friend);
 
     /**
      * 删除好友
      * @param friend
      */
-    void removeFrined(Friend friend);
+    void removeFriend(User user, Friend friend);
 
     /**
      * 修改好友信息
      * @param friend
      */
-    void changeFrined(Friend friend);
+    void changeFriend(User user, Friend friend);
 }

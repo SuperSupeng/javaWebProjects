@@ -14,9 +14,11 @@ public interface UserDao {
 
     List findAllFriends(User user, String friendName);
 
-    void addFriend(Friend friend);
+    void addFriend(User user, Friend friend);
 
-    void removeFriend(Friend friend);
+    void removeFriend(User user, Friend friend);
 
-    void changeFriend(Friend friend);
+    void changeFriend(User user, Friend friend);
+
+    User findByUserID(String userId);
 }

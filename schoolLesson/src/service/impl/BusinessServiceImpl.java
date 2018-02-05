@@ -10,12 +10,14 @@ import exception.UserAlreadyExistedException;
 import service.BusinessService;
 
 import java.util.List;
+import java.util.UUID;
 
 public class BusinessServiceImpl implements BusinessService {
     UserDao userDao = new UserDaoImpl();
 
     @Override
     public void register(User user){
+        user.setId(UUID.randomUUID().toString());
         userDao.save(user);
     }
 
@@ -35,17 +37,18 @@ public class BusinessServiceImpl implements BusinessService {
     }
 
     @Override
-    public void addFrined(Friend friend) {
-        userDao.addFriend(friend);
+    public void addFriend(User user, Friend friend) {
+        friend.setId(UUID.randomUUID().toString());
+        userDao.addFriend(user, friend);
     }
 
     @Override
-    public void removeFrined(Friend friend) {
-        userDao.removeFriend(friend);
+    public void removeFriend(User user, Friend friend) {
+        userDao.removeFriend(user, friend);
     }
 
     @Override
-    public void changeFrined(Friend friend) {
-        userDao.changeFriend(friend);
+    public void changeFriend(User user, Friend friend) {
+        userDao.changeFriend(user, friend);
     }
 }

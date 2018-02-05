@@ -4,12 +4,21 @@ import java.io.Serializable;
 
 public class Friend implements Serializable{
     private String id;
+    private String name;
     private String sex;
     private int age;
     private String qq;
     private String telephone;
     private String  email;
     private String address;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 
     public String getId() {
         return id;
