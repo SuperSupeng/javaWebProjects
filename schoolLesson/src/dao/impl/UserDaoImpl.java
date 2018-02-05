@@ -19,8 +19,8 @@ public class UserDaoImpl implements UserDao {
     @Override
     public void save(User user) {
         try{
-            qr.update("insert into user(id, name, password) values (?,?,?)",
-                    user.getId(),
+            qr.update("insert into user(userid, name, password) values (?,?,?)",
+                    user.getUserid(),
                     user.getName(),
                     user.getPassword());
         }catch (Exception e){
@@ -31,7 +31,7 @@ public class UserDaoImpl implements UserDao {
     @Override
     public User login(String username, String password) {
         try {
-            return qr.query("select * from user where username=? and password=?",
+            return qr.query("select * from user where name=? and password=?",
                     new BeanHandler<>(User.class),username, password);
         } catch (SQLException e) {
             throw new RuntimeException(e);

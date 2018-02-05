@@ -18,7 +18,7 @@ public class FriendDaoImpl implements FriendDao {
         try {
             return qr.query("select * from friends where userid=?",
                     new BeanListHandler<>(Friend.class),
-                    user.getId());
+                    user.getUserid());
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
@@ -29,7 +29,7 @@ public class FriendDaoImpl implements FriendDao {
         try {
             return qr.query("select * from friends where userid=? and name=?",
                     new BeanListHandler<>(Friend.class),
-                    user.getId(),
+                    user.getUserid(),
                     friendName);
         } catch (SQLException e) {
             throw new RuntimeException(e);
@@ -41,7 +41,7 @@ public class FriendDaoImpl implements FriendDao {
         try {
             qr.update("insert into friends (id,userid,name,sex,age,qq,telphone,email,address) values(?,?,?,?,?,?,?,?,?)",
                     friend.getId(),
-                    user.getId(),
+                    user.getUserid(),
                     friend.getName(),
                     friend.getSex(),
                     friend.getAge(),
@@ -59,7 +59,7 @@ public class FriendDaoImpl implements FriendDao {
         try{
             qr.update("delete from friends where id=? and userid=?",
                     friend.getId(),
-                    user.getId());
+                    user.getUserid());
         }catch (Exception e){
             throw new RuntimeException(e);
         }
@@ -77,7 +77,7 @@ public class FriendDaoImpl implements FriendDao {
                     friend.getEmail(),
                     friend.getAddress(),
                     friend.getId(),
-                    user.getId());
+                    user.getUserid());
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }

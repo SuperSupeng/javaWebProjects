@@ -5,9 +5,17 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class User implements Serializable{
-    private String id;
+    private String userid;
     private String name;
     private String password;
+
+    public String getUserid() {
+        return userid;
+    }
+
+    public void setUserid(String userid) {
+        this.userid = userid;
+    }
 
     List<Friend> friends = new ArrayList<>();
 
@@ -17,14 +25,6 @@ public class User implements Serializable{
 
     public void setFriends(List<Friend> friends) {
         this.friends = friends;
-    }
-
-    public String getId() {
-        return id;
-    }
-
-    public void setId(String id) {
-        this.id = id;
     }
 
     public String getName() {
@@ -41,5 +41,14 @@ public class User implements Serializable{
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "userid='" + userid + '\'' +
+                ", name='" + name + '\'' +
+                ", password='" + password + '\'' +
+                '}';
     }
 }

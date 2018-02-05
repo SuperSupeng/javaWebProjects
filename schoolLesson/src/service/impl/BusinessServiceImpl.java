@@ -17,7 +17,7 @@ public class BusinessServiceImpl implements BusinessService {
 
     @Override
     public void register(User user){
-        user.setId(UUID.randomUUID().toString());
+        user.setUserid(UUID.randomUUID().toString());
         userDao.save(user);
     }
 
