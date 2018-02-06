@@ -49,8 +49,13 @@
                     <nav>
                         <ul class="nav masthead-nav">
                             <li class="active"><a href="#">Home</a></li>
-                            <li><a href="#">Contacts</a></li>
-                            <li><a href="#">about us</a></li>
+                            <li><a href="contacts.jsp">Contacts</a></li>
+                            <c:if test="${sessionScope.user==null}">
+                                <li><a href="#">about us</a></li>
+                            </c:if>
+                            <c:if test="${sessionScope.user!=null}">
+                                <li><a href="${pageContext.request.contextPath}/ControlerServlet?op=logout">logout</a></li>
+                            </c:if>
                         </ul>
                     </nav>
                 </div>
@@ -58,24 +63,27 @@
 
             <div class="inner cover">
                 <c:if test="${sessionScope.user==null}">
-                    <form class="form-horizontal" action="">
+                    <form class="form-horizontal" method="post" action="${pageContext.request.contextPath}/ControlerServlet?op=signin">
+                        <c:if test="${msg!=null}">
+                            <div class="alert alert-danger col-sm-offset-2 col-sm-10" role="alert">用户名或密码错误</div>
+                        </c:if>
                         <div class="form-group">
-                            <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+                            <label for="inputEmail3" class="col-sm-2 control-label">Username</label>
                             <div class="col-sm-10">
-                                <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                                <input type="input" class="form-control" id="inputEmail3" placeholder="Username" name="username">
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
                             <div class="col-sm-10">
-                                <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                                <input type="password" class="form-control" id="inputPassword3" placeholder="Password" name="password">
                             </div>
                         </div>
                         <div class="form-group">
                             <div class="col-sm-7">
                                 <div class="checkbox">
                                     <label>
-                                        <input type="checkbox"> Remember me
+                                        <input type="checkbox" name="remember"> Remember me
                                     </label>
                                 </div>
                             </div>
@@ -87,7 +95,7 @@
                         </div>
                         <div class="form-group">
                             <div class="col-sm-offset-2 col-sm-10">
-                                <a class="btn btn-info btn-block" href="#">register</a>
+                                <a class="btn btn-info btn-block" href="register.jsp">register</a>
                             </div>
                         </div>
                     </form>
