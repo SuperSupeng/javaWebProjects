@@ -58,15 +58,48 @@
 
             <div class="inner cover">
                 <c:if test="${sessionScope.user==null}">
-
+                    <form class="form-horizontal" action="">
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+                            <div class="col-sm-10">
+                                <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+                            <div class="col-sm-10">
+                                <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-7">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox"> Remember me
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <button type="submit" class="btn btn-primary btn-block">Sign in</button>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <a class="btn btn-info btn-block" href="#">register</a>
+                            </div>
+                        </div>
+                    </form>
                 </c:if>
+
                 <c:if test="${sessionScope.user!=null}">
                     <div class="profile-content">
                         <div class="head">
                             <div class="image"
                                  style="background-image:url(https://aboutme.imgix.net/background/users/p/e/n/peng.su_1513480928_688.jpg?q=40&amp;dpr=2&amp;auto=format&amp;fit=max&amp;w=620&amp;h=413.3333333333333&amp;rect=0,160,1440,960);background-size:cover;background-position:center center;background-repeat:no-repeat;padding-bottom:66.66666666666667%"></div>
                             <div class="name-headline">
-                                <section><h1 class="name">Peng Su</h1></section>
+                                <section><h1 class="name">${user.name}</h1></section>
                             </div>
                         </div>
                         <div class="body">
