@@ -133,10 +133,9 @@
 
             <h2 class="sub-header">My Friends</h2>
             <form method="post" action="${pageContext.request.contextPath}/ControlerServlet?op=delMulti">
-                <div class="text-right" style="padding-right: 50px">
-                    <button class="btn btn-primary">添加好友</button>
+                <div class="text-left" style="padding-right: 50px">
+                    <a href="${pageContext.request.contextPath}" class="btn btn-primary">添加好友</a>
                     <input type="submit" class="btn btn-success" value="删除好友"/>
-                    <button class="btn btn-info">修改好友</button>
                 </div>
                 <div class="table-responsive">
                     <table class="table table-striped">
@@ -172,7 +171,7 @@
                                 <td>${f.address}</td>
                                 <td>
                                     <button class="btn btn-danger" onclick="operation(this, '${f.id}')">删除</button>
-                                    <button class="btn btn-warning" onclick="operation(this, '${f.id}')">修改</button>
+                                    <a class="btn btn-warning" href="#">修改</a>
                                 </td>
                             </tr>
                         </c:forEach>

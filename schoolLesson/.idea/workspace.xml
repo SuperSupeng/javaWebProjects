@@ -7,8 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21d9154e-d586-4739-8fa2-3be7e820cf34" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/domain/Friend.java" afterPath="$PROJECT_DIR$/src/domain/Friend.java" />
-      <change beforePath="$PROJECT_DIR$/src/web/controller/ControlerServlet.java" afterPath="$PROJECT_DIR$/src/web/controller/ControlerServlet.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/modiFriend.jsp" />
       <change beforePath="$PROJECT_DIR$/web/contacts.jsp" afterPath="$PROJECT_DIR$/web/contacts.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,14 +20,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="contacts.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="contacts.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/contacts.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="136" column="65" lean-forward="true" selection-start-line="136" selection-start-column="65" selection-end-line="136" selection-end-column="65" />
+            <state relative-caret-position="378">
+              <caret line="173" column="70" lean-forward="true" selection-start-line="173" selection-start-column="70" selection-end-line="173" selection-end-column="70" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="modiFriend.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/modiFriend.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="39" column="23" lean-forward="true" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -117,8 +126,8 @@
         <option value="$PROJECT_DIR$/src/filter/SetCharacterEncodingFilter.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/domain/Friend.java" />
-        <option value="$PROJECT_DIR$/web/contacts.jsp" />
         <option value="$PROJECT_DIR$/src/web/controller/ControlerServlet.java" />
+        <option value="$PROJECT_DIR$/web/contacts.jsp" />
       </list>
     </option>
   </component>
@@ -190,12 +199,6 @@
               <item name="schoolLesson" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="schoolLesson" type="b2602c69:ProjectViewProjectNode" />
-              <item name="schoolLesson" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -220,8 +223,8 @@
       <recent name="D:\github_project\javaWebProjects\schoolLesson\web\img" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\github_project\javaWebProjects\schoolLesson\web\img" />
       <recent name="D:\github_project\javaWebProjects\schoolLesson\web" />
+      <recent name="D:\github_project\javaWebProjects\schoolLesson\web\img" />
       <recent name="D:\github_project\javaWebProjects\schoolLesson\web\css" />
       <recent name="D:\github_project\javaWebProjects\schoolLesson\web\js" />
       <recent name="D:\github_project\javaWebProjects\schoolLesson\web\WEB-INF\lib" />
@@ -582,7 +585,7 @@
       <workItem from="1517795336683" duration="9098000" />
       <workItem from="1517880061539" duration="12092000" />
       <workItem from="1517924333205" duration="13000" />
-      <workItem from="1517985486375" duration="15973000" />
+      <workItem from="1517985486375" duration="16239000" />
     </task>
     <servers />
   </component>
@@ -619,7 +622,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53779000" />
+    <option name="totallyTimeSpent" value="54045000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -994,11 +997,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/contacts.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="136" column="65" lean-forward="true" selection-start-line="136" selection-start-column="65" selection-end-line="136" selection-end-column="65" />
+        <state relative-caret-position="378">
+          <caret line="173" column="70" lean-forward="true" selection-start-line="173" selection-start-column="70" selection-end-line="173" selection-end-column="70" />
           <folding>
             <element signature="n#style#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/modiFriend.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="39" column="23" lean-forward="true" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
