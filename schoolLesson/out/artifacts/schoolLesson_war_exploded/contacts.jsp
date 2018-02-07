@@ -69,7 +69,7 @@
           <a class="navbar-brand" href="#">Project name</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
-          <form class="navbar-form navbar-right" action="${pageContext.request.contextPath}/ControlerServlet?op=search">
+          <form class="navbar-form navbar-right">
             <input type="text" class="form-control" placeholder="Search...">
           </form>
         </div>

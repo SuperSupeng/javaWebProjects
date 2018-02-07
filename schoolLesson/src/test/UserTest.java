@@ -48,13 +48,13 @@ public class UserTest {
         user = service.login("aa", "123");
         System.out.println(user.getUserid());
         friend = new Friend();
-        friend.setName("zhangsan");
-        friend.setSex("nan");
-        friend.setAge(20);
-        friend.setQq("842512469");
-        friend.setTelephone("12563459652");
-        friend.setEmail("45874521@qq.com");
-        friend.setAddress("白桥");
+        friend.setName("六王");
+        friend.setSex("男");
+        friend.setAge(11);
+        friend.setQq("666666");
+        friend.setTelphone("15145875523");
+        friend.setEmail("884571236@qq.com");
+        friend.setAddress("哈尔滨");
         service.addFriend(user, friend);
     }
 

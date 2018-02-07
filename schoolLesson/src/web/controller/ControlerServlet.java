@@ -1,5 +1,6 @@
 package web.controller;
 
+import domain.Friend;
 import domain.User;
 import service.BusinessService;
 import service.impl.BusinessServiceImpl;
@@ -9,7 +10,9 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import java.io.IOException;
+import java.util.List;
 
 @WebServlet(name = "ControlerServlet", urlPatterns = "/ControlerServlet")
 public class ControlerServlet extends HttpServlet {
@@ -27,7 +30,37 @@ public class ControlerServlet extends HttpServlet {
             logout(request, response);
         }else if("register".equals(op)){
             register(request, response);
+        }else if("showFriends".equals(op)){
+            showFriends(request, response);
+        }else if("delOneFriend".equals(op)){
+            delOneFriend(request, response);
+        }else if("search".equals(op)){
+            search(request, response);
         }
+    }
+
+    private void search(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
+    }
+
+    private void delOneFriend(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        HttpSession session = request.getSession();
+        String id = request.getParameter("id");
+        System.out.println(id + "aaaaaaaaaaa");
+        Friend friend = new Friend();
+        friend.setId(id);
+        User user = (User) session.getAttribute("user");
+        s.removeFriend(user, friend);
+        List<Friend> friends = s.findAllFriends(user);
+        session.setAttribute("friends", friends);
+        response.sendRedirect(request.getContextPath() + "/contacts.jsp");
+    }
+
+    private void showFriends(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        HttpSession session = request.getSession();
+        List<Friend> friends = s.findAllFriends((User) session.getAttribute("user"));
+        session.setAttribute("friends", friends);
+        response.sendRedirect(request.getContextPath()+"/contacts.jsp");
     }
 
     private void register(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

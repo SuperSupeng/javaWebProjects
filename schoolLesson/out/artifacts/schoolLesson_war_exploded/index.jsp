@@ -49,11 +49,11 @@
                     <nav>
                         <ul class="nav masthead-nav">
                             <li class="active"><a href="#">Home</a></li>
-                            <li><a href="#">Contacts</a></li>
                             <c:if test="${sessionScope.user==null}">
                                 <li><a href="#">about us</a></li>
                             </c:if>
                             <c:if test="${sessionScope.user!=null}">
+                                <li><a href="${pageContext.request.contextPath}/ControlerServlet?op=showFriends">Contacts</a></li>
                                 <li><a href="${pageContext.request.contextPath}/ControlerServlet?op=logout">logout</a></li>
                             </c:if>
                         </ul>

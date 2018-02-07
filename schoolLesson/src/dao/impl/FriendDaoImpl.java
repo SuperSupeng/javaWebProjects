@@ -27,7 +27,7 @@ public class FriendDaoImpl implements FriendDao {
     @Override
     public List findAllFriends(User user, String friendName) {
         try {
-            return qr.query("select * from friends where userid=? and name=?",
+            return qr.query("select * from friends where userid=? and name like %?%",
                     new BeanListHandler<>(Friend.class),
                     user.getUserid(),
                     friendName);
@@ -46,7 +46,7 @@ public class FriendDaoImpl implements FriendDao {
                     friend.getSex(),
                     friend.getAge(),
                     friend.getQq(),
-                    friend.getTelephone(),
+                    friend.getTelphone(),
                     friend.getEmail(),
                     friend.getAddress());
         } catch (SQLException e) {
@@ -73,7 +73,7 @@ public class FriendDaoImpl implements FriendDao {
                     friend.getSex(),
                     friend.getAge(),
                     friend.getQq(),
-                    friend.getTelephone(),
+                    friend.getTelphone(),
                     friend.getEmail(),
                     friend.getAddress(),
                     friend.getId(),

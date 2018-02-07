@@ -8,7 +8,7 @@ public class Friend implements Serializable{
     private String sex;
     private int age;
     private String qq;
-    private String telephone;
+    private String telphone;
     private String  email;
     private String address;
 
@@ -52,12 +52,12 @@ public class Friend implements Serializable{
         this.qq = qq;
     }
 
-    public String getTelephone() {
-        return telephone;
+    public String getTelphone() {
+        return telphone;
     }
 
-    public void setTelephone(String telephone) {
-        this.telephone = telephone;
+    public void setTelphone(String telphone) {
+        this.telphone = telphone;
     }
 
     public String getEmail() {
