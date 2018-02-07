@@ -40,8 +40,13 @@ public class ControlerServlet extends HttpServlet {
     }
 
     private void search(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
+        String search = request.getParameter("searchOne");
+        System.out.println(search + "qqqqqqqqqq");
+        List friends = s.findAllFriends((User) request.getSession().getAttribute("user"), search);
+        request.getSession().setAttribute("friends", friends);
+        response.sendRedirect(request.getContextPath()+"/contacts.jsp");
     }
+
 
     private void delOneFriend(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         HttpSession session = request.getSession();

@@ -27,10 +27,8 @@ public class FriendDaoImpl implements FriendDao {
     @Override
     public List findAllFriends(User user, String friendName) {
         try {
-            return qr.query("select * from friends where userid=? and name like %?%",
-                    new BeanListHandler<>(Friend.class),
-                    user.getUserid(),
-                    friendName);
+            return qr.query("select * from friends where name like '%"+friendName+"%' and userid='"+user.getUserid()+"'",
+                    new BeanListHandler<>(Friend.class));
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }

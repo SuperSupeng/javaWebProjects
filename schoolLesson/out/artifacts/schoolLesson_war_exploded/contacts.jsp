@@ -69,8 +69,8 @@
           <a class="navbar-brand" href="#">Project name</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
-          <form class="navbar-form navbar-right">
-            <input type="text" class="form-control" placeholder="Search...">
+          <form class="navbar-form navbar-right" action="${pageContext.request.contextPath}/ControlerServlet?op=search" method="post">
+            <input type="text" class="form-control" placeholder="Search..." name="searchOne">
           </form>
         </div>
       </div>
@@ -145,10 +145,10 @@
                   <tr >
                     <td>${vs.count}</td>
                     <td>${f.name}</td>
-                    <td>${f.sex}</td>
                     <td>
                         ${f.sex=='nan'?'男':'女'}
                     </td>
+                    <td>${f.age}</td>
                     <td>${f.qq}</td>
                     <td>${f.telphone}</td>
                     <td>${f.email}</td>
