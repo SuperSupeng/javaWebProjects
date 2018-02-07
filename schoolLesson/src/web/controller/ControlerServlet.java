@@ -2,8 +2,11 @@ package web.controller;
 
 import domain.Friend;
 import domain.User;
+import org.apache.commons.beanutils.BeanUtils;
 import service.BusinessService;
 import service.impl.BusinessServiceImpl;
+import util.FormBeanUtil;
+import web.bean.FriendFormBean;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -40,10 +43,33 @@ public class ControlerServlet extends HttpServlet {
             delMulti(request, response);
         }else if("editCustomerUI".equals(op)){
             editCustomerUI(request, response);
+        }else if("editFriend".equals(op)){
+            editFriend(request, response);
         }
     }
 
-    private void editCustomerUI(HttpServletRequest request, HttpServletResponse response)  throws ServletException, IOException {
+    private void editFriend(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        try {
+            //封装数据到formbean
+            FriendFormBean formBean = FormBeanUtil.fillBean(request, FriendFormBean.class);
+            //填充模型
+            Friend friend = new Friend();
+            BeanUtils.copyProperties(friend, formBean);
+            if(s.findFriendById(friend.getId()) != null){
+                s.changeFriend((User) request.getSession().getAttribute("user"), friend);
+            }else{
+                s.addFriend((User) request.getSession().getAttribute("user"), friend);
+            }
+            response.getWriter().write("保存成功。2秒后自动返回");
+            response.setHeader("Refresh", "2;URL="+request.getContextPath()+"/modiFriend.jsp");
+
+        } catch (Exception e) {
+            e.printStackTrace();
+            response.getWriter().write("服务器忙");
+        }
+    }
+
+    private void editCustomerUI(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String id = request.getParameter("id");
         Friend friend = s.findFriendById(id);
         request.setAttribute("friend", friend);
