@@ -48,7 +48,6 @@
         <input type="hidden" name="id" value="${friend.id}"/>
         <label for="inputEmail" class="sr-only">name</label>
         <input type="input" id="inputEmail" class="form-control" placeholder="Username" name="name" value="${friend.name}" required autofocus>
-        <label class="sr-only">Sex</label>
         <input type="radio" name="sex" value="nan" ${friend.sex=='nan'?'checked="checked"':''} />男
         &nbsp;&nbsp;&nbsp;&nbsp;
         <input type="radio" name="sex" value="nv" ${friend.sex=='nv'?'checked="checked"':''} />女

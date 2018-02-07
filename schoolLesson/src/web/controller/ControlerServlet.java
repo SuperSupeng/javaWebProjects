@@ -60,9 +60,7 @@ public class ControlerServlet extends HttpServlet {
             }else{
                 s.addFriend((User) request.getSession().getAttribute("user"), friend);
             }
-            response.getWriter().write("保存成功。2秒后自动返回");
-            response.setHeader("Refresh", "2;URL="+request.getContextPath()+"/modiFriend.jsp");
-
+            response.setHeader("Refresh", "0;URL="+request.getContextPath()+"/ControlerServlet?op=showFriends");
         } catch (Exception e) {
             e.printStackTrace();
             response.getWriter().write("服务器忙");
@@ -87,14 +85,14 @@ public class ControlerServlet extends HttpServlet {
             List<Friend> friends = s.findAllFriends((User) session.getAttribute("user"));
             session.setAttribute("friends", friends);
         }
-        response.sendRedirect(request.getContextPath()+"/contacts.jsp");
+        response.sendRedirect(request.getContextPath()+"/ControlerServlet?op=showFriends");
     }
 
     private void search(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String search = request.getParameter("searchOne");
         List friends = s.findAllFriends((User) request.getSession().getAttribute("user"), search);
         request.getSession().setAttribute("friends", friends);
-        response.sendRedirect(request.getContextPath()+"/contacts.jsp");
+        response.sendRedirect(request.getContextPath()+"/ControlerServlet?op=showFriends");
     }
 
 
@@ -107,7 +105,7 @@ public class ControlerServlet extends HttpServlet {
         s.removeFriend(user, friend);
         List<Friend> friends = s.findAllFriends(user);
         session.setAttribute("friends", friends);
-        response.sendRedirect(request.getContextPath() + "/contacts.jsp");
+        response.sendRedirect(request.getContextPath() + "/ControlerServlet?op=showFriends");
     }
 
     private void showFriends(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

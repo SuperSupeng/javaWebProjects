@@ -134,7 +134,7 @@
             <h2 class="sub-header">My Friends</h2>
             <form method="post" action="${pageContext.request.contextPath}/ControlerServlet?op=delMulti">
                 <div class="text-left" style="padding-right: 50px">
-                    <a href="${pageContext.request.contextPath}" class="btn btn-primary">添加好友</a>
+                    <a href="${pageContext.request.contextPath}/modiFriend.jsp" class="btn btn-primary">添加好友</a>
                     <input type="submit" class="btn btn-success" value="删除好友"/>
                 </div>
                 <div class="table-responsive">
