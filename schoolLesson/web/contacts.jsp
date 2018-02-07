@@ -12,7 +12,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Dashboard Template for Bootstrap</title>
+    <title>Contacts</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -66,7 +66,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Project name</a>
+          <a class="navbar-brand" href="${pageContext.request.contextPath}">我的好友</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <form class="navbar-form navbar-right" action="${pageContext.request.contextPath}/ControlerServlet?op=search" method="post">
@@ -103,28 +103,33 @@
 
           <div class="row placeholders">
             <div class="col-xs-6 col-sm-3 placeholder">
-              <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" width="200" height="200" class="img-responsive" alt="Generic placeholder thumbnail">
-              <h4>Label</h4>
-              <span class="text-muted">Something else</span>
+              <img src="img/person1.jpg" width="200" height="200" class="img-responsive" alt="Generic placeholder thumbnail">
+              <h4>Jack</h4>
+              <span class="text-muted">BasketBall</span>
             </div>
             <div class="col-xs-6 col-sm-3 placeholder">
-              <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" width="200" height="200" class="img-responsive" alt="Generic placeholder thumbnail">
-              <h4>Label</h4>
-              <span class="text-muted">Something else</span>
+              <img src="img/person2.jpg" width="200" height="200" class="img-responsive" alt="Generic placeholder thumbnail">
+              <h4>Rose</h4>
+              <span class="text-muted">FootBall</span>
             </div>
             <div class="col-xs-6 col-sm-3 placeholder">
-              <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" width="200" height="200" class="img-responsive" alt="Generic placeholder thumbnail">
-              <h4>Label</h4>
-              <span class="text-muted">Something else</span>
+              <img src="img/person3.jpg" width="200" height="200" class="img-responsive" alt="Generic placeholder thumbnail">
+              <h4>James</h4>
+              <span class="text-muted">Reading</span>
             </div>
             <div class="col-xs-6 col-sm-3 placeholder">
-              <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" width="200" height="200" class="img-responsive" alt="Generic placeholder thumbnail">
-              <h4>Label</h4>
-              <span class="text-muted">Something else</span>
+              <img src="img/person4.jpg" width="200" height="200" class="img-responsive" alt="Generic placeholder thumbnail">
+              <h4>Harden</h4>
+              <span class="text-muted">Swiming</span>
             </div>
           </div>
 
           <h2 class="sub-header">My Friends</h2>
+          <div class="text-right" style="padding-right: 50px">
+            <button class="btn btn-primary">添加好友</button>
+            <button class="btn btn-success">删除好友</button>
+            <button class="btn btn-info">修改好友</button>
+          </div>
           <div class="table-responsive">
             <table class="table table-striped">
               <thead>
@@ -153,7 +158,10 @@
                     <td>${f.telphone}</td>
                     <td>${f.email}</td>
                     <td>${f.address}</td>
-                    <td><button class="btn btn-primary" onclick="operation(this, '${f.id}')">删除</button></td>
+                    <td>
+                      <button class="btn btn-danger" onclick="operation(this, '${f.id}')">删除</button>
+                      <button class="btn btn-warning" onclick="operation(this, '${f.id}')">修改</button>
+                    </td>
                   </tr>
                 </c:forEach>
               </tbody>
