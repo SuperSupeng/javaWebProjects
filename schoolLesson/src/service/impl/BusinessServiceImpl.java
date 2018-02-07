@@ -13,7 +13,8 @@ import java.util.List;
 import java.util.UUID;
 
 public class BusinessServiceImpl implements BusinessService {
-    UserDao userDao = new UserDaoImpl();
+    private UserDao userDao = new UserDaoImpl();
+    private FriendDao friendDao = new FriendDaoImpl();
 
     @Override
     public void register(User user){
@@ -50,5 +51,10 @@ public class BusinessServiceImpl implements BusinessService {
     @Override
     public void changeFriend(User user, Friend friend) {
         userDao.changeFriend(user, friend);
+    }
+
+    @Override
+    public Friend findFriendById(String friendId) {
+        return friendDao.findFriendById(friendId);
     }
 }

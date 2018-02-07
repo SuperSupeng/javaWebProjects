@@ -38,11 +38,19 @@ public class ControlerServlet extends HttpServlet {
             search(request, response);
         }else if("delMulti".equals(op)){
             delMulti(request, response);
+        }else if("editCustomerUI".equals(op)){
+            editCustomerUI(request, response);
         }
     }
 
-    private void delMulti(HttpServletRequest request,
-                          HttpServletResponse response) throws ServletException, IOException {
+    private void editCustomerUI(HttpServletRequest request, HttpServletResponse response)  throws ServletException, IOException {
+        String id = request.getParameter("id");
+        Friend friend = s.findFriendById(id);
+        request.setAttribute("friend", friend);
+        request.getRequestDispatcher("/modiFriend.jsp").forward(request, response);
+    }
+
+    private void delMulti(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         HttpSession session = request.getSession();
         User user = (User) session.getAttribute("user");
         String ids[] = request.getParameterValues("ids");

@@ -4,6 +4,7 @@ import dao.FriendDao;
 import domain.Friend;
 import domain.User;
 import org.apache.commons.dbutils.QueryRunner;
+import org.apache.commons.dbutils.handlers.BeanHandler;
 import org.apache.commons.dbutils.handlers.BeanListHandler;
 import util.DBCPUtil;
 
@@ -76,6 +77,17 @@ public class FriendDaoImpl implements FriendDao {
                     friend.getAddress(),
                     friend.getId(),
                     user.getUserid());
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    @Override
+    public Friend findFriendById(String friendId) {
+        try {
+            return qr.query("select * from friends where id=?",
+                    new BeanHandler<>(Friend.class),
+                    friendId);
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }

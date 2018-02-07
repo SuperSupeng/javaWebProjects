@@ -15,4 +15,6 @@ public interface FriendDao {
     void removeFriend(User user, Friend friend);
 
     void changeFriend(User user, Friend friend);
+
+    Friend findFriendById(String friendId);
 }

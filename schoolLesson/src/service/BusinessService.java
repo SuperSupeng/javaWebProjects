@@ -54,4 +54,11 @@ public interface BusinessService {
      * @param friend
      */
     void changeFriend(User user, Friend friend);
+
+    /**
+     * 通过id查询好友
+     * @param friendId
+     * @return
+     */
+    Friend findFriendById(String friendId);
 }

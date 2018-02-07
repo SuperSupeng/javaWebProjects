@@ -171,7 +171,7 @@
                                 <td>${f.address}</td>
                                 <td>
                                     <button class="btn btn-danger" onclick="operation(this, '${f.id}')">删除</button>
-                                    <a class="btn btn-warning" href="#">修改</a>
+                                    <a class="btn btn-warning" href="${pageContext.request.contextPath}/ControlerServlet?op=editCustomerUI&id=${f.id}">修改</a>
                                 </td>
                             </tr>
                         </c:forEach>
