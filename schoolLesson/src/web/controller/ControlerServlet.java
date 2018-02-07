@@ -36,12 +36,28 @@ public class ControlerServlet extends HttpServlet {
             delOneFriend(request, response);
         }else if("search".equals(op)){
             search(request, response);
+        }else if("delMulti".equals(op)){
+            delMulti(request, response);
         }
+    }
+
+    private void delMulti(HttpServletRequest request,
+                          HttpServletResponse response) throws ServletException, IOException {
+        HttpSession session = request.getSession();
+        User user = (User) session.getAttribute("user");
+        String ids[] = request.getParameterValues("ids");
+        if(ids != null && ids.length != 0){
+            for (String id : ids) {
+                s.removeFriend(user, new Friend(id));
+            }
+            List<Friend> friends = s.findAllFriends((User) session.getAttribute("user"));
+            session.setAttribute("friends", friends);
+        }
+        response.sendRedirect(request.getContextPath()+"/contacts.jsp");
     }
 
     private void search(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String search = request.getParameter("searchOne");
-        System.out.println(search + "qqqqqqqqqq");
         List friends = s.findAllFriends((User) request.getSession().getAttribute("user"), search);
         request.getSession().setAttribute("friends", friends);
         response.sendRedirect(request.getContextPath()+"/contacts.jsp");
@@ -51,7 +67,6 @@ public class ControlerServlet extends HttpServlet {
     private void delOneFriend(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         HttpSession session = request.getSession();
         String id = request.getParameter("id");
-        System.out.println(id + "aaaaaaaaaaa");
         Friend friend = new Friend();
         friend.setId(id);
         User user = (User) session.getAttribute("user");

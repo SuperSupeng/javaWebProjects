@@ -12,6 +12,12 @@ public class Friend implements Serializable{
     private String  email;
     private String address;
 
+    public Friend(){}
+
+    public Friend(String id){
+        this.id = id;
+    }
+
     public String getName() {
         return name;
     }
