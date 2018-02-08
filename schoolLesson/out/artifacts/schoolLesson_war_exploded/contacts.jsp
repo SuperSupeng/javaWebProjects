@@ -46,8 +46,8 @@
                     }
                 }
                 var index = x.rowIndex;
-                xhr.open("Post", "${pageContext.request.contextPath}/ControlerServlet?op=delOneFriend&time=" + new Date().getTime());
-                xhr.send("id=" + id);
+                xhr.open("Post", "${pageContext.request.contextPath}/ControlerServlet?op=delOneFriend&id="+id+"&time=" + new Date().getTime());
+                xhr.send(null);
                 alert('已删除');
             } else {
                 return false;

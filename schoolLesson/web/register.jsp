@@ -60,7 +60,7 @@
         <input type="password" id="inputPassword" class="form-control" placeholder="Password" name="password" required>
         <label for="rePassword" class="sr-only">RePassword</label>
         <input type="password" id="rePassword" class="form-control" placeholder="Password" name="repassword" onblur="showTips('rePassword')" required>
-        <button class="btn btn-lg btn-primary btn-block" id="submit" type="submit">Sign in</button>
+        <button class="btn btn-lg btn-primary btn-block" id="submit" type="submit">Register</button>
       </form>
 
     </div> <!-- /container -->
