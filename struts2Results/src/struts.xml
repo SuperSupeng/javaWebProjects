@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+    <!-- 开启开发模式 -->
+    <constant name="struts.devMode" value="true" />
+    <package name="mystruts-default"  extends="struts-default">
+        <!-- 声明结果类型 -->
+        <result-types>
+            <result-type name="captcha" class="results.CaptchaResult"/>
+        </result-types>
+    </package>
+    <package name="p1" extends="mystruts-default">
+        <action name="captcha">
+            <result name="success" type="captcha">
+                <!-- 给结果类型注入参数
+                <param name="height">10</param>
+                <param name="width">3</param>
+                 -->
+            </result>
+        </action>
+    </package>
+
+    <package name="p2" extends="struts-default">
+       <action name="sayHello" class="action.HelloWorldAction" method="sayHello">
+           <result name="success">/success.jsp</result>
+       </action>
+    </package>
+
+</struts>
