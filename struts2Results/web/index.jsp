@@ -15,7 +15,7 @@
     <body>
       <a href="${pageContext.request.contextPath}/sayHello.action">第一个struts2案例</a>
       <form action="">
-        验证码：<input type="text"/><img src="captcha.action"/>
+        验证码：<input type="text"/><img src="${pageContext.request.contextPath}/captcha.action"/>
       </form>
     </body>
 </html>
