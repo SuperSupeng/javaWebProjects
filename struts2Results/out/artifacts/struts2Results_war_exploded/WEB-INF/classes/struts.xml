@@ -29,4 +29,8 @@
        </action>
     </package>
 
+    <package name="p3" extends="struts-default">
+        <action name="act1" class="action.StudentAction" method="save"/>
+    </package>
+
 </struts>
