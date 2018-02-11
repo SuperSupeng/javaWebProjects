@@ -33,4 +33,10 @@
         <action name="act1" class="action.StudentAction" method="save"/>
     </package>
 
+    <package name="p4" namespace="/person" extends="struts-default">
+        <action name="regist" class="action.PersonAction" method="regist">
+            <result>/success.jsp</result>
+            <result name="input">/person.jsp</result>
+        </action>
+    </package>
 </struts>

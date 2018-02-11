@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE validators PUBLIC
+        "-//Apache Struts//XWork Validator 1.0.3//EN"
+        "http://struts.apache.org/dtds/xwork-validator-1.0.3.dtd">
+<validators>
+    <field name="username">
+        <field-validator type="requiredstring">
+            <message>名字不能为空</message>
+        </field-validator>
+        <field-validator type="regex">
+            <param name="regex">
+                <![CDATA[[a-zA-Z]{3,8}]]>
+            </param>
+            <message>名字必须由3~8位字母组成</message>
+        </field-validator>
+    </field>
+    <field name="password">
+        <field-validator type="requiredstring">
+            <message>密码不能为空</message>
+        </field-validator>
+    </field>
+    <!-- 非字段验证 :要使用s:actionError显示错误提示-->
+    <validator type="expression">
+        <param name="expression">
+            repassword==password
+        </param>
+        <message>两次密码必须一致</message>
+    </validator>
+    <field name="email">
+        <field-validator type="email">
+            <message>请输入正确的邮箱</message>
+        </field-validator>
+    </field>
+    <field name="birthday">
+        <field-validator type="date">
+            <param name="min">2000-01-01</param>
+            <param name="max">2010-12-31</param>
+            <message>请输入正确的日期</message>
+        </field-validator>
+    </field>
+    <field name="netaddress">
+        <field-validator type="url">
+            <message>请输入正确的地址:协议_主机_资源地址</message>
+        </field-validator>
+    </field>
+</validators>
