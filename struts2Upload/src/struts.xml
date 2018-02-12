@@ -6,4 +6,17 @@
 <struts>
     <!-- 开启开发模式 -->
     <constant name="struts.devMode" value="true" />
+    <constant name="struts.custom.i18n.resources" value="upload"/>
+    <!-- 常量配置的优先级高 -->
+    <constant name="struts.multipart.maxSize" value="5242880"/>
+    <package name="p1" extends="struts-default">
+        <action name="upload1" class="action.Upload1Action" method="upload">
+            <interceptor-ref name="defaultStack">
+                <param name="fileUpload.maximumSize">5242880</param>
+                <param name="fileUpload.allowedExtensions">.bmp,.jpg,.png</param>
+            </interceptor-ref>
+            <result>/success.jsp</result>
+            <result name="input">/upload1.jsp</result>
+        </action>
+    </package>
 </struts>
