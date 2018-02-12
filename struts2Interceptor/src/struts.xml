@@ -6,4 +6,69 @@
 <struts>
     <!-- 开启开发模式 -->
     <constant name="struts.devMode" value="true" />
+
+    <package name="mydefault" extends="struts-default" abstract="true">
+        <interceptors>
+            <interceptor name="demo1Interceptor" class="interceptors.Demo1Interceptor"></interceptor>
+            <interceptor name="costTimeInterceptor" class="interceptors.CostTimeInterceptor"></interceptor>
+            <interceptor name="sessionCheckInterceptor" class="interceptors.SessionCheckInterceptor">
+                <param name="excludeMethods">login</param>
+            </interceptor>
+
+            <!-- 定义拦截器栈 -->
+            <interceptor-stack name="mydefaultstack">
+                <interceptor-ref name="sessionCheckInterceptor"/>
+                <interceptor-ref name="exception"/>
+                <interceptor-ref name="alias"/>
+                <interceptor-ref name="servletConfig"/>
+                <interceptor-ref name="i18n"/>
+                <interceptor-ref name="prepare"/>
+                <interceptor-ref name="chain"/>
+                <interceptor-ref name="scopedModelDriven"/>
+                <interceptor-ref name="modelDriven"/>
+                <interceptor-ref name="fileUpload"/>
+                <interceptor-ref name="checkbox"/>
+                <interceptor-ref name="multiselect"/>
+                <interceptor-ref name="staticParams"/>
+                <interceptor-ref name="actionMappingParams"/>
+                <interceptor-ref name="params">
+                    <param name="excludeParams">dojo\..*,^struts\..*,^session\..*,^request\..*,^application\..*,^servlet(Request|Response)\..*,parameters\...*</param>
+                </interceptor-ref>
+                <interceptor-ref name="conversionError"/>
+                <interceptor-ref name="validation">
+                    <param name="excludeMethods">input,back,cancel,browse</param>
+                </interceptor-ref>
+                <interceptor-ref name="workflow">
+                    <param name="excludeMethods">input,back,cancel,browse</param>
+                </interceptor-ref>
+                <interceptor-ref name="debugging"/>
+                <interceptor-ref name="demo1Interceptor"></interceptor-ref>
+                <interceptor-ref name="costTimeInterceptor"></interceptor-ref>
+            </interceptor-stack>
+
+        </interceptors>
+        <!-- 配置默认拦截器栈 -->
+        <default-interceptor-ref name="mydefaultstack"></default-interceptor-ref>
+    </package>
+
+    <package name="p1" extends="mydefault">
+
+        <action name="demo1" class="action.Demo1Action">
+            <!-- 使用自定义的拦截器 :只要自己明确指定了一个拦截器。默认的都不起作用-->
+            <result>/success.jsp</result>
+        </action>
+    </package>
+    <package name="p2" extends="mydefault">
+        <action name="save" class="action.CustomerAction" method="save">
+            <result name="login">/login.jsp</result>
+            <result>/success.jsp</result>
+        </action>
+        <action name="update" class="action.CustomerAction" method="update">
+            <result name="login">/login.jsp</result>
+            <result>/success.jsp</result>
+        </action>
+        <action name="login" class="action.CustomerAction" method="login">
+            <result>/index.jsp</result>
+        </action>
+    </package>
 </struts>
