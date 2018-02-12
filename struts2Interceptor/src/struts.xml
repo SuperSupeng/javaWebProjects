@@ -10,7 +10,6 @@
     <package name="mydefault" extends="struts-default" abstract="true">
         <interceptors>
             <interceptor name="demo1Interceptor" class="interceptors.Demo1Interceptor"></interceptor>
-            <interceptor name="costTimeInterceptor" class="interceptors.CostTimeInterceptor"></interceptor>
             <interceptor name="sessionCheckInterceptor" class="interceptors.SessionCheckInterceptor">
                 <param name="excludeMethods">login</param>
             </interceptor>
@@ -43,7 +42,6 @@
                 </interceptor-ref>
                 <interceptor-ref name="debugging"/>
                 <interceptor-ref name="demo1Interceptor"></interceptor-ref>
-                <interceptor-ref name="costTimeInterceptor"></interceptor-ref>
             </interceptor-stack>
 
         </interceptors>
