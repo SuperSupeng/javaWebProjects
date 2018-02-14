@@ -10,7 +10,7 @@
 <%@ taglib uri="/struts-tags" prefix="s"%>
 <html>
 <head>
-    <title>>OGNL构建List和Map</title>
+    <title>OGNL构建List和Map</title>
     <style type="text/css">
         .odd{
             background-color: #c3f3c3;
