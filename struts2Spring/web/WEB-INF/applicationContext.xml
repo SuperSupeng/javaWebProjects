@@ -3,5 +3,8 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-
+    <bean name="businessService" class="service.impl.BusinessServiceImpl">
+        <property name="dao" ref="userDao"/>
+    </bean>
+    <bean name="userDao" class="dao.impl.UserDaoImpl"/>
 </beans>
