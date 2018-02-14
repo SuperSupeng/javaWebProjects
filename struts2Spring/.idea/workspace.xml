@@ -7,7 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b03915d4-8fde-4560-a620-2cd54734ec74" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/action/UserAction.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/SpringContainerTest.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -49,6 +49,7 @@
         <option value="$PROJECT_DIR$/src/dao/impl/UserDaoImpl.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/action/UserAction.java" />
+        <option value="$PROJECT_DIR$/src/test/SpringContainerTest.java" />
       </list>
     </option>
   </component>
@@ -332,12 +333,12 @@
       <option name="presentableId" value="Default" />
       <updated>1518222438292</updated>
       <workItem from="1518222441160" duration="409000" />
-      <workItem from="1518605784294" duration="657000" />
+      <workItem from="1518605784294" duration="747000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1066000" />
+    <option name="totallyTimeSpent" value="1156000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1087" extended-state="0" />
@@ -459,6 +460,16 @@
             <element signature="e#485#486#0" expanded="true" />
             <element signature="e#525#526#0" expanded="true" />
             <element signature="e#557#558#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/SpringContainerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
