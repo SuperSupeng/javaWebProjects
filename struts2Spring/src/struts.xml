@@ -6,4 +6,9 @@
 <struts>
     <!-- 开启开发模式 -->
     <constant name="struts.devMode" value="true" />
+    <package name="p1" extends="struts-default">
+        <action name="regist" class="action.UserAction" method="regist">
+            <result>/success.jsp</result>
+        </action>
+    </package>
 </struts>
