@@ -15,5 +15,8 @@
             <interceptor-ref name="tokenSession"/>
             <result>/success.jsp</result>
         </action>
+        <action name="a5">
+            <result>/5.jsp</result>
+        </action>
     </package>
 </struts>
