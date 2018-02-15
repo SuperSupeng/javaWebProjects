@@ -7,12 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b03915d4-8fde-4560-a620-2cd54734ec74" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/5.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/6.jsp" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/struts2Env_war_exploded/WEB-INF/classes/struts.xml" afterPath="$PROJECT_DIR$/out/artifacts/struts2Env_war_exploded/WEB-INF/classes/struts.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/struts2Ognl/struts.xml" afterPath="$PROJECT_DIR$/out/production/struts2Ognl/struts.xml" />
-      <change beforePath="$PROJECT_DIR$/src/struts.xml" afterPath="$PROJECT_DIR$/src/struts.xml" />
+      <change beforePath="$PROJECT_DIR$/web/6.jsp" afterPath="$PROJECT_DIR$/web/6.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,8 +35,8 @@
       <file leaf-file-name="6.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/6.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="16" column="6" lean-forward="false" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+            <state relative-caret-position="534">
+              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -367,12 +362,12 @@
       <updated>1518222438292</updated>
       <workItem from="1518222441160" duration="409000" />
       <workItem from="1518614123820" duration="1838000" />
-      <workItem from="1518653484305" duration="819000" />
+      <workItem from="1518653484305" duration="1017000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3066000" />
+    <option name="totallyTimeSpent" value="3264000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1087" extended-state="0" />
@@ -490,10 +485,10 @@
         <state relative-caret-position="297">
           <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
           <folding>
-            <element signature="e#175#176#0" expanded="true" />
-            <element signature="e#206#207#0" expanded="true" />
-            <element signature="e#254#255#0" expanded="true" />
-            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#175#176#0" expanded="false" />
+            <element signature="e#206#207#0" expanded="false" />
+            <element signature="e#254#255#0" expanded="false" />
+            <element signature="e#294#295#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -577,10 +572,10 @@
         <state relative-caret-position="405">
           <caret line="15" column="39" lean-forward="false" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
           <folding>
-            <element signature="e#175#176#0" expanded="true" />
-            <element signature="e#206#207#0" expanded="true" />
-            <element signature="e#254#255#0" expanded="true" />
-            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#175#176#0" expanded="false" />
+            <element signature="e#206#207#0" expanded="false" />
+            <element signature="e#254#255#0" expanded="false" />
+            <element signature="e#294#295#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -614,8 +609,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/6.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" column="6" lean-forward="false" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        <state relative-caret-position="534">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
         </state>
       </provider>

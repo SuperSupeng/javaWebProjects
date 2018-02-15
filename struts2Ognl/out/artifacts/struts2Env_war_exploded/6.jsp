@@ -12,6 +12,17 @@
     <title>Title</title>
 </head>
     <body>
+      <!-- 包含一个动作的执行结果 -->
       你好：<s:action name="a5" executeResult="true"/>
+      <s:if test="false">
+          真
+      </s:if>
+      <s:else>
+          假
+      </s:else>
+      <s:url var="u" action="a5">
+          <s:param name="username" value="'你好'"/>
+      </s:url>
+    <a href="${u}">点我</a>
     </body>
 </html>
