@@ -7,4 +7,8 @@
     <!-- 开启开发模式 -->
     <constant name="struts.devMode" value="true" />
     <constant name="struts.ui.theme" value="simple"/>
+    <package name="mypackage" extends="struts-default" abstract="true">
+
+    </package>
+    <include file="user.xml"/>
 </struts>
