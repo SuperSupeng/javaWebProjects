@@ -8,5 +8,8 @@
             <result type="redirect">/login/home.jsp</result>
             <result name="input">/login/login.jsp</result>
         </action>
+        <action name="findAllUser" class="actions.UserAction" method="findAllUser">
+            <result>/user/list.jsp</result>
+        </action>
     </package>
 </struts>
