@@ -1,14 +1,12 @@
-package com.itheima.test;
-
-import static org.junit.Assert.*;
+import domain.User;
+import org.junit.Test;
+import service.BusinessService;
+import service.impl.BusinessServiceImpl;
 
 import java.util.List;
 
-import org.junit.Test;
-
-import com.itheima.domain.User;
-import com.itheima.service.BusinessService;
-import com.itheima.service.impl.BusinessServiceImpl;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNull;
 
 public class BusinessServiceImplTest {
 	private BusinessService s = new BusinessServiceImpl();

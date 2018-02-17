@@ -1,17 +1,16 @@
-package com.itheima.dao.impl;
+package dao.impl;
 
-import java.sql.SQLException;
-import java.util.ArrayList;
-import java.util.List;
-
+import dao.UserDao;
+import domain.User;
 import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.handlers.BeanHandler;
 import org.apache.commons.dbutils.handlers.BeanListHandler;
 import org.apache.commons.lang3.StringUtils;
+import util.DBCPUtil;
 
-import com.itheima.dao.UserDao;
-import com.itheima.domain.User;
-import com.itheima.util.DBCPUtil;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
 
 public class UserDaoMySQLImpl implements UserDao {
 	private QueryRunner qr = new QueryRunner(DBCPUtil.getDataSource());

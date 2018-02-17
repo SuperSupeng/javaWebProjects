@@ -1,4 +1,4 @@
-package com.itheima.domain;
+package domain;
 
 import java.io.Serializable;
 //数据模型

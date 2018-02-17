@@ -1,8 +1,8 @@
-package com.itheima.dao;
+package dao;
+
+import domain.User;
 
 import java.util.List;
-
-import com.itheima.domain.User;
 
 public interface UserDao {
 	/**

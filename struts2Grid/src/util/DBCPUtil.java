@@ -1,4 +1,4 @@
-package com.itheima.util;
+package util;
 
 import java.io.InputStream;
 import java.sql.Connection;

@@ -1,8 +1,8 @@
-package com.itheima.service;
+package service;
+
+import domain.User;
 
 import java.util.List;
-
-import com.itheima.domain.User;
 
 //根据功能需求来做
 public interface BusinessService {
@@ -12,7 +12,7 @@ public interface BusinessService {
 	 * @param logonPwd
 	 * @return 用户名或密码错误，返回null
 	 */
-	User login(String logonName,String logonPwd);
+	User login(String logonName, String logonPwd);
 	/**
 	 * 查询所有用户
 	 * @return

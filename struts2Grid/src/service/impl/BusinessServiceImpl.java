@@ -1,11 +1,11 @@
-package com.itheima.service.impl;
+package service.impl;
+
+import dao.UserDao;
+import dao.impl.UserDaoMySQLImpl;
+import domain.User;
+import service.BusinessService;
 
 import java.util.List;
-
-import com.itheima.dao.UserDao;
-import com.itheima.dao.impl.UserDaoMySQLImpl;
-import com.itheima.domain.User;
-import com.itheima.service.BusinessService;
 
 public class BusinessServiceImpl implements BusinessService {
 	private UserDao dao = new UserDaoMySQLImpl();
