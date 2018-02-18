@@ -11,5 +11,8 @@
         <action name="findAllUser" class="actions.UserAction" method="findAllUser">
             <result>/user/list.jsp</result>
         </action>
+        <action name="listByCondition" class="actions.UserAction" method="listByCondition">
+            <result>/user/list.jsp</result>
+        </action>
     </package>
 </struts>
