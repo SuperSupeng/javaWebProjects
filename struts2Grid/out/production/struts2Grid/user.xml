@@ -26,5 +26,15 @@
         <action name="delUser" class="actions.UserAction" method="delUser">
             <result type="redirectAction">findAllUser</result>
         </action>
+        <action name="download" class="actions.UserAction" method="download">
+            <result type="stream">
+                <param name="inputName">fileInputStream</param>
+                <param name="contentType">application/octet-stream</param>
+                <param name="contentDisposition">attachment;filename=${downloadFileName}</param>
+            </result>
+        </action>
+        <action name="editUser" class="actions.UserAction" method="editUser">
+            <result type="redirectAction">findAllUser</result>
+        </action>
     </package>
 </struts>

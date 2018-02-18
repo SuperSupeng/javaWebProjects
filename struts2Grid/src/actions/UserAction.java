@@ -12,9 +12,7 @@ import org.apache.struts2.util.TokenHelper;
 import service.BusinessService;
 import service.impl.BusinessServiceImpl;
 
-import java.io.File;
-import java.io.IOException;
-import java.io.InputStream;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -92,6 +90,58 @@ public class UserAction extends ActionSupport implements ModelDriven<User> {
 
     public String delUser(){
         s.delUser(user);
+        return SUCCESS;
+    }
+
+    public String download() throws FileNotFoundException {
+        //根据id查询用户
+        User u = s.findUserById(user.getUserID());
+        String realPath = ServletActionContext.getServletContext().getRealPath(u.getPath());
+        downloadFileName = u.getFilename();
+        fileInputStream = new FileInputStream(realPath+"/"+downloadFileName);
+        return SUCCESS;
+    }
+
+    public String editUser() throws IOException{
+        //数据已经封装到了User对象中了：除了爱好和简历名称和简历存放路径
+
+        //单独处理爱好
+        if(interests!=null&&interests.length>0){
+            StringBuffer sb = new StringBuffer();
+            for(int i=0;i<interests.length;i++){
+                if(i>0){
+                    sb.append(",");
+                }
+                sb.append(interests[i]);
+            }
+            user.setInterest(sb.toString());
+        }
+
+        if(upload!=null){
+            //TODO 把老文件删掉
+
+            //文件上传
+            //文件上传的真实路径
+            String realPath = ServletActionContext.getServletContext().getRealPath("/files");
+            File storeDirectory = new File(realPath);
+            if(!storeDirectory.exists()){
+                storeDirectory.mkdirs();
+            }
+
+            user.setPath("/files");
+
+            String newFileName = TokenHelper.generateGUID()+"."+FilenameUtils.getExtension(uploadFileName);
+            user.setFilename(newFileName);
+            FileUtils.copyFile(upload, new File(storeDirectory, newFileName));
+
+        }else{
+            //用户没有选择重新上传，保持住原有的文件名和路径
+            User dbUser = s.findUserById(user.getUserID());
+            user.setFilename(dbUser.getFilename());
+            user.setPath(dbUser.getPath());
+        }
+        //保存用户的基本信息
+        s.editUser(user);
         return SUCCESS;
     }
 
