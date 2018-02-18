@@ -17,5 +17,14 @@
         <action name="addUser" class="actions.UserAction" method="addUser">
             <result type="redirectAction">findAllUser</result>
         </action>
+        <action name="findOneUser" class="actions.UserAction" method="findOneUser">
+            <result>/user/edit.jsp</result>
+        </action>
+        <action name="viewUser" class="actions.UserAction" method="viewUser">
+            <result>/user/view.jsp</result>
+        </action>
+        <action name="delUser" class="actions.UserAction" method="delUser">
+            <result type="redirectAction">findAllUser</result>
+        </action>
     </package>
 </struts>

@@ -1,7 +1,9 @@
 package actions;
 
+import com.opensymphony.xwork2.ActionContext;
 import com.opensymphony.xwork2.ActionSupport;
 import com.opensymphony.xwork2.ModelDriven;
+import com.opensymphony.xwork2.util.ValueStack;
 import domain.User;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.FilenameUtils;
@@ -12,6 +14,7 @@ import service.impl.BusinessServiceImpl;
 
 import java.io.File;
 import java.io.IOException;
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -22,10 +25,10 @@ public class UserAction extends ActionSupport implements ModelDriven<User> {
 
     private String isUpload;
     private String[] interests;
-
     private File upload;
-
     private String uploadFileName;
+    private InputStream fileInputStream;
+    private String downloadFileName;
 
     public String userLogin() {
         user = s.login(user.getLogonName(), user.getLogonPwd());
@@ -70,6 +73,20 @@ public class UserAction extends ActionSupport implements ModelDriven<User> {
             FileUtils.copyFile(upload, new File(storeDirectory, newFileName));
         }
         s.addUser(user);
+        return SUCCESS;
+    }
+
+    public String findOneUser(){
+        user = s.findUserById(user.getUserID());
+        ValueStack vs = ActionContext.getContext().getValueStack();
+        vs.push(user);
+        return SUCCESS;
+    }
+
+    public String viewUser(){
+        user = s.findUserById(user.getUserID());
+        ValueStack vs = ActionContext.getContext().getValueStack();
+        vs.push(user);
         return SUCCESS;
     }
 
@@ -119,6 +136,22 @@ public class UserAction extends ActionSupport implements ModelDriven<User> {
 
     public void setUploadFileName(String uploadFileName) {
         this.uploadFileName = uploadFileName;
+    }
+
+    public InputStream getFileInputStream() {
+        return fileInputStream;
+    }
+
+    public void setFileInputStream(InputStream fileInputStream) {
+        this.fileInputStream = fileInputStream;
+    }
+
+    public String getDownloadFileName() {
+        return downloadFileName;
+    }
+
+    public void setDownloadFileName(String downloadFileName) {
+        this.downloadFileName = downloadFileName;
     }
 
     @Override
