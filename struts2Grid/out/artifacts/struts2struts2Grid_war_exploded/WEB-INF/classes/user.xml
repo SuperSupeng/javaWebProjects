@@ -14,5 +14,8 @@
         <action name="listByCondition" class="actions.UserAction" method="listByCondition">
             <result>/user/list.jsp</result>
         </action>
+        <action name="addUser" class="actions.UserAction" method="addUser">
+            <result type="redirectAction">findAllUser</result>
+        </action>
     </package>
 </struts>
