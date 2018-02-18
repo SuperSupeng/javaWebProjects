@@ -90,6 +90,11 @@ public class UserAction extends ActionSupport implements ModelDriven<User> {
         return SUCCESS;
     }
 
+    public String delUser(){
+        s.delUser(user);
+        return SUCCESS;
+    }
+
     public User getUser() {
         return user;
     }
