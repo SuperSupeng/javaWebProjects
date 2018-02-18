@@ -8,7 +8,19 @@
     <constant name="struts.devMode" value="true" />
     <constant name="struts.ui.theme" value="simple"/>
     <package name="mypackage" extends="struts-default" abstract="true">
-
+        <interceptors>
+            <interceptor name="logonCheckInterceptor" class="interceptors.LogonCheckInterceptor">
+                <param name="excludeMethods">userLogin</param>
+            </interceptor>
+            <interceptor-stack name="mydefault">
+                <interceptor-ref name="logonCheckInterceptor"/>
+                <interceptor-ref name="defaultStack"/>
+            </interceptor-stack>
+        </interceptors>
+        <default-interceptor-ref name="mydefault"/>
+        <global-results>
+            <result name="login">/login/login.jsp</result>
+        </global-results>
     </package>
     <include file="user.xml"/>
 </struts>
