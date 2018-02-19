@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="hibernate_crm:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/hibernate_crm_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="hibernate_crm/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="hibernate_crm" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
