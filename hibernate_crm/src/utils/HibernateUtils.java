@@ -26,9 +26,4 @@ public class HibernateUtils {
         session = sf.getCurrentSession();
         return session;
     }
-
-    public static void release(){
-        session.close();
-        sf.close();
-    }
 }
