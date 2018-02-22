@@ -8,6 +8,8 @@ import org.hibernate.Transaction;
 import service.BusinessService;
 import utils.HibernateUtils;
 
+import java.util.List;
+
 public class BusinessServiceImpl implements BusinessService {
     private CustomerDao dao = new CustomerDaoImpl();
 
@@ -22,5 +24,10 @@ public class BusinessServiceImpl implements BusinessService {
             tx.rollback();
         }
         tx.commit();
+    }
+
+    @Override
+    public List<Customer> findAll() {
+        return dao.findAll();
     }
 }
