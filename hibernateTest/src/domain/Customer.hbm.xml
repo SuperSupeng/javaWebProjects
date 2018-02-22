@@ -14,7 +14,7 @@
     <property name="cust_linkman" column="cust_linkman" ></property>
     <property name="cust_phone" column="cust_phone" ></property>
     <property name="cust_mobile" column="cust_mobile" ></property>
-    <set name="linkMens">
+    <set name="linkMens" cascade="save-update">
         <key column="lkm_cust_id"/>
         <one-to-many class="LinkMan"/>
     </set>
