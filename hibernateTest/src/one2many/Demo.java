@@ -36,5 +36,53 @@ public class Demo {
         transaction.commit();
         session.close();
     }
-    
+
+    @Test
+    //为客户增加联系人
+    public void fun2(){
+        //1 获得session
+        Session session = HibernateUtils.openSession();
+        //2 开启事务
+        Transaction tx = session.beginTransaction();
+        //-------------------------------------------------
+        //3操作
+        //1> 获得要操作的客户对象
+        Customer c = session.get(Customer.class,1l);
+        //2> 创建联系人
+        LinkMan lm1 = new LinkMan();
+        lm1.setLkm_name("郝强勇");
+        //3> 将联系人添加到客户,将客户设置到联系人中
+        c.getLinkMens().add(lm1);
+        lm1.setCustomer(c);
+        //4> 执行保存
+        session.save(lm1);
+        //-------------------------------------------------
+        //4提交事务
+        tx.commit();
+        //5关闭资源
+        session.close();
+    }
+
+    @Test
+    //为客户删除联系人
+    public void fun3(){
+        //1 获得session
+        Session session = HibernateUtils.openSession();
+        //2 开启事务
+        Transaction tx = session.beginTransaction();
+        //-------------------------------------------------
+        //3操作
+        //1> 获得要操作的客户对象
+        Customer c = session.get(Customer.class,1l);
+        //2> 获得要移除的联系人
+        LinkMan lm = session.get(LinkMan.class, 3l);
+        //3> 将联系人从客户集合中移除
+        c.getLinkMens().remove(lm);
+        lm.setCustomer(null);
+        //-------------------------------------------------
+        //4提交事务
+        tx.commit();
+        //5关闭资源
+        session.close();
+    }
 }
