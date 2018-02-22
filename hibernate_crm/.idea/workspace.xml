@@ -7,9 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8aaea067-285b-492c-b050-f206ae0e09eb" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/dao/CustomerDao.java" afterPath="$PROJECT_DIR$/src/dao/CustomerDao.java" />
       <change beforePath="$PROJECT_DIR$/src/dao/impl/CustomerDaoImpl.java" afterPath="$PROJECT_DIR$/src/dao/impl/CustomerDaoImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/service/impl/BusinessServiceImpl.java" afterPath="$PROJECT_DIR$/src/service/impl/BusinessServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/web/jsp/customer/list.jsp" afterPath="$PROJECT_DIR$/web/jsp/customer/list.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,8 +43,8 @@
       <file leaf-file-name="CustomerDaoImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dao/impl/CustomerDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="567">
+              <caret line="21" column="31" lean-forward="false" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -53,11 +52,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BusinessServiceImpl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="list.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/jsp/customer/list.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1485">
+              <caret line="103" column="151" lean-forward="false" selection-start-line="103" selection-start-column="151" selection-end-line="103" selection-end-column="151" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BusinessServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/service/impl/BusinessServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="32" column="44" lean-forward="true" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
+            <state relative-caret-position="621">
+              <caret line="31" column="53" lean-forward="true" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -106,8 +115,9 @@
         <option value="$PROJECT_DIR$/src/web/controlers/ListCustomerServlet.java" />
         <option value="$PROJECT_DIR$/src/service/BusinessService.java" />
         <option value="$PROJECT_DIR$/src/dao/CustomerDao.java" />
-        <option value="$PROJECT_DIR$/src/dao/impl/CustomerDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/service/impl/BusinessServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/dao/impl/CustomerDaoImpl.java" />
+        <option value="$PROJECT_DIR$/web/jsp/customer/list.jsp" />
       </list>
     </option>
   </component>
@@ -436,12 +446,12 @@
       <workItem from="1519086414447" duration="103000" />
       <workItem from="1519089936205" duration="2327000" />
       <workItem from="1519171793607" duration="24000" />
-      <workItem from="1519268670631" duration="424000" />
+      <workItem from="1519268670631" duration="540000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7068000" />
+    <option name="totallyTimeSpent" value="7184000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -663,20 +673,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/impl/BusinessServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="31" column="53" lean-forward="true" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/dao/impl/CustomerDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="567">
+          <caret line="21" column="31" lean-forward="false" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/impl/BusinessServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/web/jsp/customer/list.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="32" column="44" lean-forward="true" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
+        <state relative-caret-position="1485">
+          <caret line="103" column="151" lean-forward="false" selection-start-line="103" selection-start-column="151" selection-end-line="103" selection-end-column="151" />
           <folding />
         </state>
       </provider>

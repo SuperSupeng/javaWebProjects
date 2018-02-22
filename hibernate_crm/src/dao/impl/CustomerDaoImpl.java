@@ -2,6 +2,7 @@ package dao.impl;
 
 import dao.CustomerDao;
 import domain.Customer;
+import org.hibernate.Criteria;
 import org.hibernate.Session;
 import utils.HibernateUtils;
 
@@ -16,7 +17,8 @@ public class CustomerDaoImpl implements CustomerDao {
 
     @Override
     public List<Customer> findAll() {
-
-        return null;
+        Session session = HibernateUtils.getCurrentSession();
+        Criteria criteria = session.createCriteria(Customer.class);
+        return criteria.list();
     }
 }
