@@ -28,6 +28,10 @@ public class BusinessServiceImpl implements BusinessService {
 
     @Override
     public List<Customer> findAll() {
-        return dao.findAll();
+        Session session = HibernateUtils.getCurrentSession();
+        Transaction transaction = session.beginTransaction();
+        List<Customer> list = dao.findAll();
+        transaction.commit();
+        return list;
     }
 }

@@ -5,10 +5,18 @@ import domain.Customer;
 import org.hibernate.Session;
 import utils.HibernateUtils;
 
+import java.util.List;
+
 public class CustomerDaoImpl implements CustomerDao {
     @Override
     public void save(Customer c) {
         Session session = HibernateUtils.getCurrentSession();
         session.save(c);
+    }
+
+    @Override
+    public List<Customer> findAll() {
+
+        return null;
     }
 }
