@@ -63,6 +63,8 @@
 		 
 		<mapping resource="domain/Customer.hbm.xml" />
 		<mapping resource="domain/LinkMan.hbm.xml" />
+		<mapping resource="domain/User.hbm.xml"/>
+		<mapping resource="domain/Role.hbm.xml"/>
 
 	</session-factory>
 </hibernate-configuration>
