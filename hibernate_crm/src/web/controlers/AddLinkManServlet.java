@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
 
-@WebServlet(name = "AddLinkManServlet")
+@WebServlet(name = "AddLinkManServlet", urlPatterns = "/AddLinkManServlet")
 public class AddLinkManServlet extends HttpServlet {
     private LinkManService lms = new LinkManServiceImpl();
 

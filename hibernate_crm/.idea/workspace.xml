@@ -7,14 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8aaea067-285b-492c-b050-f206ae0e09eb" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/dao/LinkManDao.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/dao/impl/LinkManDaoImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/service/LinkManService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/service/impl/LinkManServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/web/controlers/AddLinkManServlet.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/dao/CustomerDao.java" afterPath="$PROJECT_DIR$/src/dao/CustomerDao.java" />
-      <change beforePath="$PROJECT_DIR$/src/dao/impl/CustomerDaoImpl.java" afterPath="$PROJECT_DIR$/src/dao/impl/CustomerDaoImpl.java" />
+      <change beforePath="$PROJECT_DIR$/src/web/controlers/AddLinkManServlet.java" afterPath="$PROJECT_DIR$/src/web/controlers/AddLinkManServlet.java" />
+      <change beforePath="$PROJECT_DIR$/web/jsp/linkman/add.jsp" afterPath="$PROJECT_DIR$/web/jsp/linkman/add.jsp" />
+      <change beforePath="$PROJECT_DIR$/web/menu.jsp" afterPath="$PROJECT_DIR$/web/menu.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,17 +53,18 @@
         <option value="$PROJECT_DIR$/src/service/BusinessService.java" />
         <option value="$PROJECT_DIR$/src/service/impl/BusinessServiceImpl.java" />
         <option value="$PROJECT_DIR$/web/jsp/customer/list.jsp" />
-        <option value="$PROJECT_DIR$/web/menu.jsp" />
         <option value="$PROJECT_DIR$/src/domain/LinkMan.java" />
         <option value="$PROJECT_DIR$/src/domain/LinkMan.hbm.xml" />
         <option value="$PROJECT_DIR$/src/hibernate.cfg.xml" />
-        <option value="$PROJECT_DIR$/src/web/controlers/AddLinkManServlet.java" />
         <option value="$PROJECT_DIR$/src/service/LinkManService.java" />
         <option value="$PROJECT_DIR$/src/service/impl/LinkManServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/dao/LinkManDao.java" />
         <option value="$PROJECT_DIR$/src/dao/CustomerDao.java" />
         <option value="$PROJECT_DIR$/src/dao/impl/CustomerDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/dao/impl/LinkManDaoImpl.java" />
+        <option value="$PROJECT_DIR$/web/menu.jsp" />
+        <option value="$PROJECT_DIR$/src/web/controlers/AddLinkManServlet.java" />
+        <option value="$PROJECT_DIR$/web/jsp/linkman/add.jsp" />
       </list>
     </option>
   </component>
@@ -169,6 +165,13 @@
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="jsp" type="462c0819:PsiDirectoryNode" />
               <item name="customer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hibernate_crm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hibernate_crm" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+              <item name="linkman" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hibernate_crm" type="b2602c69:ProjectViewProjectNode" />
@@ -390,12 +393,12 @@
       <workItem from="1519089936205" duration="2327000" />
       <workItem from="1519171793607" duration="24000" />
       <workItem from="1519268670631" duration="1977000" />
-      <workItem from="1519524525911" duration="999000" />
+      <workItem from="1519524525911" duration="1192000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9620000" />
+    <option name="totallyTimeSpent" value="9813000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -461,7 +464,7 @@
         <state relative-caret-position="189">
           <caret line="10" column="58" lean-forward="false" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -502,7 +505,7 @@
         <state relative-caret-position="189">
           <caret line="10" column="58" lean-forward="false" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -584,21 +587,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/menu.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="64" lean-forward="false" selection-start-line="2" selection-start-column="64" selection-end-line="2" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/controlers/ListCustomerServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="23" column="37" lean-forward="false" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -635,14 +623,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/controlers/AddLinkManServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="17" column="46" lean-forward="false" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
           <folding />
         </state>
       </provider>
@@ -694,7 +674,7 @@
         <state relative-caret-position="716">
           <caret line="27" column="52" lean-forward="false" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -704,7 +684,41 @@
         <state relative-caret-position="297">
           <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/menu.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="157" column="149" lean-forward="false" selection-start-line="157" selection-start-column="149" selection-end-line="157" selection-end-column="149" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/controlers/AddLinkManServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="15" column="75" lean-forward="true" selection-start-line="15" selection-start-column="75" selection-end-line="15" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/controlers/ListCustomerServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="23" column="37" lean-forward="false" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/linkman/add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="73" column="101" lean-forward="false" selection-start-line="73" selection-start-column="101" selection-end-line="73" selection-end-column="101" />
+          <folding>
+            <element signature="n#style#0;n#INPUT#0;n#td#1;n#TR#1;n#TABLE#1;n#TD#1;n#TR#0;n#TBODY#0;n#TABLE#1;n#FORM#0;n#BODY#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
