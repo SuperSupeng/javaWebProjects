@@ -21,4 +21,10 @@ public class CustomerDaoImpl implements CustomerDao {
         Criteria criteria = session.createCriteria(Customer.class);
         return criteria.list();
     }
+
+    @Override
+    public Customer getById(Long cust_id) {
+        Session session = HibernateUtils.getCurrentSession();
+        return session.get(Customer.class, cust_id);
+    }
 }
