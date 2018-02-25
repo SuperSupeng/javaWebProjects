@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="097f795f-bfd9-4cb3-b7ad-19bc7545b951" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/domain/Role.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/domain/User.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/domain/Role.hbm.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/domain/User.hbm.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../mavenDemo/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../mavenDemo/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,6 +48,8 @@
         <option value="$PROJECT_DIR$/src/one2many/Demo3.java" />
         <option value="$PROJECT_DIR$/src/domain/User.java" />
         <option value="$PROJECT_DIR$/src/domain/Role.java" />
+        <option value="$PROJECT_DIR$/src/domain/User.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/domain/Role.hbm.xml" />
       </list>
     </option>
   </component>
@@ -138,6 +139,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\github_project\javaWebProjects\hibernateTest\src\domain" />
       <recent name="D:\github_project\javaWebProjects\hibernateTest\web\WEB-INF\lib" />
       <recent name="D:\github_project\javaWebProjects\hibernateTest\src" />
     </key>
@@ -466,7 +468,7 @@
       <option name="presentableId" value="Default" />
       <updated>1519301906789</updated>
       <workItem from="1519301908748" duration="4011000" />
-      <workItem from="1519353882997" duration="1679000" />
+      <workItem from="1519353882997" duration="2031000" />
     </task>
     <servers />
   </component>
@@ -503,7 +505,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5690000" />
+    <option name="totallyTimeSpent" value="6042000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1087" extended-state="0" />
@@ -600,14 +602,6 @@
             <element signature="e#2600#2601#0" expanded="false" />
             <element signature="e#2688#2689#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/domain/LinkMan.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="18" column="76" lean-forward="false" selection-start-line="18" selection-start-column="76" selection-end-line="18" selection-end-column="76" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -730,6 +724,30 @@
             <element signature="e#1106#1107#0" expanded="true" />
             <element signature="e#1140#1141#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/domain/LinkMan.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" column="76" lean-forward="false" selection-start-line="18" selection-start-column="76" selection-end-line="18" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/domain/User.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/domain/Role.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
