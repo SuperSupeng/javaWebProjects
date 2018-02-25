@@ -7,6 +7,7 @@ import dao.impl.LinkManDaoImpl;
 import domain.Customer;
 import domain.LinkMan;
 import org.hibernate.Session;
+import org.hibernate.Transaction;
 import service.LinkManService;
 import utils.HibernateUtils;
 
@@ -16,9 +17,19 @@ public class LinkManServiceImpl implements LinkManService {
 
     @Override
     public void save(LinkMan linkMan) {
-        Long cust_id = linkMan.getCust_id();
-        Customer customer = cd.getById(cust_id);
-        linkMan.setCustomer(customer);
-        lmd.save(linkMan);
+        Session session = HibernateUtils.getCurrentSession();
+        Transaction transaction = session.beginTransaction();
+
+        try{
+            Long cust_id = linkMan.getCust_id();
+            Customer customer = cd.getById(cust_id);
+            linkMan.setCustomer(customer);
+            lmd.save(linkMan);
+        }catch (Exception e){
+            e.printStackTrace();
+            transaction.rollback();
+        }
+
+        transaction.commit();
     }
 }
