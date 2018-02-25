@@ -15,5 +15,6 @@
         <property name="hibernate.connection.isolation">4</property>
         <property name="current_session_context_class">thread</property>
         <mapping resource="domain/Customer.hbm.xml" />
+        <mapping resource="domain/LinkMan.hbm.xml" />
     </session-factory>
 </hibernate-configuration>
