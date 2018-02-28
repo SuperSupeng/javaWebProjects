@@ -89,15 +89,15 @@
 													<TD>手机</TD>
 													<TD>操作</TD>
 												</TR>
-												<c:forEach items="${list }" var="customer">
+												<c:forEach items="${list}" var="customer">
 												<TR
 													style="FONT-WEIGHT: normal; FONT-STYLE: normal; BACKGROUND-COLOR: white; TEXT-DECORATION: none">
-													<TD>${customer.cust_name }</TD>
-													<TD>${customer.cust_level }</TD>
-													<TD>${customer.cust_source }</TD>
-													<TD>${customer.cust_linkman }</TD>
-													<TD>${customer.cust_phone }</TD>
-													<TD>${customer.cust_mobile }</TD>
+													<TD>${customer.cust_name}</TD>
+													<TD>${customer.cust_level}</TD>
+													<TD>${customer.cust_source}</TD>
+													<TD>${customer.cust_linkman}</TD>
+													<TD>${customer.cust_phone}</TD>
+													<TD>${customer.cust_mobile}</TD>
 													<TD>
 													<a href="${pageContext.request.contextPath }/customerServlet?method=edit&custId=${customer.cust_id}">修改</a>
 													&nbsp;&nbsp;
