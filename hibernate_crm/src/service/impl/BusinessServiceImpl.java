@@ -5,6 +5,7 @@ import dao.impl.CustomerDaoImpl;
 import domain.Customer;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
+import org.hibernate.criterion.DetachedCriteria;
 import service.BusinessService;
 import utils.HibernateUtils;
 
@@ -32,6 +33,20 @@ public class BusinessServiceImpl implements BusinessService {
         Transaction transaction = session.beginTransaction();
         List<Customer> list = dao.findAll();
         transaction.commit();
+        return list;
+    }
+
+    @Override
+    public List<Customer> findAll(DetachedCriteria dc) {
+        Session session =  HibernateUtils.getCurrentSession();
+        //打开事务
+        Transaction tx = session.beginTransaction();
+
+        List<Customer> list = dao.getAll(dc);
+
+
+        //关闭事务
+        tx.commit();
         return list;
     }
 }
