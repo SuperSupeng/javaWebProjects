@@ -7,8 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8aaea067-285b-492c-b050-f206ae0e09eb" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/dao/CustomerDao.java" afterPath="$PROJECT_DIR$/src/dao/CustomerDao.java" />
-      <change beforePath="$PROJECT_DIR$/src/service/impl/BusinessServiceImpl.java" afterPath="$PROJECT_DIR$/src/service/impl/BusinessServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/src/dao/impl/CustomerDaoImpl.java" afterPath="$PROJECT_DIR$/src/dao/impl/CustomerDaoImpl.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,7 +51,6 @@
         <option value="$PROJECT_DIR$/src/domain/LinkMan.hbm.xml" />
         <option value="$PROJECT_DIR$/src/service/LinkManService.java" />
         <option value="$PROJECT_DIR$/src/dao/LinkManDao.java" />
-        <option value="$PROJECT_DIR$/src/dao/impl/CustomerDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/dao/impl/LinkManDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/web/controlers/AddLinkManServlet.java" />
         <option value="$PROJECT_DIR$/web/jsp/linkman/add.jsp" />
@@ -64,6 +62,7 @@
         <option value="$PROJECT_DIR$/src/service/BusinessService.java" />
         <option value="$PROJECT_DIR$/src/service/impl/BusinessServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/dao/CustomerDao.java" />
+        <option value="$PROJECT_DIR$/src/dao/impl/CustomerDaoImpl.java" />
       </list>
     </option>
   </component>
@@ -378,12 +377,12 @@
       <workItem from="1519605801591" duration="1199000" />
       <workItem from="1519700242289" duration="650000" />
       <workItem from="1519777559640" duration="1180000" />
-      <workItem from="1519816235063" duration="1601000" />
+      <workItem from="1519816235063" duration="1637000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15530000" />
+    <option name="totallyTimeSpent" value="15566000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1087" extended-state="0" />
@@ -631,14 +630,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/impl/CustomerDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="19" column="26" lean-forward="false" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -699,6 +690,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/impl/CustomerDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="38" column="23" lean-forward="true" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
           <folding />
         </state>
       </provider>
