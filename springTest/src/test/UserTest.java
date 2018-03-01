@@ -1,5 +1,3 @@
-package test;
-
 import beans.User;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;

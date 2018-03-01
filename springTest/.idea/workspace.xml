@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b4db902-66db-4145-9f7d-3cc9ba891d8d" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/springTest/beans/User.class" afterPath="$PROJECT_DIR$/out/production/springTest/beans/User.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/springTest/test/Demo1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/beans/User.java" afterPath="$PROJECT_DIR$/src/beans/User.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/Demo1.java" afterPath="$PROJECT_DIR$/src/test/UserTest.java" />
+      <change beforePath="$PROJECT_DIR$/springTest.iml" afterPath="$PROJECT_DIR$/springTest.iml" />
+      <change beforePath="$PROJECT_DIR$/src/test/UserTest.java" afterPath="$PROJECT_DIR$/src/test/UserTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,8 +22,8 @@
       <file leaf-file-name="UserTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/UserTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+            <state relative-caret-position="162">
+              <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -458,7 +453,7 @@
       <option name="presentableId" value="Default" />
       <updated>1519878311982</updated>
       <workItem from="1519878314879" duration="1519000" />
-      <workItem from="1519879927044" duration="191000" />
+      <workItem from="1519879927044" duration="510000" />
     </task>
     <servers />
   </component>
@@ -474,7 +469,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1710000" />
+    <option name="totallyTimeSpent" value="2029000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -549,8 +544,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/UserTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        <state relative-caret-position="162">
+          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -567,7 +562,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.34252873" />
                 <option value="0.5" />
               </list>
             </option>
@@ -611,11 +606,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring|springTest</last-edited>
+          <last-edited>springTest</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.34252873" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
