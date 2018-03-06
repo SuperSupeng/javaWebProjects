@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b4db902-66db-4145-9f7d-3cc9ba891d8d" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/springAop/MyAdvice.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/com.springsource.org.aopalliance-1.0.0.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/com.springsource.org.aspectj.weaver-1.6.8.RELEASE.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-aop-4.2.4.RELEASE.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-aspects-4.2.4.RELEASE.jar" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/springAop/MyAdvice.java" afterPath="$PROJECT_DIR$/src/springAop/MyAdvice.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,27 +16,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="MyAdvice.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/springAop/MyAdvice.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="24" column="34" lean-forward="false" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
-              <folding>
-                <element signature="e#322#323#0" expanded="true" />
-                <element signature="e#368#369#0" expanded="true" />
-                <element signature="e#413#414#0" expanded="true" />
-                <element signature="e#471#472#0" expanded="true" />
-                <element signature="e#764#765#0" expanded="true" />
-                <element signature="e#813#814#0" expanded="true" />
-                <element signature="e#849#850#0" expanded="true" />
-                <element signature="e#905#906#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -88,6 +63,25 @@
     <option name="width" value="974" />
     <option name="height" value="1087" />
   </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Ali-Check</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>AlibabaCommentsMustBeJavadocFormat</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -120,24 +114,6 @@
               <item name="springTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="springTest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springTest" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springTest" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springTest" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springTest" type="b2602c69:ProjectViewProjectNode" />
@@ -537,7 +513,7 @@
       <workItem from="1519959455516" duration="599000" />
       <workItem from="1520156443965" duration="935000" />
       <workItem from="1520258288305" duration="642000" />
-      <workItem from="1520315875418" duration="2399000" />
+      <workItem from="1520315875418" duration="2463000" />
     </task>
     <servers />
   </component>
@@ -571,7 +547,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7618000" />
+    <option name="totallyTimeSpent" value="7682000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -753,17 +729,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/springAop/MyAdvice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="24" column="34" lean-forward="false" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+        <state relative-caret-position="756">
+          <caret line="28" column="16" lean-forward="true" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
           <folding>
-            <element signature="e#322#323#0" expanded="true" />
             <element signature="e#368#369#0" expanded="true" />
-            <element signature="e#413#414#0" expanded="true" />
-            <element signature="e#471#472#0" expanded="true" />
-            <element signature="e#764#765#0" expanded="true" />
-            <element signature="e#813#814#0" expanded="true" />
-            <element signature="e#849#850#0" expanded="true" />
-            <element signature="e#905#906#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#459#460#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+            <element signature="e#819#820#0" expanded="true" />
+            <element signature="e#868#869#0" expanded="true" />
+            <element signature="e#904#905#0" expanded="true" />
+            <element signature="e#960#961#0" expanded="true" />
           </folding>
         </state>
       </provider>

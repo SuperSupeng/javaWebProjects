@@ -1,5 +1,7 @@
 package springAop;
 
+import org.aspectj.lang.ProceedingJoinPoint;
+
 public class MyAdvice {
 
     //前置通知
@@ -24,7 +26,8 @@ public class MyAdvice {
     //环绕通知
     public Object around(ProceedingJoinPoint pjp) throws Throwable {
         System.out.println("这是环绕通知之前的部分!!");
-        Object proceed = pjp.proceed();//调用目标方法
+        //调用目标方法
+        Object proceed = pjp.proceed();
         System.out.println("这是环绕通知之后的部分!!");
         return proceed;
     }
