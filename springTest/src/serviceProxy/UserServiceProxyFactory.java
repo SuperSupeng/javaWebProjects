@@ -1,6 +1,7 @@
 package serviceProxy;
 
 import service.UserService;
+import service.impl.UserServiceImpl;
 
 import java.lang.reflect.Proxy;
 
@@ -13,7 +14,7 @@ public class UserServiceProxyFactory {
 
     public UserService getUserService() {
         UserService usProxy = (UserService) Proxy.newProxyInstance(UserServiceProxyFactory.class.getClassLoader(),
-                UserService.class.getInterfaces(),
+                UserServiceImpl.class.getInterfaces(),
                 (proxy, method, args) -> {
                     System.out.println("开启事务");
                     Object invoke = method.invoke(us, args);
