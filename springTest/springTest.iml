@@ -33,5 +33,9 @@
     <orderEntry type="library" scope="PROVIDED" name="Tomcat 8.0.38" level="application_server_libraries" />
     <orderEntry type="library" name="spring" level="project" />
     <orderEntry type="library" name="junit-4.7" level="project" />
+    <orderEntry type="library" name="com.springsource.org.aopalliance-1.0.0" level="project" />
+    <orderEntry type="library" name="com.springsource.org.aspectj.weaver-1.6.8.RELEASE" level="project" />
+    <orderEntry type="library" name="spring-aop-4.2.4.RELEASE" level="project" />
+    <orderEntry type="library" name="spring-aspects-4.2.4.RELEASE" level="project" />
   </component>
 </module>
