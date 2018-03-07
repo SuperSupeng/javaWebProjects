@@ -35,7 +35,6 @@ public class DataReadUtil {
             if(flag == 1){
                 v = "-" + v;
             }
-            System.out.println(a + ":" + v);
             osw.write("(" + a.substring(0,4)+","+a.substring(4,6)+","+a.substring(6,8)+","+v+")"+"\r\n");
         }
         osw.close();
