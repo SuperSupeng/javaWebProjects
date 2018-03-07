@@ -5,6 +5,7 @@ import domain.TempData;
 import org.hibernate.Criteria;
 import org.hibernate.SQLQuery;
 import org.hibernate.Session;
+import org.hibernate.Transaction;
 import org.hibernate.criterion.Restrictions;
 import util.HibernateUtils;
 
@@ -17,7 +18,9 @@ public class TempDataDaoImpl implements TempDataDao {
     @Override
     public void save(TempData tempData) {
         Session session = HibernateUtils.getCurrentSession();
+        Transaction transaction = session.beginTransaction();
         session.save(tempData);
+        transaction.commit();
     }
 
     @Override
