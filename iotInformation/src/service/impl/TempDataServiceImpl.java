@@ -1,6 +1,7 @@
 package service.impl;
 
 import dao.TempDataDao;
+import dao.impl.TempDataDaoImpl;
 import domain.TempData;
 import service.TempDataService;
 
