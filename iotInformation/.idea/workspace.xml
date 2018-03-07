@@ -87,13 +87,6 @@
             </path>
             <path>
               <item name="iotInformation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iotInformation" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="iotInformation" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -325,12 +318,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520431036371</updated>
-      <workItem from="1520431039300" duration="2345000" />
+      <workItem from="1520431039300" duration="2508000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2345000" />
+    <option name="totallyTimeSpent" value="2508000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1087" extended-state="0" />
