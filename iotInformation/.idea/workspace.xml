@@ -87,6 +87,13 @@
             </path>
             <path>
               <item name="iotInformation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iotInformation" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iotInformation" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -107,6 +114,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\github_project\javaWebProjects\iotInformation\web\WEB-INF\lib" />
       <recent name="D:\github_project\javaWebProjects\iotInformation\src" />
     </key>
   </component>
@@ -317,12 +325,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520431036371</updated>
-      <workItem from="1520431039300" duration="2276000" />
+      <workItem from="1520431039300" duration="2345000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2276000" />
+    <option name="totallyTimeSpent" value="2345000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1087" extended-state="0" />
@@ -396,7 +404,7 @@
         <state relative-caret-position="690">
           <caret line="34" column="26" lean-forward="true" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -406,14 +414,14 @@
         <state relative-caret-position="135">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
-            <element signature="e#156#157#0" expanded="true" />
-            <element signature="e#187#188#0" expanded="true" />
-            <element signature="e#233#234#0" expanded="true" />
-            <element signature="e#273#274#0" expanded="true" />
-            <element signature="e#311#312#0" expanded="true" />
-            <element signature="e#345#346#0" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#445#446#0" expanded="true" />
+            <element signature="e#156#157#0" expanded="false" />
+            <element signature="e#187#188#0" expanded="false" />
+            <element signature="e#233#234#0" expanded="false" />
+            <element signature="e#273#274#0" expanded="false" />
+            <element signature="e#311#312#0" expanded="false" />
+            <element signature="e#345#346#0" expanded="false" />
+            <element signature="e#399#400#0" expanded="false" />
+            <element signature="e#445#446#0" expanded="false" />
           </folding>
         </state>
       </provider>
