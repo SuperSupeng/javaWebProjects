@@ -12,4 +12,8 @@ public class AccountServiceImpl implements AccountService {
         //加钱
         ad.increaseMoney(to, money);
     }
+
+    public void setAd(AccountDao ad) {
+        this.ad = ad;
+    }
 }
