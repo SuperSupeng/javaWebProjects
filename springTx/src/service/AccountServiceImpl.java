@@ -1,7 +1,11 @@
 package service;
 
 import dao.AccountDao;
+import org.springframework.transaction.annotation.Isolation;
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Transactional;
 
+@Transactional(isolation = Isolation.REPEATABLE_READ, propagation = Propagation.REQUIRED, readOnly = false)
 public class AccountServiceImpl implements AccountService {
     private AccountDao ad ;
 
