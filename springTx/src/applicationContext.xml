@@ -38,4 +38,13 @@
          -->
         <aop:advisor advice-ref="txAdvice" pointcut-ref="txPc" />
     </aop:config>
+
+    <!-- 2.Dao-->
+    <bean name="accountDao" class="dao.AccountDaoImpl" >
+        <property name="dataSource" ref="dataSource" />
+    </bean>
+    <!-- 3.Service-->
+    <bean name="accountService" class="service.AccountServiceImpl" >
+        <property name="ad" ref="accountDao" />
+    </bean>
 </beans>
