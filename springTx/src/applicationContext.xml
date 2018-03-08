@@ -12,7 +12,6 @@
     </bean>
 
     <bean name="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
-        <property name="dataSource" ref="dataSource" ></property>
     </bean>
 
     <tx:advice id="txAdvice" transaction-manager="transactionManager">
@@ -28,4 +27,15 @@
            <tx:method name="transfer" isolation="REPEATABLE_READ" propagation="REQUIRED" read-only="false" />
        </tx:attributes>
    </tx:advice>
+
+    <!-- 配置织入 -->
+    <aop:config  >
+        <!-- 配置切点表达式 -->
+        <aop:pointcut expression="execution(* service.*ServiceImpl.*(..))" id="txPc"/>
+        <!-- 配置切面 : 通知+切点
+                 advice-ref:通知的名称
+                 pointcut-ref:切点的名称
+         -->
+        <aop:advisor advice-ref="txAdvice" pointcut-ref="txPc" />
+    </aop:config>
 </beans>
