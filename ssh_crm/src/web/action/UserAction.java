@@ -7,9 +7,9 @@ import service.UserService;
  * @author super
  */
 public class UserAction extends ActionSupport{
-    private UserService us;
+    private UserService userService;
 
-    public void setUs(UserService us) {
-        this.us = us;
+    public void setUserService(UserService userService) {
+        this.userService = userService;
     }
 }
