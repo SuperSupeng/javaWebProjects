@@ -5,6 +5,8 @@
         "http://struts.apache.org/dtds/struts-2.3.dtd">
 
 <struts>
+    <constant name="struts.objectFactory" value="spring"/>
+    
     <package name="crm" namespace="/" extends="struts-default">
         <action name="UserAction_*" class="web.action.UserAction" method="{1}">
             <result name="success">/success.jsp</result>
