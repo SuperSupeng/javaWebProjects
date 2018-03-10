@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<beans xmlns="http://www.springframework.org/schema/beans"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.springframework.org/schema/beans" xmlns:context="http://www.springframework.org/schema/context" xmlns:aop="http://www.springframework.org/schema/aop" xmlns:tx="http://www.springframework.org/schema/tx" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.2.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.2.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.2.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.2.xsd ">
 
-    <!--<bean name="sessionFactory" class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">-->
-        <!--<property name="configLocation" value="classpath:hibernate.cfg.xml"/>-->
-    <!--</bean>-->
+    <!-- 读取db.properties文件 -->
+    <context:property-placeholder location="classpath:db.properties"/>
+    <!-- 配置c3p0连接池 -->
+    <bean name="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource" >
+        <property name="jdbcUrl" value="${jdbc.jdbcUrl}" />
+        <property name="driverClass" value="${jdbc.driverClass}" />
+        <property name="user" value="${jdbc.user}" />
+        <property name="password" value="${jdbc.password}" />
+    </bean>
 
     <bean name="sessionFactory" class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"/>
+
         <property name="hibernateProperties">
             <props>
                 <!--  必选配置 -->
-                    <prop key="hibernate.connection.driver_class" >com.mysql.jdbc.Driver</prop>
-                    <prop key="hibernate.connection.url" >jdbc:mysql:///crm_32</prop>
-                    <prop key="hibernate.connection.username" >root</prop>
-                    <prop key="hibernate.connection.password" ></prop>
+                    <!--<prop key="hibernate.connection.driver_class" >com.mysql.jdbc.Driver</prop>-->
+                    <!--<prop key="hibernate.connection.url" >jdbc:mysql:///crm_32</prop>-->
+                    <!--<prop key="hibernate.connection.username" >root</prop>-->
+                    <!--<prop key="hibernate.connection.password" ></prop>-->
                 <prop key="hibernate.dialect" >org.hibernate.dialect.MySQLDialect</prop>
 
                 <!--  可选配置 -->

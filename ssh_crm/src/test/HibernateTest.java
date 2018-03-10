@@ -44,7 +44,7 @@ public class HibernateTest {
         Transaction transaction = session.beginTransaction();
 
         User u = new User();
-        u.setUser_code("jeck");
+        u.setUser_code("j哎哎哎");
         u.setUser_name("杰克");
         u.setUser_password("1235");
         session.save(u);
