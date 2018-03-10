@@ -15,6 +15,6 @@ public class UserAction extends ActionSupport{
 
     public String login() throws Exception {
         System.out.println(userService);
-        return super.execute();
+        return SUCCESS;
     }
 }
