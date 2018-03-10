@@ -11,6 +11,12 @@
         <property name="password" value="${jdbc.password}" />
     </bean>
 
+    <bean name="transactionManger" class="org.springframework.orm.hibernate5.HibernateTransactionManager">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+
+    <tx:annotation-driven transaction-manager="transactionManger" />
+
     <bean name="sessionFactory" class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
         <!--配置c3p0连接池-->
         <property name="dataSource" ref="dataSource"/>
@@ -37,5 +43,12 @@
     <bean name="userAction" class="web.action.UserAction" scope="prototype">
         <property name="userService"  ref="userService"/>
     </bean>
-    <bean name="userService" class="service.impl.UserServiceImpl"/>
+
+    <bean name="userService" class="service.impl.UserServiceImpl">
+        <property name="ud" ref="userDao"/>
+    </bean>
+
+    <bean name="userDao" class="dao.impl.UserDaoImpl">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
 </beans>

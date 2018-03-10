@@ -1,3 +1,4 @@
+import dao.UserDao;
 import domain.User;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -7,6 +8,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+import service.UserService;
 
 import javax.annotation.Resource;
 
@@ -52,4 +54,24 @@ public class HibernateTest {
         transaction.commit();
         session.close();
     }
+
+    @Resource(name = "userDao")
+    private UserDao ud;
+    @Test
+    public void fun3() {
+        User u = ud.getByUserCode("rose");
+        System.out.println(u);
+    }
+
+    @Resource(name = "userService")
+    private UserService us;
+    @Test
+    public void fun4() {
+        User u = new User();
+        u.setUser_code("hqy");
+        u.setUser_name("郝强勇");
+        u.setUser_password("1234");
+        us.saveUser(u);
+    }
+
 }
