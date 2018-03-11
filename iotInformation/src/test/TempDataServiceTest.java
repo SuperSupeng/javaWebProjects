@@ -1,7 +1,10 @@
 import domain.TempData;
+import org.hibernate.Session;
+import org.hibernate.Transaction;
 import org.junit.Test;
 import service.TempDataService;
 import service.impl.TempDataServiceImpl;
+import util.HibernateUtils;
 
 import java.io.*;
 import java.util.Date;
@@ -17,7 +20,6 @@ public class TempDataServiceTest {
         InputStreamReader isr = new InputStreamReader(fis);
         BufferedReader br = new BufferedReader(isr);
         String s = null;
-
         while ((s = br.readLine()) != null) {
             TempData tempData = new TempData();
             tempData.setId(UUID.randomUUID().toString());
