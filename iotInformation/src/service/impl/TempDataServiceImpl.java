@@ -3,7 +3,10 @@ package service.impl;
 import dao.TempDataDao;
 import dao.impl.TempDataDaoImpl;
 import domain.TempData;
+import org.hibernate.Session;
+import org.hibernate.Transaction;
 import service.TempDataService;
+import util.HibernateUtils;
 
 import java.util.Date;
 import java.util.List;
@@ -28,6 +31,10 @@ public class TempDataServiceImpl implements TempDataService {
 
     @Override
     public List<TempData> findAllData(Date startDate, Date endDate, boolean isInverse) {
-        return dao.findAllData(startDate, endDate, isInverse);
+        Session session = HibernateUtils.getCurrentSession();
+        Transaction transaction = session.beginTransaction();
+        List<TempData> allData = dao.findAllData(startDate, endDate, isInverse);
+        transaction.commit();
+        return allData;
     }
 }

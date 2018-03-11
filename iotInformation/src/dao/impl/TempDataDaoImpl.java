@@ -45,6 +45,8 @@ public class TempDataDaoImpl implements TempDataDao {
         SQLQuery query = session.createSQLQuery(sql);
         query.setParameter(0, startDate);
         query.setParameter(1, endDate);
-        return null;
+        query.addEntity(TempData.class);
+        List list = query.list();
+        return list;
     }
 }

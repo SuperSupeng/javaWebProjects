@@ -8,6 +8,7 @@ import util.HibernateUtils;
 
 import java.io.*;
 import java.util.Date;
+import java.util.List;
 import java.util.UUID;
 
 public class TempDataServiceTest {
@@ -27,5 +28,12 @@ public class TempDataServiceTest {
             tempData.setTemperature(Double.parseDouble(s.substring(12, s.length()-1)));
             service.save(tempData);
         }
+    }
+
+    @Test
+    public void findTest() throws Exception {
+        TempDataService service = new TempDataServiceImpl();
+        List<TempData> allData = service.findAllData(new Date("1901/01/01"), new Date("1901/03/05"), true);
+        System.out.println(allData);
     }
 }

@@ -6,7 +6,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@ taglib prefix="c" uri="http://java.sun.com/jstl/core" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jstl/core_rt" %>
 <html>
 <head>
   <meta charset="utf-8">
@@ -34,12 +34,12 @@
 </head>
   <body>
   <div class="container">
-    <form action="" class="form-horizontal"  role="form">
+    <form class="form-horizontal" method="post" role="form" action="${pageContext.request.contextPath}/ControllerServlet">
       <fieldset>
         <legend>iotInformation</legend>
         <div class="form-group">
           <label for="dtp_input2" class="col-md-2 control-label">起始时间</label>
-          <div class="input-group date form_date col-md-5" data-date="" data-date-format="yyyy-MM-dd" data-link-field="dtp_input2" data-link-format="yyyy-mm-dd">
+          <div class="input-group date form_date col-md-5" data-date="" data-date-format="yyyy/MM/dd" data-link-field="dtp_input2" data-link-format="yyyy/mm/dd">
             <input class="form-control" size="16" type="text" value="" name="startDate" readonly>
             <span class="input-group-addon"><span class="glyphicon glyphicon-remove"></span></span>
             <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>
@@ -48,7 +48,7 @@
         </div>
         <div class="form-group">
           <label for="dtp_input3" class="col-md-2 control-label">结束时间</label>
-          <div class="input-group date form_date col-md-5" data-date="" data-date-format="yyyy-MM-dd" data-link-field="dtp_input2" data-link-format="yyyy-mm-dd">
+          <div class="input-group date form_date col-md-5" data-date="" data-date-format="yyyy/MM/dd" data-link-field="dtp_input2" data-link-format="yyyy/mm/dd">
             <input class="form-control" size="16" type="text" value="" name="endDate" readonly>
             <span class="input-group-addon"><span class="glyphicon glyphicon-remove"></span></span>
             <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>
@@ -56,12 +56,9 @@
           <input type="hidden" id="dtp_input3" value="" /><br/>
         </div>
       </fieldset>
-      <input type="submit" class="btn btn-primary" value="查询"/>
+      <input type="submit" class="btn btn-primary" value="升序" name="inverse"/>
+      <input type="submit" class="btn btn-success" value="降序" name="deverse"/>
     </form>
-    <div class="btn-group" role="group" aria-label="...">
-      <button type="button" class="btn btn-info">升序</button>
-      <button type="button" class="btn btn-success">降序</button>
-    </div>
 
     <table class="table table-bordered">
       <thead>
@@ -89,14 +86,14 @@
 
   <script type="text/javascript">
       $('.form_date').datetimepicker({
-          language:  'fr',
+          language:'zh-CN',
           weekStart: 1,
           todayBtn:  1,
           autoclose: 1,
           todayHighlight: 1,
           startView: 2,
           minView: 2,
-          forceParse: 0
+          format:'yyyy/MM/dd'
       });
   </script>
   </body>
