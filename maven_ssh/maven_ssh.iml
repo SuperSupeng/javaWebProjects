@@ -10,6 +10,7 @@
           <root url="file://$MODULE_DIR$/src/main/webapp" relative="/" />
         </webroots>
         <sourceRoots>
+          <root url="file://$MODULE_DIR$/src/main/java" />
           <root url="file://$MODULE_DIR$/src/main/resources" />
         </sourceRoots>
       </configuration>
@@ -36,7 +37,8 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="TEST" name="Maven: junit:junit:3.8.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.9" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.hamcrest:hamcrest-core:1.1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: javax.servlet:servlet-api:2.5" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: javax.servlet:jsp-api:2.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.struts:struts2-core:2.3.24" level="project" />
