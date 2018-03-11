@@ -6,6 +6,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jstl/core" %>
 <html>
 <head>
   <meta charset="utf-8">
@@ -55,11 +56,35 @@
           <input type="hidden" id="dtp_input3" value="" /><br/>
         </div>
       </fieldset>
+      <input type="submit" class="btn btn-primary" value="查询"/>
     </form>
     <div class="btn-group" role="group" aria-label="...">
-      <button type="button" class="btn btn-default">升序</button>
-      <button type="button" class="btn btn-default">降序</button>
+      <button type="button" class="btn btn-info">升序</button>
+      <button type="button" class="btn btn-success">降序</button>
     </div>
+
+    <table class="table table-bordered">
+      <thead>
+      <tr>
+        <th>#</th>
+        <th>id</th>
+        <th>Date</th>
+        <th>Temperature</th>
+      </tr>
+      </thead>
+      <tbody>
+
+      <c:forEach items="${tempList}" var="c" varStatus="vs">
+        <tr>
+          <td>${vs.count}</td>
+          <td>${c.id}</td>
+          <td>${c.dataDate}</td>
+          <td>${c.temperature}</td>
+        </tr>
+      </c:forEach>
+
+      </tbody>
+    </table>
   </div>
 
   <script type="text/javascript">
