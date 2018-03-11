@@ -1,25 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="iotInformation:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="06950231-008c-417e-acd7-35411ba46638" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/css/bootstrap-theme.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/css/bootstrap-theme.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/css/bootstrap-theme.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/css/bootstrap-theme.min.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/css/bootstrap.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/css/bootstrap.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/css/bootstrap.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/css/bootstrap.min.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.woff2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/bootstrap.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/bootstrap.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/npm.js" />
-      <change beforePath="$PROJECT_DIR$/src/test/TempDataServiceTest.java" afterPath="$PROJECT_DIR$/src/test/TempDataServiceTest.java" />
-      <change beforePath="$PROJECT_DIR$/../maven_ssh/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../maven_ssh/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/css/bootstrap-datetimepicker.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/css/bootstrap-datetimepicker.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/bootstrap-datetimepicker.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/bootstrap-datetimepicker.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/jquery-1.11.3.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/locales/bootstrap-datetimepicker.ar.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/locales/bootstrap-datetimepicker.az.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/locales/bootstrap-datetimepicker.bg.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/locales/bootstrap-datetimepicker.bn.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/locales/bootstrap-datetimepicker.ca.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/locales/bootstrap-datetimepicker.cs.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/locales/bootstrap-datetimepicker.da.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/locales/bootstrap-datetimepicker.de.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/locales/bootstrap-datetimepicker.ee.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/locales/bootstrap-datetimepicker.el.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/locales/bootstrap-datetimepicker.es.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/locales/bootstrap-datetimepicker.fi.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/locales/bootstrap-datetimepicker.fr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/locales/bootstrap-datetimepicker.he.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/locales/bootstrap-datetimepicker.hr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/locales/bootstrap-datetimepicker.hu.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/locales/bootstrap-datetimepicker.hy.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/locales/bootstrap-datetimepicker.id.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/locales/bootstrap-datetimepicker.is.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/locales/bootstrap-datetimepicker.it.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/locales/bootstrap-datetimepicker.ja.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/locales/bootstrap-datetimepicker.ka.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/locales/bootstrap-datetimepicker.ko.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/locales/bootstrap-datetimepicker.lt.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/locales/bootstrap-datetimepicker.lv.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/locales/bootstrap-datetimepicker.ms.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/locales/bootstrap-datetimepicker.nb.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/locales/bootstrap-datetimepicker.nl.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/locales/bootstrap-datetimepicker.no.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/locales/bootstrap-datetimepicker.pl.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/locales/bootstrap-datetimepicker.pt-BR.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/locales/bootstrap-datetimepicker.pt.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/locales/bootstrap-datetimepicker.ro.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/locales/bootstrap-datetimepicker.rs-latin.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/locales/bootstrap-datetimepicker.rs.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/locales/bootstrap-datetimepicker.ru.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/locales/bootstrap-datetimepicker.sk.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/locales/bootstrap-datetimepicker.sl.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/locales/bootstrap-datetimepicker.sv.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/locales/bootstrap-datetimepicker.sw.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/locales/bootstrap-datetimepicker.th.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/locales/bootstrap-datetimepicker.tr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/locales/bootstrap-datetimepicker.ua.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/locales/bootstrap-datetimepicker.uk.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/locales/bootstrap-datetimepicker.zh-CN.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/locales/bootstrap-datetimepicker.zh-TW.js" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/test/iotInformation/TempDataServiceTest.class" afterPath="$PROJECT_DIR$/out/test/iotInformation/TempDataServiceTest.class" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,11 +72,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/css/bootstrap.css">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="216">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -73,6 +114,7 @@
         <option value="$PROJECT_DIR$/src/dao/impl/TempDataDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/domain/TempData.hbm.xml" />
         <option value="$PROJECT_DIR$/src/test/TempDataServiceTest.java" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
       </list>
     </option>
   </component>
@@ -81,6 +123,13 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="761" />
@@ -146,6 +195,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\github_project\javaWebProjects\iotInformation\web\js" />
+      <recent name="D:\github_project\javaWebProjects\iotInformation\web\css" />
       <recent name="D:\github_project\javaWebProjects\iotInformation\web" />
       <recent name="D:\github_project\javaWebProjects\iotInformation\web\WEB-INF\lib" />
       <recent name="D:\github_project\javaWebProjects\iotInformation\src" />
@@ -167,7 +218,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TempDataServiceTest.saveTest">
+  <component name="RunManager" selected="Tomcat Server.iotInformation">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -386,7 +437,7 @@
       <updated>1520431036371</updated>
       <workItem from="1520431039300" duration="6083000" />
       <workItem from="1520465748037" duration="19000" />
-      <workItem from="1520774930833" duration="1083000" />
+      <workItem from="1520774930833" duration="3507000" />
     </task>
     <servers />
   </component>
@@ -423,10 +474,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7185000" />
+    <option name="totallyTimeSpent" value="9609000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -441,7 +493,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16614583" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16614583" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -665,8 +717,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/jquery-1.11.3.min.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/locales/bootstrap-datetimepicker.ar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/bootstrap-datetimepicker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/bootstrap-datetimepicker.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
