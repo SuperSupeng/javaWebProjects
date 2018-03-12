@@ -37,7 +37,7 @@
 </head>
   <body>
   <div class="container">
-    <form class="form-horizontal" method="post" role="form" action="${pageContext.request.contextPath}/ControllerServlet">
+    <form class="form-horizontal" method="post" role="form" action="${pageContext.request.contextPath}/ChangeServlet">
       <fieldset>
         <legend>iotInformation</legend>
         <div class="form-group">
@@ -65,18 +65,16 @@
     <canvas id="myChart" width="400" height="400"></canvas>
     <script type="text/javascript">
         var MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+        var myarry = new Array();
         var config = {
             type: 'line',
             data: {
-                labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'Au'],
+                labels: MONTHS,
                 datasets: [{
                     label: 'Temperature',
                     backgroundColor: window.chartColors.red,
                     borderColor: window.chartColors.red,
-                    data: [
-                        100,
-                        50
-                    ],
+                    data: myarry,
                     fill: false,
                 }]
             },
@@ -112,14 +110,15 @@
                 }
             }
         };
+        <c:forEach items="${changeTempList}" var="c" varStatus="vs">
+          myarry[${vs.index}]= ${c.temperature};
+        </c:forEach>
+
+        <%--alert(typeof 20);--%>
+        <%--alert(typeof ${changeTempList[0].temperature})--%>
 
         window.onload = function() {
             var ctx = document.getElementById('myChart').getContext('2d');
-            for (var i=0;i<${changeTempList.lenth};i++)
-            {
-                config.data.labels = ${changeTempList[i]};
-            }
-
             window.myLine = new Chart(ctx, config);
         };
 
