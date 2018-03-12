@@ -24,9 +24,16 @@ public class TempServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
-        double minV = Double.valueOf(request.getParameter("min"));
-        double maxV = Double.valueOf(request.getParameter("max"));
+        String min = request.getParameter("min");
+        String max = request.getParameter("max");
+        if("".equals(min)){
+            min = "-1000";
+        }
+        if("".equals(max)){
+            max = "1000";
+        }
+        double minV = Double.valueOf(min);
+        double maxV = Double.valueOf(max);
         request.getSession().setAttribute("min", minV);
         request.getSession().setAttribute("max", maxV);
         request.getRequestDispatcher("index.jsp").forward(request, response);

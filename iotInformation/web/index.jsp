@@ -32,6 +32,8 @@
   <script type="text/javascript" src="js/bootstrap-datetimepicker.min.js" charset="UTF-8"></script>
   <script type="text/javascript" src="js/locales/bootstrap-datetimepicker.zh-CN.js" charset="UTF-8"></script>
 </head>
+
+
   <body>
   <div class="container">
     <form class="form-horizontal" method="post" role="form" action="${pageContext.request.contextPath}/ControllerServlet">
@@ -61,18 +63,19 @@
 
     <a href="${pageContext.request.contextPath}/InverseServlet?op=allInverse" class="btn btn-primary" name="inverse">升序</a>
     <a href="${pageContext.request.contextPath}/InverseServlet?op=allReversed" class="btn btn-warning" name="reversed">降序</a>
+    <a href="change.jsp" class="btn btn-danger">查看今日曲线</a>
     <br/>
 
-    <form method="post" role="form" action="${pageContext.request.contextPath}/TempServlet">
+    <form  class="form-inline" method="post" role="form" action="${pageContext.request.contextPath}/TempServlet">
       <div class="form-group">
         <label for="exampleInputName2">最大值:</label>
-        <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+        <input type="text" class="form-control"  name="max" id="exampleInputName2">
       </div>
       <div class="form-group">
         <label for="exampleInputEmail2">最小值:</label>
-        <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
+        <input type="text" class="form-control" name="min" id="exampleInputEmail2">
       </div>
-      <button type="submit" class="btn btn-default">设置阈值</button>
+      <button type="submit" class="btn btn-success">设置阈值</button>
     </form>
 
     <table class="table table-bordered">
@@ -116,6 +119,12 @@
           minView: 2,
           format:'yyyy/mm/dd'
       });
+      // 获取页面元素
+      var myElement = document.querySelector("header");
+      // 创建 Headroom 对象，将页面元素传递进去
+      var headroom  = new Headroom(myElement);
+      // 初始化
+      headroom.init();
   </script>
   </body>
 </html>
