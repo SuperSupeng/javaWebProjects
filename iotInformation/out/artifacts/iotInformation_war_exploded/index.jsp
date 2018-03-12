@@ -62,25 +62,18 @@
     <a href="${pageContext.request.contextPath}/InverseServlet?op=allInverse" class="btn btn-primary" name="inverse">升序</a>
     <a href="${pageContext.request.contextPath}/InverseServlet?op=allReversed" class="btn btn-warning" name="reversed">降序</a>
     <br/>
-    <div class="row">
-      <div class="col-lg-6">
-        <div class="input-group">
-          <input type="text"  name="max" class="form-control" placeholder="最大值">
-          <span class="input-group-btn">
-        <a href="${pageContext.request.contextPath}/TempServlet" class="btn btn-default" type="button">Go!</a>
-      </span>
-        </div><!-- /input-group -->
-      </div><!-- /.col-lg-6 -->
-      <div class="col-lg-6">
-        <div class="input-group">
-          <input type="text"  name="min" class="form-control" placeholder="最小值">
-          <span class="input-group-btn">
-        <a href="${pageContext.request.contextPath}/TempServlet" class="btn btn-default" type="button">Go!</a>
-      </span>
-        </div><!-- /input-group -->
-      </div><!-- /.col-lg-6 -->
-    </div><!-- /.row -->
-    <br/>
+
+    <form method="post" role="form" action="${pageContext.request.contextPath}/TempServlet">
+      <div class="form-group">
+        <label for="exampleInputName2">最大值:</label>
+        <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputEmail2">最小值:</label>
+        <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
+      </div>
+      <button type="submit" class="btn btn-default">设置阈值</button>
+    </form>
 
     <table class="table table-bordered">
       <thead>

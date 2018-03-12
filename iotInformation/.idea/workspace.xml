@@ -7,14 +7,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06950231-008c-417e-acd7-35411ba46638" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/web/controller/TempServlet.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/change.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/Chart.bundle.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/Chart.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/util.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/css/bootstrap-responsive.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/css/theme.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/icons/css/font-awesome.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/icons/font/fontawesome-webfont3294.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/icons/font/fontawesome-webfont3294.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/icons/font/fontawesome-webfont3294.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/icons/font/fontawesome-webfontd41d.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/img.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/jquery-ui/picker.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/user.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/scripts/common.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/scripts/datatables/jquery.dataTables.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/scripts/flot/jquery.flot.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/scripts/flot/jquery.flot.pie.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/scripts/flot/jquery.flot.resize.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/scripts/jquery-1.9.1.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/scripts/jquery-ui-1.10.1.custom.min.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/iotInformation_war_exploded/WEB-INF/classes/web/controller/TempServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/iotInformation_war_exploded/WEB-INF/classes/web/controller/TempServlet.class" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/iotInformation_war_exploded/index.jsp" afterPath="$PROJECT_DIR$/out/artifacts/iotInformation_war_exploded/index.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/test/TempDataServiceTest.java" afterPath="$PROJECT_DIR$/src/test/TempDataServiceTest.java" />
+      <change beforePath="$PROJECT_DIR$/out/production/iotInformation/web/controller/TempServlet.class" afterPath="$PROJECT_DIR$/out/production/iotInformation/web/controller/TempServlet.class" />
+      <change beforePath="$PROJECT_DIR$/src/web/controller/TempServlet.java" afterPath="$PROJECT_DIR$/src/web/controller/TempServlet.java" />
       <change beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,41 +42,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="iotInformation.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iotInformation.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="67" column="39" lean-forward="false" selection-start-line="67" selection-start-column="36" selection-end-line="67" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TempServlet.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/web/controller/TempServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="36" column="53" lean-forward="true" selection-start-line="36" selection-start-column="53" selection-end-line="36" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TempDataServiceTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/TempDataServiceTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="41" column="40" lean-forward="true" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="change.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/change.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71">
-              <caret line="66" column="144" lean-forward="true" selection-start-line="66" selection-start-column="144" selection-end-line="66" selection-end-column="144" />
+            <state relative-caret-position="449">
+              <caret line="71" column="51" lean-forward="false" selection-start-line="71" selection-start-column="51" selection-end-line="71" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -104,8 +99,10 @@
         <option value="$PROJECT_DIR$/web/js/util.js" />
         <option value="$PROJECT_DIR$/web/change.jsp" />
         <option value="$PROJECT_DIR$/src/test/TempDataServiceTest.java" />
-        <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/src/web/controller/TempServlet.java" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/web/css/theme.css" />
+        <option value="$PROJECT_DIR$/web/index1.jsp" />
       </list>
     </option>
   </component>
@@ -200,19 +197,13 @@
             <path>
               <item name="iotInformation" type="b2602c69:ProjectViewProjectNode" />
               <item name="iotInformation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="iotInformation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iotInformation" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="iotInformation" type="b2602c69:ProjectViewProjectNode" />
               <item name="iotInformation" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="iotInformation" type="b2602c69:ProjectViewProjectNode" />
@@ -248,9 +239,9 @@
       <recent name="web.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\github_project\javaWebProjects\iotInformation\web\js" />
-      <recent name="D:\github_project\javaWebProjects\iotInformation\web" />
       <recent name="D:\github_project\javaWebProjects\iotInformation\web\css" />
+      <recent name="D:\github_project\javaWebProjects\iotInformation\web" />
+      <recent name="D:\github_project\javaWebProjects\iotInformation\web\js" />
       <recent name="D:\github_project\javaWebProjects\iotInformation\web\WEB-INF\lib" />
       <recent name="D:\github_project\javaWebProjects\iotInformation\src" />
     </key>
@@ -531,7 +522,7 @@
       <workItem from="1520431039300" duration="6083000" />
       <workItem from="1520465748037" duration="19000" />
       <workItem from="1520774930833" duration="7230000" />
-      <workItem from="1520839413490" duration="9622000" />
+      <workItem from="1520839413490" duration="12541000" />
     </task>
     <servers />
   </component>
@@ -568,7 +559,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22954000" />
+    <option name="totallyTimeSpent" value="25873000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -583,7 +574,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40936863" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40936863" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -833,21 +824,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/controller/ControllerServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/domain/TempData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="30" />
           <folding>
-            <element signature="e#175#176#0" expanded="true" />
-            <element signature="e#200#201#0" expanded="true" />
+            <element signature="e#175#176#0" expanded="false" />
+            <element signature="e#200#201#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -884,14 +867,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/change.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="66" column="144" lean-forward="true" selection-start-line="66" selection-start-column="144" selection-end-line="66" selection-end-column="144" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/TempDataServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -900,18 +875,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+    <entry file="file://$PROJECT_DIR$/web/change.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="67" column="39" lean-forward="false" selection-start-line="67" selection-start-column="36" selection-end-line="67" selection-end-column="39" />
+        <state relative-caret-position="71">
+          <caret line="66" column="144" lean-forward="true" selection-start-line="66" selection-start-column="144" selection-end-line="66" selection-end-column="144" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/controller/ControllerServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/web/controller/TempServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="36" column="53" lean-forward="true" selection-start-line="36" selection-start-column="53" selection-end-line="36" selection-end-column="53" />
+        <state relative-caret-position="287">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/images/icons/css/font-awesome.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/scripts/flot/jquery.flot.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="1121" column="24" lean-forward="true" selection-start-line="1121" selection-start-column="24" selection-end-line="1121" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iotInformation.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/bootstrap-responsive.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index1.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="1258" column="85" lean-forward="true" selection-start-line="1258" selection-start-column="85" selection-end-line="1258" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="71" column="51" lean-forward="false" selection-start-line="71" selection-start-column="51" selection-end-line="71" selection-end-column="51" />
           <folding />
         </state>
       </provider>
