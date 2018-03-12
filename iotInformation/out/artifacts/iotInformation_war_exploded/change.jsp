@@ -31,6 +31,9 @@
   <script src="js/bootstrap.js"></script>
   <script type="text/javascript" src="js/bootstrap-datetimepicker.min.js" charset="UTF-8"></script>
   <script type="text/javascript" src="js/locales/bootstrap-datetimepicker.zh-CN.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="js/Chart.js"></script>
+  <script type="text/javascript" src="js/Chart.bundle.js"></script>
+  <script type="text/javascript" src="js/util.js"></script>
 </head>
   <body>
   <div class="container">
@@ -59,70 +62,70 @@
       <input type="submit" class="btn btn-info" value="查询" name="inverse"/>
     </form>
 
-    <a href="${pageContext.request.contextPath}/InverseServlet?op=allInverse" class="btn btn-primary" name="inverse">升序</a>
-    <a href="${pageContext.request.contextPath}/InverseServlet?op=allReversed" class="btn btn-warning" name="reversed">降序</a>
-    <br/>
-    <div class="row">
-      <div class="col-lg-6">
-        <div class="input-group">
-          <input type="text"  name="max" class="form-control" placeholder="最大值">
-          <span class="input-group-btn">
-        <a href="${pageContext.request.contextPath}/TempServlet" class="btn btn-default" type="button">Go!</a>
-      </span>
-        </div><!-- /input-group -->
-      </div><!-- /.col-lg-6 -->
-      <div class="col-lg-6">
-        <div class="input-group">
-          <input type="text"  name="min" class="form-control" placeholder="最小值">
-          <span class="input-group-btn">
-        <a href="${pageContext.request.contextPath}/TempServlet" class="btn btn-default" type="button">Go!</a>
-      </span>
-        </div><!-- /input-group -->
-      </div><!-- /.col-lg-6 -->
-    </div><!-- /.row -->
-    <br/>
+    <canvas id="myChart" width="400" height="400"></canvas>
+    <script type="text/javascript">
+        var MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+        var config = {
+            type: 'line',
+            data: {
+                labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+                datasets: [{
+                    label: 'Temperature',
+                    backgroundColor: window.chartColors.red,
+                    borderColor: window.chartColors.red,
+                    data: [
+                        100,
+                        50
+                    ],
+                    fill: false,
+                }]
+            },
+            options: {
+                responsive: true,
+                title: {
+                    display: true,
+                    text: '温度曲线'
+                },
+                tooltips: {
+                    mode: 'index',
+                    intersect: false,
+                },
+                hover: {
+                    mode: 'nearest',
+                    intersect: true
+                },
+                scales: {
+                    xAxes: [{
+                        display: true,
+                        scaleLabel: {
+                            display: true,
+                            labelString: 'Month'
+                        }
+                    }],
+                    yAxes: [{
+                        display: true,
+                        scaleLabel: {
+                            display: true,
+                            labelString: 'Value'
+                        }
+                    }]
+                }
+            }
+        };
 
-    <table class="table table-bordered">
-      <thead>
-      <tr>
-        <th>#</th>
-        <th>id</th>
-        <th>Date</th>
-        <th>Temperature</th>
-      </tr>
-      </thead>
-      <tbody>
+        window.onload = function() {
+            var ctx = document.getElementById('myChart').getContext('2d');
+            window.myLine = new Chart(ctx, config);
+        };
 
-      <c:forEach items="${tempList}" var="c" varStatus="vs">
-
-        <c:choose>
-          <c:when test="${c.temperature>max || c.temperature<min}">
-            <tr bgcolor="#7fffd4">
-          </c:when>
-          <c:otherwise>
-            <tr>
-          </c:otherwise>
-        </c:choose>
-          <td>${vs.count}</td>
-          <td>${c.id}</td>
-          <td>${c.dataDate}</td>
-          <td>${c.temperature}</td>
-        </tr>
-      </c:forEach>
-
-      </tbody>
-    </table>
-  </div>
-
-  <script type="text/javascript">
-      $('.form_date').datetimepicker({
-          language:'zh-CN',
-          todayBtn:  1,
-          autoclose: 1,
-          todayHighlight: 1,
-          minView: 2,
-          format:'yyyy/mm/dd'
-      });
-  </script>
+        $('.form_date').datetimepicker({
+            language:'zh-CN',
+            todayBtn:  1,
+            autoclose: 1,
+            todayHighlight: 1,
+            minView: 2,
+            format:'yyyy/mm/dd'
+        });
+    </script>
   </body>
 </html>

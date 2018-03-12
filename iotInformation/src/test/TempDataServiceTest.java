@@ -36,4 +36,10 @@ public class TempDataServiceTest {
         List<TempData> allData = service.findAllData(new Date("1901/01/01"), new Date("1901/03/05"), true);
         System.out.println(allData);
     }
+
+    @Test
+    public void demoTest() throws Exception {
+        double min = Double.valueOf("");
+        System.out.println(min);
+    }
 }

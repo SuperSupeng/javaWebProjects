@@ -61,6 +61,27 @@
 
     <a href="${pageContext.request.contextPath}/InverseServlet?op=allInverse" class="btn btn-primary" name="inverse">升序</a>
     <a href="${pageContext.request.contextPath}/InverseServlet?op=allReversed" class="btn btn-warning" name="reversed">降序</a>
+    <br/>
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="input-group">
+          <input type="text"  name="max" class="form-control" placeholder="最大值">
+          <span class="input-group-btn">
+        <a href="${pageContext.request.contextPath}/TempServlet" class="btn btn-default" type="button">Go!</a>
+      </span>
+        </div><!-- /input-group -->
+      </div><!-- /.col-lg-6 -->
+      <div class="col-lg-6">
+        <div class="input-group">
+          <input type="text"  name="min" class="form-control" placeholder="最小值">
+          <span class="input-group-btn">
+        <a href="${pageContext.request.contextPath}/TempServlet" class="btn btn-default" type="button">Go!</a>
+      </span>
+        </div><!-- /input-group -->
+      </div><!-- /.col-lg-6 -->
+    </div><!-- /.row -->
+    <br/>
+
     <table class="table table-bordered">
       <thead>
       <tr>
@@ -73,7 +94,15 @@
       <tbody>
 
       <c:forEach items="${tempList}" var="c" varStatus="vs">
-        <tr>
+
+        <c:choose>
+          <c:when test="${c.temperature>max || c.temperature<min}">
+            <tr bgcolor="#7fffd4">
+          </c:when>
+          <c:otherwise>
+            <tr>
+          </c:otherwise>
+        </c:choose>
           <td>${vs.count}</td>
           <td>${c.id}</td>
           <td>${c.dataDate}</td>
