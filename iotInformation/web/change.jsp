@@ -68,7 +68,7 @@
         var config = {
             type: 'line',
             data: {
-                labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+                labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'Au'],
                 datasets: [{
                     label: 'Temperature',
                     backgroundColor: window.chartColors.red,
