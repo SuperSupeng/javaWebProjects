@@ -115,6 +115,11 @@
 
         window.onload = function() {
             var ctx = document.getElementById('myChart').getContext('2d');
+            for (var i=0;i<${changeTempList.lenth};i++)
+            {
+                config.data.labels = ${changeTempList[i]};
+            }
+
             window.myLine = new Chart(ctx, config);
         };
 
