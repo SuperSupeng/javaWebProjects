@@ -24,16 +24,21 @@ public class TempDataServiceImpl implements TempDataService {
         return dao.findById(id);
     }
 
-    @Override
-    public List<TempData> findAllData() {
-        return dao.findAllData();
-    }
 
     @Override
     public List<TempData> findAllData(Date startDate, Date endDate, boolean isInverse) {
         Session session = HibernateUtils.getCurrentSession();
         Transaction transaction = session.beginTransaction();
         List<TempData> allData = dao.findAllData(startDate, endDate, isInverse);
+        transaction.commit();
+        return allData;
+    }
+
+    @Override
+    public List<TempData> findAllData(Date startDate, Date endDate) {
+        Session session = HibernateUtils.getCurrentSession();
+        Transaction transaction = session.beginTransaction();
+        List<TempData> allData = dao.findAllData(startDate, endDate);
         transaction.commit();
         return allData;
     }

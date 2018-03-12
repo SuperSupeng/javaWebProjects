@@ -12,6 +12,9 @@ import util.HibernateUtils;
 import java.util.Date;
 import java.util.List;
 
+/**
+ * @author super
+ */
 public class TempDataDaoImpl implements TempDataDao {
 
 
@@ -32,14 +35,24 @@ public class TempDataDaoImpl implements TempDataDao {
     }
 
     @Override
-    public List<TempData> findAllData() {
+    public List<TempData> findAllData(Date startDate, Date endDate, boolean isInverse) {
         Session session = HibernateUtils.getCurrentSession();
-        Criteria criteria = session.createCriteria(TempData.class);
-        return criteria.list();
+        String sql = "select * from tempt where dataDate>=? and dataDate<=? order by dataDate ?";
+        SQLQuery query = session.createSQLQuery(sql);
+        query.setParameter(0, startDate);
+        query.setParameter(1, endDate);
+        if(isInverse){
+            query.setParameter(2, "ASC");
+        }else{
+            query.setParameter(2, "DESC");
+        }
+        query.addEntity(TempData.class);
+        List list = query.list();
+        return list;
     }
 
     @Override
-    public List<TempData> findAllData(Date startDate, Date endDate, boolean isInverse) {
+    public List<TempData> findAllData(Date startDate, Date endDate) {
         Session session = HibernateUtils.getCurrentSession();
         String sql = "select * from tempt where dataDate>=? and dataDate<=?";
         SQLQuery query = session.createSQLQuery(sql);

@@ -11,7 +11,8 @@ public interface TempDataService {
 
     TempData findById(String id);
 
-    List<TempData> findAllData();
 
     List<TempData> findAllData(Date startDate, Date endDate, boolean isInverse);
+
+    List<TempData> findAllData(Date startDate, Date endDate);
 }

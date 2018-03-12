@@ -34,7 +34,7 @@
 </head>
   <body>
   <div class="container">
-    <form class="form-horizontal" method="post" role="form" action="${pageContext.request.contextPath}/ControllerServlet">
+    <form class="form-horizontal" method="post" role="form" action="${pageContext.request.contextPath}/ControllerServlet?op=all">
       <fieldset>
         <legend>iotInformation</legend>
         <div class="form-group">
@@ -56,10 +56,11 @@
           <input type="hidden" id="dtp_input3" value="" /><br/>
         </div>
       </fieldset>
-      <input type="submit" class="btn btn-primary" value="升序" name="inverse"/>
-      <input type="submit" class="btn btn-success" value="降序" name="deverse"/>
+      <input type="submit" class="btn btn-info" value="查询" name="inverse"/>
     </form>
 
+    <a href="${pageContext.request.contextPath}/ControllerServlet?op=allInverse" class="btn btn-primary" name="inverse">升序</a>
+    <a href="${pageContext.request.contextPath}/ControllerServlet?op=allReversed" class="btn btn-warning" name="reversed">降序</a>
     <table class="table table-bordered">
       <thead>
       <tr>
@@ -87,9 +88,12 @@
   <script type="text/javascript">
       $('.form_date').datetimepicker({
           language:'zh-CN',
+          weekStart: 1,
           todayBtn:  1,
           autoclose: 1,
           todayHighlight: 1,
+          startView: 2,
+          minView: 2,
           format:'yyyy/MM/dd'
       });
   </script>
