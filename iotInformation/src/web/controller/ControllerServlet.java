@@ -24,25 +24,14 @@ public class ControllerServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        String op = request.getParameter("op");
         String startDate = request.getParameter("startDate");
         String endDate = request.getParameter("endDate");
         Date sDate = new Date(startDate);
         Date eDate = new Date(endDate);
 
+        List<TempData> allData = service.findAllData(sDate, eDate);
+        request.getSession().setAttribute("tempList", allData);
 
-        if("all".equals(op)){
-
-
-            List<TempData> allData = service.findAllData(sDate, eDate, true);
-            request.getSession().setAttribute("tempList", allData);
-        }else if("allInverse".equals(op)){
-
-        }else if("allReversed".equals(op)){
-
-        }
-
-
-        request.getRequestDispatcher(request.getContextPath() + "/index.jsp").forward(request, response);
+        request.getRequestDispatcher("index.jsp").forward(request, response);
     }
 }

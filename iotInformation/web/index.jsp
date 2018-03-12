@@ -29,12 +29,12 @@
   <script src="js/jquery-1.11.3.min.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="js/bootstrap.js"></script>
-  <script type="text/javascript" src="js/bootstrap-datetimepicker.js" charset="UTF-8"></script>
-  <script type="text/javascript" src="js/locales/bootstrap-datetimepicker.fr.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="js/bootstrap-datetimepicker.min.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="js/locales/bootstrap-datetimepicker.zh-CN.js" charset="UTF-8"></script>
 </head>
   <body>
   <div class="container">
-    <form class="form-horizontal" method="post" role="form" action="${pageContext.request.contextPath}/ControllerServlet?op=all">
+    <form class="form-horizontal" method="post" role="form" action="${pageContext.request.contextPath}/ControllerServlet">
       <fieldset>
         <legend>iotInformation</legend>
         <div class="form-group">
@@ -59,8 +59,8 @@
       <input type="submit" class="btn btn-info" value="查询" name="inverse"/>
     </form>
 
-    <a href="${pageContext.request.contextPath}/ControllerServlet?op=allInverse" class="btn btn-primary" name="inverse">升序</a>
-    <a href="${pageContext.request.contextPath}/ControllerServlet?op=allReversed" class="btn btn-warning" name="reversed">降序</a>
+    <a href="${pageContext.request.contextPath}/InverseServlet?op=allInverse" class="btn btn-primary" name="inverse">升序</a>
+    <a href="${pageContext.request.contextPath}/InverseServlet?op=allReversed" class="btn btn-warning" name="reversed">降序</a>
     <table class="table table-bordered">
       <thead>
       <tr>
@@ -88,13 +88,11 @@
   <script type="text/javascript">
       $('.form_date').datetimepicker({
           language:'zh-CN',
-          weekStart: 1,
           todayBtn:  1,
           autoclose: 1,
           todayHighlight: 1,
-          startView: 2,
           minView: 2,
-          format:'yyyy/MM/dd'
+          format:'yyyy/mm/dd'
       });
   </script>
   </body>
