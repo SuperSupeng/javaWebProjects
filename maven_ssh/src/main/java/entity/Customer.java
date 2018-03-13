@@ -67,4 +67,12 @@ public class Customer {
     public void setCustMobile(String custMobile) {
         this.custMobile = custMobile;
     }
+
+    @Override
+    public String toString() {
+        return "Customer{" +
+                "custId=" + custId +
+                ", custName='" + custName + '\'' +
+                '}';
+    }
 }
