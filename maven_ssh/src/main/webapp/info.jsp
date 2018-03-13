@@ -11,6 +11,6 @@
     <title>maven使用</title>
 </head>
     <body>
-      ssssssss
+      ${customer.custName}
     </body>
 </html>
