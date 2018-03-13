@@ -1,5 +1,6 @@
-package dao;
+package dao.impl;
 
+import dao.CustomerDao;
 import entity.Customer;
 import org.springframework.orm.hibernate5.support.HibernateDaoSupport;
 

@@ -1,14 +1,7 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
-       xmlns:aop="http://www.springframework.org/schema/aop" xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
-	http://www.springframework.org/schema/beans/spring-beans.xsd
-	http://www.springframework.org/schema/context
-	http://www.springframework.org/schema/context/spring-context.xsd
-	http://www.springframework.org/schema/aop
-	http://www.springframework.org/schema/aop/spring-aop.xsd
-	http://www.springframework.org/schema/tx
-	http://www.springframework.org/schema/tx/spring-tx.xsd">
+	http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 
     <!-- 数据库连接池 -->
@@ -24,19 +17,11 @@
         <!-- 依赖dataSource -->
         <property name="dataSource" ref="dataSource"/>
         <!-- 创建工厂需要加载hibernate映射文件 -->
-        <property name="configLocations" value="classpath:hibernate.cfg.xml"></property>
+        <property name="configLocations" value="classpath:hibernate.cfg.xml"/>
     </bean>
 
     <bean id="customerDao" class="dao.impl.CustomerDaoImpl">
-        <property name="sessionFactory" ref="sessionFactory"></property>
-    </bean>
-
-    <bean id="customerService" class="service.impl.CustomerServiceImpl">
-        <property name="customerDao" ref="customerDao"></property>
-    </bean>
-
-    <bean id="customerAction" class="action.CustomerAction" scope="prototype">
-        <property name="customerService" ref="customerService"></property>
+        <property name="sessionFactory" ref="sessionFactory"/>
     </bean>
 
 </beans>
