@@ -42,7 +42,7 @@
         <div class="form-group">
           <label for="dtp_input2" class="col-md-2 control-label">起始时间</label>
           <div class="input-group date form_date col-md-5" data-date="" data-date-format="yyyy/MM/dd" data-link-field="dtp_input2" data-link-format="yyyy/mm/dd">
-            <input class="form-control" size="16" type="text" value="" name="startDate" readonly>
+            <input class="form-control" size="16" type="text" value="" name="startDate">
             <span class="input-group-addon"><span class="glyphicon glyphicon-remove"></span></span>
             <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>
           </div>
@@ -51,7 +51,7 @@
         <div class="form-group">
           <label for="dtp_input3" class="col-md-2 control-label">结束时间</label>
           <div class="input-group date form_date col-md-5" data-date="" data-date-format="yyyy/MM/dd" data-link-field="dtp_input2" data-link-format="yyyy/mm/dd">
-            <input class="form-control" size="16" type="text" value="" name="endDate" readonly>
+            <input class="form-control" size="16" type="text" value="" name="endDate">
             <span class="input-group-addon"><span class="glyphicon glyphicon-remove"></span></span>
             <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>
           </div>
