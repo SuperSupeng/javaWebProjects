@@ -28,7 +28,7 @@
         <property name="dao" ref="customerDao"/>
     </bean>
 
-    <bean id="customerAction" class="actions.CustomerAction">
+    <bean id="customerAction" class="actions.CustomerAction" scope="prototype">
         <property name="customerService" ref="customerService"/>
     </bean>
 

@@ -1,1 +1,6 @@
 D:\github_project\javaWebProjects\maven_ssh\src\main\java\actions\CustomerAction.java
+D:\github_project\javaWebProjects\maven_ssh\src\main\java\dao\impl\CustomerDaoImpl.java
+D:\github_project\javaWebProjects\maven_ssh\src\main\java\dao\CustomerDao.java
+D:\github_project\javaWebProjects\maven_ssh\src\main\java\service\impl\CustomerServiceImpl.java
+D:\github_project\javaWebProjects\maven_ssh\src\main\java\service\CustomerService.java
+D:\github_project\javaWebProjects\maven_ssh\src\main\java\entity\Customer.java

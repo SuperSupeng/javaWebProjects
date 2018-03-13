@@ -1,16 +1,12 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: super
-  Date: 2018/3/11
-  Time: 19:11
-  To change this template use File | Settings | File Templates.
---%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+         pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-    <title>maven使用</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>第一个maven项目</title>
 </head>
-    <body>
-      ${customer.custName}
-    </body>
+<body>
+${customer.custName}
+</body>
 </html>

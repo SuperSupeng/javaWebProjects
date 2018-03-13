@@ -9,7 +9,6 @@ import service.CustomerService;
  */
 public class CustomerAction extends ActionSupport {
     private Long custId;
-
     private Customer customer;
     private CustomerService customerService;
 
@@ -19,6 +18,10 @@ public class CustomerAction extends ActionSupport {
 
     public void setCustomer(Customer customer) {
         this.customer = customer;
+    }
+
+    public Customer getCustomer() {
+        return customer;
     }
 
     public Long getCustId() {

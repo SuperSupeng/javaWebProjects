@@ -17,9 +17,8 @@
 	<!-- 通用package -->
 	<package name="customer" namespace="/" extends="struts-default">
 
-		<action name="findById" class="actions.CustomerAction"	method="findCustomerById">
+		<action name="findById" class="customerAction"	method="findCustomerById">
 			<result name="success">/info.jsp</result>
 		</action>
-
 	</package>
 </struts>

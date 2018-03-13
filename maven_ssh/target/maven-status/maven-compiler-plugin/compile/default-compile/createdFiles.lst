@@ -1,1 +1,3 @@
+service\impl\CustomerServiceImpl.class
+service\CustomerService.class
 actions\CustomerAction.class

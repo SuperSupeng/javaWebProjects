@@ -24,4 +24,12 @@
         <property name="sessionFactory" ref="sessionFactory"/>
     </bean>
 
+    <bean  id="customerService" class="service.impl.CustomerServiceImpl">
+        <property name="dao" ref="customerDao"/>
+    </bean>
+
+    <bean id="customerAction" class="actions.CustomerAction" scope="prototype">
+        <property name="customerService" ref="customerService"/>
+    </bean>
+
 </beans>

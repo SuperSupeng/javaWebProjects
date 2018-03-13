@@ -40,7 +40,7 @@ public final class info_jsp extends org.apache.jasper.runtime.HttpJspBase
 
 
     try {
-      response.setContentType("text/html;charset=UTF-8");
+      response.setContentType("text/html; charset=UTF-8");
       pageContext = _jspxFactory.getPageContext(this, request, response,
       			null, true, 8192, true);
       _jspx_page_context = pageContext;
@@ -51,15 +51,16 @@ public final class info_jsp extends org.apache.jasper.runtime.HttpJspBase
       _jspx_out = out;
 
       out.write("\r\n");
-      out.write("\r\n");
+      out.write("<!DOCTYPE html PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\">\r\n");
       out.write("<html>\r\n");
       out.write("<head>\r\n");
-      out.write("    <title>maven使用</title>\r\n");
+      out.write("    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\r\n");
+      out.write("    <title>第一个maven项目</title>\r\n");
       out.write("</head>\r\n");
-      out.write("    <body>\r\n");
-      out.write("      ssssssss\r\n");
-      out.write("    </body>\r\n");
-      out.write("</html>\r\n");
+      out.write("<body>\r\n");
+      out.write("${customer.custName}\r\n");
+      out.write("</body>\r\n");
+      out.write("</html>");
     } catch (Throwable t) {
       if (!(t instanceof SkipPageException)){
         out = _jspx_out;
