@@ -35,7 +35,7 @@ public class CustomerAction extends ActionSupport {
     public String findCustomerById() {
         customer = customerService.findById(custId);
 
-        System.out.println("aa"+custId);
+        System.out.println("aa"+custId+":"+customer);
         return SUCCESS;
     }
 }

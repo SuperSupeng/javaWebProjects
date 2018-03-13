@@ -51,6 +51,7 @@ public final class info_jsp extends org.apache.jasper.runtime.HttpJspBase
       _jspx_out = out;
 
       out.write("\r\n");
+      out.write("\r\n");
       out.write("<!DOCTYPE html PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\">\r\n");
       out.write("<html>\r\n");
       out.write("<head>\r\n");
@@ -58,7 +59,8 @@ public final class info_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("    <title>第一个maven项目</title>\r\n");
       out.write("</head>\r\n");
       out.write("<body>\r\n");
-      out.write("${customer.custName}\r\n");
+      out.write((java.lang.String) org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate("${customer.custName}", java.lang.String.class, (PageContext)_jspx_page_context, null, false));
+      out.write("\r\n");
       out.write("</body>\r\n");
       out.write("</html>");
     } catch (Throwable t) {
