@@ -1,6 +1,5 @@
 package web.controller;
 
-import domain.TempData;
 import service.TempDataService;
 import service.impl.TempDataServiceImpl;
 
@@ -10,12 +9,12 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.util.Comparator;
-import java.util.List;
 
+/**
+ * @author super
+ */
 @WebServlet(name = "TempServlet", urlPatterns = "/TempServlet")
 public class TempServlet extends HttpServlet {
-    private TempDataService service = new TempDataServiceImpl();
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

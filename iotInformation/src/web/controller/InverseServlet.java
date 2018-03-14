@@ -14,9 +14,11 @@ import java.util.Comparator;
 import java.util.Date;
 import java.util.List;
 
+/**
+ * @author super
+ */
 @WebServlet(name = "InverseServlet", urlPatterns = "/InverseServlet")
 public class InverseServlet extends HttpServlet {
-    private TempDataService service = new TempDataServiceImpl();
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
