@@ -74,18 +74,20 @@ public class AnnClassifier {
         for (int j = 0; j < mHiddenCount; j++)
         {
             float temp = 0;
-            for (int k = 0; k < mInputCount; k++)
+            for (int k = 0; k < mInputCount; k++){
                 temp += mInputHiddenWeight[k][j]
                         * mInputNodes.get(k).getForwardOutputValue();
+            }
             mHiddenNodes.get(j).setForwardInputValue(temp);
         }
         // 输出层
         for (int j = 0; j < mOutputCount; j++)
         {
             float temp = 0;
-            for (int k = 0; k < mHiddenCount; k++)
+            for (int k = 0; k < mHiddenCount; k++){
                 temp += mHiddenOutputWeight[k][j]
                         * mHiddenNodes.get(k).getForwardOutputValue();
+            }
             mOutputNodes.get(j).setForwardInputValue(temp);
         }
     }
