@@ -26,14 +26,15 @@
 
       <h3>您好、您是本站第
           <%
-              String s = CounterReaderUtil.readCount();
+              String path = request.getContextPath()+"/02/count.txt";
+              String s = CounterReaderUtil.readCount(path);
               for(int i = 0; i<s.length(); i++){
                   char a = s.charAt(i);
                   out.write("<img src='../img/"+a+".png' height=\"50\" width=\"50\">");
               }
               int v = Integer.valueOf(s);
               v++;
-              CounterReaderUtil.saveCount(v+"");
+              CounterReaderUtil.saveCount(v+"", path);
           %>
           个访问者</h3>
     </body>

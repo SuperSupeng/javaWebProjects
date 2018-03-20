@@ -7,9 +7,9 @@ import java.io.*;
  */
 public class CounterReaderUtil {
 
-    public static String readCount(){
+    public static String readCount(String path){
         try {
-            File file = new File("count.txt");
+            File file = new File(path);
             FileInputStream fis = new FileInputStream(file);
             InputStreamReader isr = new InputStreamReader(fis);
             BufferedReader br = new BufferedReader(isr);
@@ -24,9 +24,9 @@ public class CounterReaderUtil {
         return "0";
     }
 
-    public static void saveCount(String s){
+    public static void saveCount(String s, String path){
         try {
-            File file = new File("count.txt");
+            File file = new File(path);
             FileOutputStream fos = new FileOutputStream(file);
             OutputStreamWriter osw = new OutputStreamWriter(fos);
             osw.write(s);
