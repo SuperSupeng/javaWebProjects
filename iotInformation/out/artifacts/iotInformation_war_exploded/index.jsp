@@ -63,7 +63,7 @@
 
     <a href="${pageContext.request.contextPath}/InverseServlet?op=allInverse" class="btn btn-primary" name="inverse">升序</a>
     <a href="${pageContext.request.contextPath}/InverseServlet?op=allReversed" class="btn btn-warning" name="reversed">降序</a>
-    <a href="change.jsp" class="btn btn-danger">查看今日曲线</a>
+    <a href="change.jsp" class="btn btn-danger">查看近日曲线</a>
     <br/>
 
     <form  class="form-inline" method="post" role="form" action="${pageContext.request.contextPath}/TempServlet">
