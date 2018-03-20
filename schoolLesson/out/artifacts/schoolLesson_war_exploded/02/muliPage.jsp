@@ -1,4 +1,4 @@
-<%--
+<%@ page import="util.CounterReaderUtil" %><%--
   Created by IntelliJ IDEA.
   User: super
   Date: 2018/1/25
@@ -23,6 +23,15 @@
       %>
       <h1>网站计数器</h1>
       <hr/>
-      <h3>您好、您是本站第<img src="ss"/>个访问者</h3>
+
+      <h3>您好、您是本站第<img src="">
+          <%
+              String s = CounterReaderUtil.readCount();
+              for(int i = 0; i<s.length(); i++){
+                  char a = s.charAt(i);
+                  out.write("<img src=/img/"+a+".png>");
+              }
+          %>
+          个访问者</h3>
     </body>
 </html>
