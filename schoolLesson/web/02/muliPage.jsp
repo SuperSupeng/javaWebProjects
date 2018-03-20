@@ -24,13 +24,16 @@
       <h1>网站计数器</h1>
       <hr/>
 
-      <h3>您好、您是本站第<img src="">
+      <h3>您好、您是本站第
           <%
               String s = CounterReaderUtil.readCount();
               for(int i = 0; i<s.length(); i++){
                   char a = s.charAt(i);
-                  out.write("<img src=/img/"+a+".png>");
+                  out.write("<img src='../img/"+a+".png' height=\"50\" width=\"50\">");
               }
+              int v = Integer.valueOf(s);
+              v++;
+              CounterReaderUtil.saveCount(v+"");
           %>
           个访问者</h3>
     </body>

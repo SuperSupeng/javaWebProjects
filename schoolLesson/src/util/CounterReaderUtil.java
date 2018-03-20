@@ -2,6 +2,9 @@ package util;
 
 import java.io.*;
 
+/**
+ * @author super
+ */
 public class CounterReaderUtil {
 
     public static String readCount(){
