@@ -60,6 +60,7 @@
                     </nav>
                 </div>
             </div>
+            <br/>
 
             <div class="inner cover">
                 <c:if test="${sessionScope.user==null}">
