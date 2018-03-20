@@ -26,7 +26,7 @@
 
       <h3>您好、您是本站第
           <%
-              String path = request.getContextPath()+"/02/count.txt";
+              String path = "count.txt";
               String s = CounterReaderUtil.readCount(path);
               for(int i = 0; i<s.length(); i++){
                   char a = s.charAt(i);
