@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7bf4be7e-531b-4aed-a4a9-1f63dee24dd4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../iotInformation/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../iotInformation/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../schoolLesson/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../schoolLesson/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../schoolLesson/out/artifacts/schoolLesson_war_exploded/02/muliPage.jsp" afterPath="$PROJECT_DIR$/../schoolLesson/out/artifacts/schoolLesson_war_exploded/02/muliPage.jsp" />
-    </list>
+    <list default="true" id="7bf4be7e-531b-4aed-a4a9-1f63dee24dd4" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -341,7 +337,7 @@
       <updated>1520502072880</updated>
       <workItem from="1520502079967" duration="3747000" />
       <workItem from="1520605624555" duration="76000" />
-      <workItem from="1522728017724" duration="740000" />
+      <workItem from="1522728017724" duration="1744000" />
     </task>
     <servers />
   </component>
@@ -351,7 +347,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4563000" />
+    <option name="totallyTimeSpent" value="5567000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1552" height="880" extended-state="6" />
