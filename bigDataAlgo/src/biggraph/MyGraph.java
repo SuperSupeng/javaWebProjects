@@ -14,6 +14,7 @@ public class MyGraph {
     private int count;
 
     private Scanner scanner = new Scanner(System.in);
+    private Random random = new Random();
 
     public MyGraph(){
         System.out.println("input n:");
@@ -21,10 +22,10 @@ public class MyGraph {
         graph = new int[n][n];
         System.out.println("input e:");
         e = scanner.nextInt();
+        createThrGraph();
     }
 
     private double getRandom(){
-        Random random = new Random();
         return random.nextDouble();
     }
 
@@ -65,7 +66,6 @@ public class MyGraph {
 
     public static void main(String[] args){
         MyGraph graph = new MyGraph();
-        graph.createThrGraph();
         graph.show();
     }
 }
