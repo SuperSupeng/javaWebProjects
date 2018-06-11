@@ -1,0 +1,87 @@
+package biggraph;
+
+import java.util.Scanner;
+
+/**
+ * @author super
+ */
+public class MyGraph {
+    private int[][] graph;
+    private int n;
+    private int e;
+    private double a=0.5, b = 0.2,c = 0.2, d = 0.1;
+    private int count;
+
+    private Scanner scanner = new Scanner(System.in);
+
+    public MyGraph(){
+        System.out.println("input n:");
+        n = scanner.nextInt();
+        graph = new int[n][n];
+        System.out.println("input e:");
+        e = scanner.nextInt();
+    }
+
+    private double getRandom(){
+        return Math.random();
+    }
+
+    private void create(int startRow, int endRow, int startCol, int endCol){
+        double v = getRandom();
+        if((endRow - startRow) == 1 || (endCol - startCol) == 1){
+            if(graph[startRow-1][startCol-1] != 1){
+                graph[startRow-1][startCol-1] = 1;
+                count++;
+            }
+        }else if(startRow == endRow){
+            if(graph[startRow-1][startRow-1] != 1){
+                if(v <= 0.5){
+                    graph[startRow-1][startRow-1] = 1;
+                }else{
+                    graph[startRow][startRow] = 1;
+                }
+                count++;
+            }
+        }else if(startCol == endCol){
+            if(graph[startCol-1][startCol-1] != 1){
+                if(v <= 0.5){
+                    graph[startCol-1][startCol-1] = 1;
+                }else{
+                    graph[startCol][startCol] = 1;
+                }
+                count++;
+            }
+        }else{
+            if(v <= a){
+                create(startRow,endRow/2, startCol, endCol/2);
+            }else if(v <= a+b){
+                create(startRow, endRow/2, endCol/2, endCol);
+            }else if(v <= a+b+c){
+                create(endRow/2, endRow, startCol, endCol/2);
+            }else{
+                create(endRow/2, endRow, endCol/2, endCol);
+            }
+        }
+    }
+
+    private void createThrGraph(){
+        for(int i = 0; i<e; i++){
+            create(1,n, 1, n);
+        }
+    }
+
+    public void show(){
+        for(int i = 0; i<graph.length; i++){
+            for(int j = 0; j<graph[0].length; j++){
+                System.out.print(graph[i][j]+"\t");
+            }
+            System.out.println();
+        }
+    }
+
+    public static void main(String[] args){
+        MyGraph graph = new MyGraph();
+        graph.createThrGraph();
+        graph.show();
+    }
+}
