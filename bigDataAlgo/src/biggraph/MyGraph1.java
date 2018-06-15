@@ -1,5 +1,6 @@
 package biggraph;
 
+import java.io.*;
 import java.util.*;
 
 /**
@@ -31,16 +32,16 @@ public class MyGraph1 {
     private void create(int startRow, int endRow, int startCol, int endCol){
         double v = getRandom();
         if(startCol == endCol && startRow == endRow){
-            if(!graph.keySet().contains(startRow - 1)){
+            if(!graph.keySet().contains(startCol - 1)){
                 Set<Integer> set = new HashSet<>();
-                set.add(startCol-1);
-                graph.put(startRow - 1, set);
+                set.add(startRow-1);
+                graph.put(startCol - 1, set);
                 count++;
             }else{
-                Set<Integer> set = graph.get(startRow - 1);
-                if(!set.contains(startCol-1)){
-                    set.add(startCol-1);
-                    graph.put(startRow - 1, set);
+                Set<Integer> set = graph.get(startCol - 1);
+                if(!set.contains(startRow-1)){
+                    set.add(startRow-1);
+                    graph.put(startCol - 1, set);
                     count++;
                 }
             }
@@ -63,21 +64,37 @@ public class MyGraph1 {
         }
     }
 
-    public void show() {
+    public void show() throws IOException {
+        File file = new File("output.txt");
+        FileOutputStream fos = new FileOutputStream(file);
+        OutputStreamWriter osw = new OutputStreamWriter(fos);
+
         Set<Integer> keySet = graph.keySet();
-        System.out.println("from |to");
+        System.out.println("----------");
         for(int i : keySet){
-            System.out.print(i + "    |");
+            System.out.print(i + "\t");
+            osw.write(i + "\t");
             Set<Integer> valueSet = graph.get(i);
+            System.out.print(valueSet.size() + "\t");
+            osw.write(valueSet.size() + "\t");
             for(int j : valueSet){
-                System.out.print(j + " ");
+                System.out.print(j + ",");
+                osw.write(j + ",");
             }
             System.out.println();
+            osw.write("\r\n");
         }
+
+        osw.close();
+        fos.close();
     }
 
     public static void main(String[] args){
         MyGraph1 graph = new MyGraph1();
-        graph.show();
+        try {
+            graph.show();
+        } catch (IOException e1) {
+            e1.printStackTrace();
+        }
     }
 }
