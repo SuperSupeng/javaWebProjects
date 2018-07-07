@@ -30,7 +30,7 @@
               String s = CounterReaderUtil.readCount(path);
               for(int i = 0; i<s.length(); i++){
                   char a = s.charAt(i);
-                  out.write("<img src='../img/"+a+".png' height=\"50\" width=\"50\">");
+                  out.write("<img src='..   /img/"+a+".png' height=\"50\" width=\"50\">");
               }
               int v = Integer.valueOf(s);
               v++;
