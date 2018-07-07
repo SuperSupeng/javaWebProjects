@@ -7,54 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21d9154e-d586-4739-8fa2-3be7e820cf34" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/schoolLesson_war_exploded/01/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/schoolLesson_war_exploded/01/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/schoolLesson_war_exploded/02/muliPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/schoolLesson_war_exploded/02/muliPage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/schoolLesson_war_exploded/03/guess.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/schoolLesson_war_exploded/03/guess.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/schoolLesson_war_exploded/03/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/schoolLesson_war_exploded/03/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/schoolLesson_war_exploded/04/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/schoolLesson_war_exploded/04/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/schoolLesson_war_exploded/04/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/schoolLesson_war_exploded/04/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/schoolLesson_war_exploded/WEB-INF/classes/UserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/schoolLesson_war_exploded/WEB-INF/classes/UserTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/schoolLesson_war_exploded/WEB-INF/classes/dao/FriendDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/schoolLesson_war_exploded/WEB-INF/classes/dao/FriendDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/schoolLesson_war_exploded/WEB-INF/classes/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/schoolLesson_war_exploded/WEB-INF/classes/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/schoolLesson_war_exploded/WEB-INF/classes/dao/impl/FriendDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/schoolLesson_war_exploded/WEB-INF/classes/dao/impl/FriendDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/schoolLesson_war_exploded/WEB-INF/classes/dao/impl/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/schoolLesson_war_exploded/WEB-INF/classes/dao/impl/UserDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/schoolLesson_war_exploded/WEB-INF/classes/dbcpconfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/schoolLesson_war_exploded/WEB-INF/classes/dbcpconfig.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/schoolLesson_war_exploded/WEB-INF/classes/domain/Friend.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/schoolLesson_war_exploded/WEB-INF/classes/domain/Friend.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/schoolLesson_war_exploded/WEB-INF/classes/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/schoolLesson_war_exploded/WEB-INF/classes/domain/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/schoolLesson_war_exploded/WEB-INF/classes/exception/UserAlreadyExistedException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/schoolLesson_war_exploded/WEB-INF/classes/exception/UserAlreadyExistedException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/schoolLesson_war_exploded/WEB-INF/classes/filter/SetCharacterEncodingFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/schoolLesson_war_exploded/WEB-INF/classes/filter/SetCharacterEncodingFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/schoolLesson_war_exploded/WEB-INF/classes/j2eeLesson.sql" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/schoolLesson_war_exploded/WEB-INF/classes/j2eeLesson.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/schoolLesson_war_exploded/WEB-INF/classes/service/BusinessService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/schoolLesson_war_exploded/WEB-INF/classes/service/BusinessService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/schoolLesson_war_exploded/WEB-INF/classes/service/impl/BusinessServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/schoolLesson_war_exploded/WEB-INF/classes/service/impl/BusinessServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/schoolLesson_war_exploded/WEB-INF/classes/util/CounterReaderUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/schoolLesson_war_exploded/WEB-INF/classes/util/CounterReaderUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/schoolLesson_war_exploded/WEB-INF/classes/util/DBCPUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/schoolLesson_war_exploded/WEB-INF/classes/util/DBCPUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/schoolLesson_war_exploded/WEB-INF/classes/util/FormBeanUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/schoolLesson_war_exploded/WEB-INF/classes/util/FormBeanUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/schoolLesson_war_exploded/WEB-INF/classes/web/bean/FriendFormBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/schoolLesson_war_exploded/WEB-INF/classes/web/bean/FriendFormBean.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/schoolLesson_war_exploded/WEB-INF/classes/web/controller/ControlerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/schoolLesson_war_exploded/WEB-INF/classes/web/controller/ControlerServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/schoolLesson_war_exploded/js/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/schoolLesson_war_exploded/js/util.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/schoolLesson_war_exploded/message.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/schoolLesson_war_exploded/message.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/schoolLesson/UserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/schoolLesson/UserTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/schoolLesson/dao/FriendDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/schoolLesson/dao/FriendDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/schoolLesson/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/schoolLesson/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/schoolLesson/dao/impl/FriendDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/schoolLesson/dao/impl/FriendDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/schoolLesson/dao/impl/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/schoolLesson/dao/impl/UserDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/schoolLesson/dbcpconfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/schoolLesson/dbcpconfig.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/schoolLesson/domain/Friend.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/schoolLesson/domain/Friend.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/schoolLesson/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/schoolLesson/domain/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/schoolLesson/exception/UserAlreadyExistedException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/schoolLesson/exception/UserAlreadyExistedException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/schoolLesson/filter/SetCharacterEncodingFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/schoolLesson/filter/SetCharacterEncodingFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/schoolLesson/j2eeLesson.sql" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/schoolLesson/j2eeLesson.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/schoolLesson/service/BusinessService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/schoolLesson/service/BusinessService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/schoolLesson/service/impl/BusinessServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/schoolLesson/service/impl/BusinessServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/schoolLesson/util/CounterReaderUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/schoolLesson/util/CounterReaderUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/schoolLesson/util/DBCPUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/schoolLesson/util/DBCPUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/schoolLesson/util/FormBeanUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/schoolLesson/util/FormBeanUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/schoolLesson/web/bean/FriendFormBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/schoolLesson/web/bean/FriendFormBean.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/schoolLesson/web/controller/ControlerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/schoolLesson/web/controller/ControlerServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/schoolLesson/UserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/schoolLesson/UserTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../苏鹏.7z" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../j2eeMybatis/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../j2eeMybatis/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../j2eeMybatis/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../j2eeMybatis/j2eeMybatis.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -532,7 +488,7 @@
       <workItem from="1525860537860" duration="111000" />
       <workItem from="1529479143636" duration="81000" />
       <workItem from="1529742402309" duration="166000" />
-      <workItem from="1530947140112" duration="531000" />
+      <workItem from="1530947140112" duration="1019000" />
     </task>
     <servers />
   </component>
@@ -569,7 +525,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77068000" />
+    <option name="totallyTimeSpent" value="77556000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
