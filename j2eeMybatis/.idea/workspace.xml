@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1cf0d2c-7181-44fa-b0fa-98444c01073c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../MybatisEnv/src/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MybatisEnv/src/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MybatisEnv/src/sqlMapConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MybatisEnv/src/sqlmap/User.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MybatisEnv/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MybatisEnv/src/test/MybatisFirstTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MybatisEnv/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MybatisEnv/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MybatisEnv/MybatisEnv.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../MybatisEnv/MybatisEnv.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MybatisEnv/src/sqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MybatisEnv/src/sqlMapConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -215,6 +215,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
