@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="web_application:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8969dd8e-322e-4dd4-95af-49382c15b0c7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/web_application_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/ssh_lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_application/src/cn/itcast/utils/PageBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_application/web/WEB-INF/lib/antlr-2.7.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_application/web/WEB-INF/lib/asm-3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_application/web/WEB-INF/lib/asm-commons-3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_application/web/WEB-INF/lib/asm-tree-3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_application/web/WEB-INF/lib/com.springsource.com.mchange.v2.c3p0-0.9.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_application/web/WEB-INF/lib/com.springsource.org.aopalliance-1.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_application/web/WEB-INF/lib/com.springsource.org.apache.commons.logging-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_application/web/WEB-INF/lib/com.springsource.org.apache.log4j-1.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_application/web/WEB-INF/lib/com.springsource.org.aspectj.weaver-1.6.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_application/web/WEB-INF/lib/commons-fileupload-1.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_application/web/WEB-INF/lib/commons-io-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_application/web/WEB-INF/lib/commons-lang3-3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_application/web/WEB-INF/lib/dom4j-1.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_application/web/WEB-INF/lib/freemarker-2.3.22.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_application/web/WEB-INF/lib/geronimo-jta_1.1_spec-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_application/web/WEB-INF/lib/hibernate-commons-annotations-5.0.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_application/web/WEB-INF/lib/hibernate-core-5.0.7.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_application/web/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_application/web/WEB-INF/lib/jandex-2.0.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_application/web/WEB-INF/lib/javassist-3.18.1-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_application/web/WEB-INF/lib/jboss-logging-3.3.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_application/web/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_application/web/WEB-INF/lib/log4j-api-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_application/web/WEB-INF/lib/log4j-core-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_application/web/WEB-INF/lib/mysql-connector-java-5.1.7-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_application/web/WEB-INF/lib/ognl-3.0.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_application/web/WEB-INF/lib/spring-aop-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_application/web/WEB-INF/lib/spring-aspects-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_application/web/WEB-INF/lib/spring-beans-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_application/web/WEB-INF/lib/spring-context-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_application/web/WEB-INF/lib/spring-core-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_application/web/WEB-INF/lib/spring-expression-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_application/web/WEB-INF/lib/spring-jdbc-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_application/web/WEB-INF/lib/spring-orm-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_application/web/WEB-INF/lib/spring-test-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_application/web/WEB-INF/lib/spring-tx-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_application/web/WEB-INF/lib/spring-web-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_application/web/WEB-INF/lib/standard.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_application/web/WEB-INF/lib/struts2-core-2.3.24.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_application/web/WEB-INF/lib/struts2-spring-plugin-2.3.24.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_application/web/WEB-INF/lib/xwork-core-2.3.24.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_application/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_application/web_application.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../schoolLesson/src/test/Test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../j2eeMybatis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../j2eeMybatis/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../schoolLesson/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../schoolLesson/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../schoolLesson/out/production/schoolLesson/UserTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../schoolLesson/src/test/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../schoolLesson/src/test/UserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_crm/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh_crm/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_crm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh_crm/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_crm/out/artifacts/ssh_crm_war_exploded/WEB-INF/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh_crm/out/artifacts/ssh_crm_war_exploded/WEB-INF/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_crm/out/artifacts/ssh_crm_war_exploded/WEB-INF/classes/domain/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh_crm/out/artifacts/ssh_crm_war_exploded/WEB-INF/classes/domain/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_crm/out/artifacts/ssh_crm_war_exploded/WEB-INF/classes/domain/Customer.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh_crm/out/artifacts/ssh_crm_war_exploded/WEB-INF/classes/domain/Customer.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_crm/out/artifacts/ssh_crm_war_exploded/WEB-INF/classes/domain/LinkMan.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh_crm/out/artifacts/ssh_crm_war_exploded/WEB-INF/classes/domain/LinkMan.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_crm/out/artifacts/ssh_crm_war_exploded/WEB-INF/classes/domain/LinkMan.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh_crm/out/artifacts/ssh_crm_war_exploded/WEB-INF/classes/domain/LinkMan.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_crm/out/artifacts/ssh_crm_war_exploded/WEB-INF/classes/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh_crm/out/artifacts/ssh_crm_war_exploded/WEB-INF/classes/domain/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_crm/out/artifacts/ssh_crm_war_exploded/WEB-INF/classes/domain/User.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh_crm/out/artifacts/ssh_crm_war_exploded/WEB-INF/classes/domain/User.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_crm/out/artifacts/ssh_crm_war_exploded/WEB-INF/classes/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh_crm/out/artifacts/ssh_crm_war_exploded/WEB-INF/classes/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_crm/out/artifacts/ssh_crm_war_exploded/WEB-INF/classes/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh_crm/out/artifacts/ssh_crm_war_exploded/WEB-INF/classes/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_crm/out/artifacts/ssh_crm_war_exploded/WEB-INF/classes/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh_crm/out/artifacts/ssh_crm_war_exploded/WEB-INF/classes/struts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_crm/out/artifacts/ssh_crm_war_exploded/WEB-INF/classes/web/action/UserAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh_crm/out/artifacts/ssh_crm_war_exploded/WEB-INF/classes/web/action/UserAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_crm/out/artifacts/ssh_crm_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh_crm/out/artifacts/ssh_crm_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_crm/out/artifacts/ssh_crm_war_exploded/success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh_crm/out/artifacts/ssh_crm_war_exploded/success.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_crm/out/production/ssh_crm/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh_crm/out/production/ssh_crm/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_crm/out/production/ssh_crm/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh_crm/out/production/ssh_crm/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_crm/out/production/ssh_crm/dao/impl/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh_crm/out/production/ssh_crm/dao/impl/UserDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_crm/out/production/ssh_crm/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh_crm/out/production/ssh_crm/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_crm/out/production/ssh_crm/domain/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh_crm/out/production/ssh_crm/domain/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_crm/out/production/ssh_crm/domain/Customer.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh_crm/out/production/ssh_crm/domain/Customer.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_crm/out/production/ssh_crm/domain/LinkMan.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh_crm/out/production/ssh_crm/domain/LinkMan.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_crm/out/production/ssh_crm/domain/LinkMan.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh_crm/out/production/ssh_crm/domain/LinkMan.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_crm/out/production/ssh_crm/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh_crm/out/production/ssh_crm/domain/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_crm/out/production/ssh_crm/domain/User.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh_crm/out/production/ssh_crm/domain/User.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_crm/out/production/ssh_crm/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh_crm/out/production/ssh_crm/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_crm/out/production/ssh_crm/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh_crm/out/production/ssh_crm/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_crm/out/production/ssh_crm/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh_crm/out/production/ssh_crm/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_crm/out/production/ssh_crm/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh_crm/out/production/ssh_crm/struts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_crm/out/production/ssh_crm/web/action/UserAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh_crm/out/production/ssh_crm/web/action/UserAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_crm/out/test/ssh_crm/HibernateTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh_crm/out/test/ssh_crm/HibernateTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_crm/src/test/HibernateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh_crm/src/test/HibernateTest.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1347885913">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="1" />
+          <entry key="JSP" value="1" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="362" />
+          <entry key="JSP" value="14" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web_application/src/cn/itcast/utils/PageBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="29" column="55" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/web_application/web/index.jsp" />
+        <option value="$PROJECT_DIR$/web_application/src/cn/itcast/utils/PageBean.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1087" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="otherssh_crm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="otherssh_crm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="otherssh_crm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="otherssh_crm" type="462c0819:PsiDirectoryNode" />
+              <item name="web_application" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="otherssh_crm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="otherssh_crm" type="462c0819:PsiDirectoryNode" />
+              <item name="web_application" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="otherssh_crm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="otherssh_crm" type="462c0819:PsiDirectoryNode" />
+              <item name="web_application" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="otherssh_crm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="otherssh_crm" type="462c0819:PsiDirectoryNode" />
+              <item name="web_application" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web_application/web/WEB-INF/lib" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\github_project\javaWebProjects\otherssh_crm\web_application\web\WEB-INF\lib" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.8" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.8" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/otherssh_crm/" />
+      <deployment>
+        <artifact name="web_application:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/otherssh_crm" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_9_0_8_otherssh_crm" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="7035" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="web_application:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8969dd8e-322e-4dd4-95af-49382c15b0c7" name="Default Changelist" comment="" />
+      <created>1546591154244</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1546591154244</updated>
+      <workItem from="1546591159267" duration="1788000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1788000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Web" side_tool="true" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3298647" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/web_application/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_application/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_application/src/cn/itcast/utils/PageBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="29" column="55" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>web_application:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>otherssh_crm</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

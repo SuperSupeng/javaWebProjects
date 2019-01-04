@@ -10,12 +10,10 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import service.UserService;
 
-import javax.annotation.Resource;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration("classpath:applicationContext.xml")
 public class HibernateTest {
-    @Resource(name="sessionFactory")
     private SessionFactory sf;
 
     public void setSf(SessionFactory sf) {
@@ -55,7 +53,6 @@ public class HibernateTest {
         session.close();
     }
 
-    @Resource(name = "userDao")
     private UserDao ud;
     @Test
     public void fun3() {
@@ -63,7 +60,6 @@ public class HibernateTest {
         System.out.println(u);
     }
 
-    @Resource(name = "userService")
     private UserService us;
     @Test
     public void fun4() {

@@ -58,4 +58,6 @@ public class UserTest {
         service.addFriend(user, friend);
     }
 
+
+
 }
