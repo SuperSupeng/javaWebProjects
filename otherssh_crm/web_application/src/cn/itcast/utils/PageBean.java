@@ -27,8 +27,54 @@ public class PageBean {
         }
 
         //计算总页数
-        this.totalPage = this.totalCount/this.pageSize;
+        this.totalPage = (this.totalCount+this.pageSize-1)/this.pageSize;
+
+        //判断页面不能小于1，也不能大于最大页数
+        if (this.currentPage < 1) {
+            this.currentPage = 1;
+        }
+        if (this.currentPage > this.totalPage) {
+            this.currentPage = totalPage;
+        }
     }
 
+    public Integer getCurrentPage() {
+        return currentPage;
+    }
 
+    public void setCurrentPage(Integer currentPage) {
+        this.currentPage = currentPage;
+    }
+
+    public Integer getTotalCount() {
+        return totalCount;
+    }
+
+    public void setTotalCount(Integer totalCount) {
+        this.totalCount = totalCount;
+    }
+
+    public Integer getPageSize() {
+        return pageSize;
+    }
+
+    public void setPageSize(Integer pageSize) {
+        this.pageSize = pageSize;
+    }
+
+    public Integer getTotalPage() {
+        return totalPage;
+    }
+
+    public void setTotalPage(Integer totalPage) {
+        this.totalPage = totalPage;
+    }
+
+    public List getList() {
+        return list;
+    }
+
+    public void setList(List list) {
+        this.list = list;
+    }
 }
