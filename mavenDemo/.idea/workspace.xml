@@ -2,56 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6a617e3-d9ce-4219-a289-7d6af43520d6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__asm_asm_3_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__asm_asm_3_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__asm_asm_commons_3_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__asm_asm_commons_3_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__asm_asm_tree_3_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__asm_asm_tree_3_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__c3p0_c3p0_0_9_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__c3p0_c3p0_0_9_1_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__javassist_javassist_3_11_0_GA.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__javassist_javassist_3_11_0_GA.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__javax_servlet_jsp_api_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__javax_servlet_jsp_api_2_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__junit_junit_4_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__junit_junit_4_9.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__ognl_ognl_3_0_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__ognl_ognl_3_0_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_jta_1_1_spec_1_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_jta_1_1_spec_1_1_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__org_apache_struts_struts2_core_2_3_24.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__org_apache_struts_struts2_core_2_3_24.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__org_apache_struts_struts2_spring_plugin_2_3_24.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__org_apache_struts_struts2_spring_plugin_2_3_24.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__org_apache_struts_xwork_xwork_core_2_3_24.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__org_apache_struts_xwork_xwork_core_2_3_24.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_7.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__org_freemarker_freemarker_2_3_22.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__org_freemarker_freemarker_2_3_22.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_1_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_1_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__org_hibernate_hibernate_core_5_0_7_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__org_hibernate_hibernate_core_5_0_7_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__org_javassist_javassist_3_18_1_GA.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__org_javassist_javassist_3_18_1_GA.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__org_jboss_jandex_2_0_0_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__org_jboss_jandex_2_0_0_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__org_springframework_spring_aop_4_2_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__org_springframework_spring_aop_4_2_4_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__org_springframework_spring_aspects_4_2_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__org_springframework_spring_aspects_4_2_4_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__org_springframework_spring_beans_4_2_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__org_springframework_spring_beans_4_2_4_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__org_springframework_spring_context_4_2_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__org_springframework_spring_context_4_2_4_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__org_springframework_spring_core_4_2_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__org_springframework_spring_core_4_2_4_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__org_springframework_spring_expression_4_2_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__org_springframework_spring_expression_4_2_4_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__org_springframework_spring_jdbc_4_2_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__org_springframework_spring_jdbc_4_2_4_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__org_springframework_spring_orm_4_2_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__org_springframework_spring_orm_4_2_4_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__org_springframework_spring_test_4_2_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__org_springframework_spring_test_4_2_4_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__org_springframework_spring_tx_4_2_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__org_springframework_spring_tx_4_2_4_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__org_springframework_spring_web_4_2_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__org_springframework_spring_web_4_2_4_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../maven_ssh/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maven_ssh/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../maven_ssh/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MybatisEnv/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MybatisEnv/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../maven_ssh/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../maven_ssh/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../otherssh_crm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../otherssh_crm/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -65,6 +17,7 @@
     <session id="608011987">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -90,10 +43,14 @@
         <option name="userSettingsFile" value="D:\studysetup\apache-maven-3.6.0\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1087" />
   </component>
@@ -127,6 +84,13 @@
               <item name="mavenDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="mavenDemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mavenDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mavenDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -140,7 +104,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MybatisEnv" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -234,15 +198,16 @@
       <workItem from="1520769691796" duration="13000" />
       <workItem from="1520769759409" duration="9000" />
       <workItem from="1520769802787" duration="10000" />
-      <workItem from="1546605862981" duration="81000" />
+      <workItem from="1546605862981" duration="189000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3080000" />
+    <option name="totallyTimeSpent" value="3188000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19349681" />
       <window_info id="Structure" order="1" weight="0.25" />
