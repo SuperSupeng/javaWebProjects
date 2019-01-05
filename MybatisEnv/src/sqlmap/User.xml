@@ -4,7 +4,32 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <!-- 写Sql语句   -->
 <mapper namespace="test">
+
+    <!--
+       #{v}    占位符
+       ${value}    字符串拼接
+    -->
     <select id="findUserById" parameterType="Integer" resultType="pojo.User">
         SELECT * FROM user WHERE id = #{v}
     </select>
+
+    <select id="findUserByUserName" parameterType="String" resultType="pojo.User">
+        SELECT * from user where username like '%${value}%'
+    </select>
+
+    <insert id="insertUser" parameterType="pojo.User">
+        <!-- mysql数据库且主键是int类型 是AFTER-->
+        <selectKey keyProperty="id" resultType="Integer" order="AFTER">
+            select LAST_INSERT_ID();
+        </selectKey>
+        insert into user(username, birthday, address, sex) values (#{username}, #{birthday}, #{address}, #{sex})
+    </insert>
+
+    <update id="updateUserByID" parameterType="pojo.User">
+        update user set username = #{username},sex = #{sex}, birthday = #{birthday}, address = #{address} where id = #{id}
+    </update>
+
+    <delete id="deleteUserByID" parameterType="Integer">
+        delete from user WHERE id = #{id}
+    </delete>
 </mapper>
