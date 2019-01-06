@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7393a957-af00-446f-982b-3df0172e3cb2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/asm_3_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/MybatisTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MybatisEnv/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MybatisEnv/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatisTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sqlMapConfig.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,15 +27,15 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="2" />
+          <entry key="JAVA" value="3" />
           <entry key="Properties" value="1" />
-          <entry key="XML" value="5" />
+          <entry key="XML" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="8" />
-          <entry key="XML" value="31" />
+          <entry key="JAVA" value="102" />
+          <entry key="XML" value="64" />
         </counts>
       </usages-collector>
     </session>
@@ -44,17 +45,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dao/UserDao.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mapper/UserMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+              <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/mapper/UserMapper.xml">
+        <entry file="file://$PROJECT_DIR$/src/test/MybatisTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="30" column="47" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
+            <state relative-caret-position="297">
+              <caret line="25" column="62" lean-forward="true" selection-start-line="25" selection-start-column="62" selection-end-line="25" selection-end-column="62" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sqlMapConfig.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="15" column="57" lean-forward="true" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -76,9 +98,10 @@
       <list>
         <option value="$PROJECT_DIR$/src/pojo/User.java" />
         <option value="$PROJECT_DIR$/src/jdbc.properties" />
-        <option value="$PROJECT_DIR$/src/sqlMapConfig.xml" />
         <option value="$PROJECT_DIR$/src/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/test/MybatisTest.java" />
         <option value="$PROJECT_DIR$/src/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/sqlMapConfig.xml" />
       </list>
     </option>
   </component>
@@ -88,7 +111,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -118,19 +141,13 @@
               <item name="mybatisTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="mybatisTest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatisTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatisTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mybatisTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="mybatisTest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mybatisTest" type="b2602c69:ProjectViewProjectNode" />
@@ -146,6 +163,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -168,7 +188,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.MybatisTest.test1">
+    <configuration name="MybatisTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatisTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.MybatisTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tomcat 9.0.8" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.8" ALTERNATIVE_JRE_ENABLED="false">
       <deployment>
         <artifact name="mybatisTest:war exploded">
@@ -190,6 +226,15 @@
         </option>
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.Tomcat 9.0.8" />
+      <item itemvalue="JUnit.MybatisTest.test1" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MybatisTest.test1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -201,22 +246,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1546773431719</updated>
-      <workItem from="1546773434385" duration="692000" />
+      <workItem from="1546773434385" duration="1208000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="692000" />
+    <option name="totallyTimeSpent" value="1208000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Web" side_tool="true" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
@@ -226,7 +271,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3298647" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -283,13 +328,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sqlMapConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/jdbc.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -297,17 +335,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/UserDao.java">
+    <entry file="file://$PROJECT_DIR$/src/mapper/UserMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mapper/UserMapper.xml">
+    <entry file="file://$PROJECT_DIR$/src/dao/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="30" column="47" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
+        <state relative-caret-position="108">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sqlMapConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="57" lean-forward="true" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/MybatisTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="25" column="62" lean-forward="true" selection-start-line="25" selection-start-column="62" selection-end-line="25" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
