@@ -4,7 +4,6 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <!-- 写Sql语句   -->
 <mapper namespace="test">
-
     <!--
        #{v}    占位符
        ${value}    字符串拼接

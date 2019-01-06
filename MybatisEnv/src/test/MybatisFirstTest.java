@@ -1,3 +1,4 @@
+import jdk.jfr.StackTrace;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
@@ -94,5 +95,10 @@ public class MybatisFirstTest {
         user.setId(26);
         sqlSession.delete("test.deleteUserByID", user);
         sqlSession.commit();
+    }
+    @Test
+    public void test1(){
+        String s = 123+"abc";
+        System.out.println(s);
     }
 }
