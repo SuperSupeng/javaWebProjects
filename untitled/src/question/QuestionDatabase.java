@@ -42,7 +42,7 @@ public abstract class QuestionDatabase {
             String temp = "";
             int i = 0;
             while ((temp = br.readLine()) != null) {
-                String s[] = temp.split(" ");
+                String s[] = temp.split("#");
                 questions[0][i] = s[0];
                 questions[1][i] = s[1];
                 i++;
