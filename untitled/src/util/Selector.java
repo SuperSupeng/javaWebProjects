@@ -1,13 +1,28 @@
 package util;
 
+import question.GenerateQuestion;
+
 public class Selector {
-    public Selector selector = new Selector();
+    private static Selector selector = new Selector();
+    private int number = 6;
+    String[][] questions = GenerateQuestion.getQuestionsList(number);
 
     private Selector() {
-
     }
 
-    public Selector getInstance() {
+    public static Selector getInstance() {
         return selector;
+    }
+
+    public String[][] getQuestions() {
+        return questions;
+    }
+
+    public int getNumber() {
+        return number;
+    }
+
+    public void setNumber(int number) {
+        this.number = number;
     }
 }
