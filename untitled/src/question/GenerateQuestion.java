@@ -1,5 +1,9 @@
 package question;
 
+/**
+ * 题库生成类
+ * 根据具体的题库数量，生成提供给学生的试卷
+ */
 public class GenerateQuestion {
     public static String[][] getQuestionsList(int n){
         String[][] questions = new String[2][n];

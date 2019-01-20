@@ -2,6 +2,14 @@ package domain;
 
 import util.Selector;
 
+/**
+ * 学生类
+ * 包含：
+ *      姓名
+ *      答案
+ *      从题库选择试题的单例选择器
+ *      总分
+ */
 public class Student {
     private String name;
     private String[] answers;
@@ -9,6 +17,7 @@ public class Student {
     private int score;
 
     public Student() {
+        //获取单例模式下的选择器
         selector = Selector.getInstance();
         answers = new String[selector.getNumber()];
     }

@@ -7,6 +7,11 @@ import java.io.InputStreamReader;
 import java.util.HashSet;
 import java.util.Set;
 
+/**
+ * 抽象题库类
+ * 包含生成题库的标准模块
+ * 根据filename获得文件名，读取相应的题库
+ */
 public abstract class QuestionDatabase {
     String[][] questions = null;
     int size;
@@ -16,6 +21,7 @@ public abstract class QuestionDatabase {
     public String[][] getQuestions(int n){
         String[][] results = new String[2][n];
         initQuestions();
+        //用set集合防止生成相同的试题
         Set<Integer> set = new HashSet<>();
         for (int i = 0; i < n; i++) {
             int random = (int)(Math.random()*size);

@@ -2,10 +2,15 @@ package util;
 
 import question.GenerateQuestion;
 
+/**
+ * 单例模式的选择器
+ * 选择器在题库中提取出相应的试卷，提供给学生作答
+ * 默认题目数量为6个
+ */
 public class Selector {
     private static Selector selector = new Selector();
     private int number = 6;
-    String[][] questions = GenerateQuestion.getQuestionsList(number);
+    private String[][] questions = GenerateQuestion.getQuestionsList(number);
 
     private Selector() {
     }
