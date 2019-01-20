@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f919c132-6fe6-485d-8392-5a936d367d58" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/question/QuestionDatabase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/QuestionDatabase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled.iml" beforeDir="false" afterPath="$PROJECT_DIR$/untitled.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/question/NatureQuestionDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/question/NatureQuestionDatabase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/question/QuestionDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/question/QuestionDatabase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/DatabaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/DatabaseTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,13 +23,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="5" />
+          <entry key="JAVA" value="6" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1204" />
+          <entry key="JAVA" value="1401" />
           <entry key="PLAIN_TEXT" value="24" />
         </counts>
       </usages-collector>
@@ -50,10 +49,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/question/QuestionDatabase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="30" column="39" lean-forward="true" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
+            <state relative-caret-position="378">
+              <caret line="75" column="5" lean-forward="true" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2186#2187#0" expanded="true" />
+                <element signature="e#2213#2214#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -62,8 +63,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/question/NatureQuestionDatabase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="10" column="43" lean-forward="true" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+            <state relative-caret-position="108">
+              <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+              <folding>
+                <element signature="e#128#129#0" expanded="true" />
+                <element signature="e#156#157#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -71,10 +76,23 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/DatabaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+            <state relative-caret-position="432">
+              <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/util/Selector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+              <folding>
+                <element signature="e#154#155#0" expanded="true" />
+                <element signature="e#184#185#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -117,10 +135,11 @@
         <option value="$PROJECT_DIR$/src/domain/QuestionDatabase.java" />
         <option value="$PROJECT_DIR$/src/domain/NatureQuestionDatabase.java" />
         <option value="$PROJECT_DIR$/src/question/nature.txt" />
-        <option value="$PROJECT_DIR$/src/test/DatabaseTest.java" />
-        <option value="$PROJECT_DIR$/src/question/QuestionDatabase.java" />
         <option value="$PROJECT_DIR$/nature.txt" />
+        <option value="$PROJECT_DIR$/src/util/Selector.java" />
         <option value="$PROJECT_DIR$/src/question/NatureQuestionDatabase.java" />
+        <option value="$PROJECT_DIR$/src/question/QuestionDatabase.java" />
+        <option value="$PROJECT_DIR$/src/test/DatabaseTest.java" />
       </list>
     </option>
   </component>
@@ -225,17 +244,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1547970147485</updated>
-      <workItem from="1547970148821" duration="4497000" />
+      <workItem from="1547970148821" duration="4888000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DatabaseTest_testDatabase - 2019.01.20 at 17h 32m 45s.xml">
-      <configuration name="DatabaseTest.testDatabase" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DatabaseTest_testDatabase - 2019.01.20 at 17h 33m 43s.xml">
-      <configuration name="DatabaseTest.testDatabase" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DatabaseTest_testDatabase - 2019.01.20 at 17h 33m 46s.xml">
       <configuration name="DatabaseTest.testDatabase" configurationId="JUnit" />
     </history-entry>
@@ -260,9 +273,15 @@
     <history-entry file="DatabaseTest_testDatabase - 2019.01.20 at 17h 43m 24s.xml">
       <configuration name="DatabaseTest.testDatabase" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="DatabaseTest_testDatabase - 2019.01.20 at 17h 48m 37s.xml">
+      <configuration name="DatabaseTest.testDatabase" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DatabaseTest_testDatabase - 2019.01.20 at 17h 49m 11s.xml">
+      <configuration name="DatabaseTest.testDatabase" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4497000" />
+    <option name="totallyTimeSpent" value="4888000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -322,27 +341,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/Selector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#154#155#0" expanded="true" />
+            <element signature="e#184#185#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/question/QuestionDatabase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="30" column="39" lean-forward="true" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
+        <state relative-caret-position="378">
+          <caret line="75" column="5" lean-forward="true" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2186#2187#0" expanded="true" />
+            <element signature="e#2213#2214#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/question/NatureQuestionDatabase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="10" column="43" lean-forward="true" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+        <state relative-caret-position="108">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+          <folding>
+            <element signature="e#128#129#0" expanded="true" />
+            <element signature="e#156#157#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/DatabaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+        <state relative-caret-position="432">
+          <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

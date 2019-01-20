@@ -14,5 +14,6 @@ public class DatabaseTest {
             System.out.print(data[0][i]);
             System.out.println(" " + data[1][i]);
         }
+        System.out.println(database.getSize());
     }
 }
